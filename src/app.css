@@ -1,7 +1,21 @@
 @import "css/themes/basic.css";
+@import "css/fx/transform.css";
 @import "css/components/button.css";
 @import "css/components/icon.css";
+@import "css/components/input.css";
+@import "css/components/input-box.css";
+
+*{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, strong, b {
+  font-weight: 400;
+}
 
 body {
   background: #CCC;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }

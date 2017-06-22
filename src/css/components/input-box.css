@@ -1,0 +1,20 @@
+.input-box {
+  display: table;
+  width: 300px;
+  & input {
+    float: left;
+    width: auto;
+    height: 34px;
+    padding: 0;
+    margin-top: 0;
+    border-right: none;
+  }
+  & button {
+    float: left;
+    margin: 0;
+
+    &.rounded {
+      border-radius: 0px 15px 15px 0px;
+    }
+  }
+}

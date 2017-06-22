@@ -1,20 +1,35 @@
+
 $red: #F44336;
 $red-border: #79211B;
 $red-focus: #D32F2F;
+$red-dirty: #FBEFEF;
+
 $white: white;
 $white-border: #9F9F9F;
 $white-focus: #E1E1E1;
+$white-dirty: #FAFAFA;
+
 $black: #000000;
 $black-border: #333333;
 $black-focus: #444444;
+$black-dirty: #F2F2F2;
+
 $blue: #2196F3;
 $blue-border: #1976D2;
 $blue-focus: #1976D2;
+$blue-dirty: #EFF5FB;
+
 $yellow: #FFC107;
 $yellow-border: #9E790A;
 $yellow-focus: #DAA507;
+$yellow-dirty: #FBFBEF;
+
 $green: #49A84C;
 $green-border: #296B2C;
 $green-focus: #419243;
+$green-dirty: #EFFBF5;
+
+$gray: #A4A4A4;
+$gray-hold: #BDBDBD;
 
 $shadow: #333;

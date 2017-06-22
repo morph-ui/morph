@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
@@ -155,5 +156,37 @@
   <p>
     <h3>Inputs</h3>
   </p>
+  <p>
+    <label for="">Input</label>
+    <input type="text" name="" value="" placeholder="Input">
+
+    <label for="">Input red</label>
+    <input type="text" name="" value="" placeholder="Input red" class="red">
+
+    <label for="">Input black</label>
+    <input type="text" name="" value="" placeholder="Input black" class="black">
+
+    <label for="">Input blue</label>
+    <input type="text" name="" value="" placeholder="Input blue" class="blue">
+
+    <label for="">Input yellow</label>
+    <input type="text" name="" value="" placeholder="Input yellow" class="yellow">
+
+    <label for="">Input green</label>
+    <input type="text" name="" value="" placeholder="Input green" class="green">
+  </p>
+
+  <p>
+    <h3>Inputs with buttons (.input-box)</h3>
+  </p>
+  <p>
+    <div class="input-box">
+      <input type="text" >
+      <button type="button">Buscar</button>
+    </div>
+    <div class="input-box">
+      <input type="text">
+      <button type="button" name="button" class="rounded">Buscar</button>
+    </div>
   </body>
 </html>
