@@ -1,3 +1,7 @@
+@import "css/themes/basic.css";
+@import "css/components/button.css";
+@import "css/components/icon.css";
+
 body {
   background: #CCC;
 }

@@ -1,3 +1,47 @@
+button {
+  color: #666666;
+  padding: 10px;
+  border: 1px solid #666666;
+  font-size: 12px;
+  outline-style: none;
+  cursor: pointer;
+}
+  button.red {
+    background: #FF5722;
+  }
+  button.white {
+    background: white;
+  }
+  button.black {
+    background: #666666;
+    color: white;
+  }
+  button.red {
+    background: #FF5722;
+    color: white;
+    font-weight: lighter;
+  }
+  button .icon {
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-right: 6px;
+  }
+  button.circle {
+    border-radius: 50%;
+  }
+  button.circle .icon {
+      padding-right: 8px;
+      padding-left: 8px;
+      margin: 0;
+    }
+.icon.done-white {
+    background: url(/icons/done_white.svg) no-repeat center;
+    background-size: 16px 16px;
+  }
+.icon.done-black {
+    background: url(/icons/done_black.svg) no-repeat center;
+    background-size: 16px 16px;
+  }
 body {
   background: #CCC;
 }

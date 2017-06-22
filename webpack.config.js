@@ -14,6 +14,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(jpg|png|gif|svg)$/i,
+        loader: "file-loader?name=icons/[name].[ext]"
+      },
+      {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
@@ -33,9 +37,9 @@ module.exports = {
   plugins: [
       new HtmlWebpackPlugin({
       title: 'webpack2 config demo',
-      /*minify: {
+      minify: {
         collapseWhitespace: true
-      },*/
+      },
       hash: true,
       template: 'src/index.ejs'
     }),

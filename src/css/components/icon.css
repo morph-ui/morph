@@ -1,0 +1,11 @@
+.icon {
+  &.done-white {
+    background: url("icons/done_white.svg") no-repeat center;
+    background-size: 16px 16px;
+  }
+
+  &.done-black {
+    background: url("icons/done_black.svg") no-repeat center;
+    background-size: 16px 16px;
+  }
+}
