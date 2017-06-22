@@ -35,6 +35,26 @@ button {
     }
   }
 
+  &.black {
+    background: $black;
+    color: $white;
+    font-weight: lighter;
+    border: 1px solid $black-border;
+    &:focus {
+      background:$black-focus !important;
+    }
+  }
+
+  &.blue {
+    background: $blue;
+    color: $white;
+    font-weight: lighter;
+    border: 1px solid $blue-border;
+    &:focus {
+      background:$blue-focus !important;
+    }
+  }
+
   & .icon {
     padding-right: 6px;
     padding-left: 6px;

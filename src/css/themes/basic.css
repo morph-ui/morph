@@ -1,7 +1,12 @@
-$red: #FF5722;
+$red: #F44336;
 $red-border: #B64B2B;
-$red-focus: #E25C33;
+$red-focus: #D32F2F;
 $white: white;
 $white-border: #9F9F9F;
 $white-focus: #E1E1E1;
-$black: #666666;
+$black: #000000;
+$black-border: #333333;
+$black-focus: #444444;
+$blue: #1976D2;
+$blue-border: #2196F3;
+$blue-focus: #2196F3;
