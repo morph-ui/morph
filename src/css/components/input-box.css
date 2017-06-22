@@ -1,6 +1,12 @@
 .input-box {
   display: table;
-  width: 300px;
+  & label {
+    float: left;
+    height: 25px;
+    padding: 9px 9px 0px 9px;
+    font-weight: bold;
+    @extend .green;
+  }
   & input {
     float: left;
     width: auto;
@@ -8,13 +14,23 @@
     padding: 0;
     margin-top: 0;
     border-right: none;
+    padding-left: 10px;
+    &[type="number"] {
+      text-align: right;
+    }
   }
+
   & button {
     float: left;
     margin: 0;
-
     &.rounded {
-      border-radius: 0px 15px 15px 0px;
+      border-radius: 0px 20px 20px 0px;
+    }
+
+    & .icon {
+      margin-left: 5px;
     }
   }
+
+
 }

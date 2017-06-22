@@ -1,13 +1,13 @@
 button {
+  background: $white;
   color: $black;
+  border: 1px solid $white-border;
   font-weight: lighter;
   padding: 10px;
   margin: 5px;
-  border: 1px solid $white-border;
   font-size: 12px;
   outline-style: none;
   cursor: pointer;
-  background: $white;
   @extend .transform;
 
   &[disabled] {
