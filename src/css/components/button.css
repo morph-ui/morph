@@ -1,14 +1,16 @@
 .transform {
-  -webkit-transition: all 300ms linear;
-  -moz-transition: all 300ms linear;
-  -ms-transition: all 300ms linear;
-  -o-transition: all 300ms linear;
-  transition: all 300ms linear;
+  -webkit-transition: all 350ms ease-in-out;
+  -moz-transition: all 350ms ease-in-out;
+  -ms-transition: all 350ms ease-in-out;
+  -o-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
 }
 
 button {
   color: $black;
+  font-weight: lighter;
   padding: 10px;
+  margin: 5px;
   border: 1px solid $white-border;
   font-size: 12px;
   outline-style: none;
@@ -16,19 +18,28 @@ button {
   background: $white;
   @extend .transform;
 
+  &[disabled] {
+    opacity: 0.4;
+    &:hover {
+      box-shadow: 0 0 0 0;
+      cursor: not-allowed;
+    }
+  }
+
   &:focus {
     background:$white-focus !important;
   }
 
   &:hover {
-    -webkit-box-shadow: 0 3px 5px 0 #999;
-    box-shadow: 0 3px 5px 0 #999;
+    -webkit-box-shadow: 0 2px 5px 0 $shadow;
+    box-shadow: 0 2px 5px 0 $shadow;
   }
+
+
 
   &.red {
     background: $red;
     color: $white;
-    font-weight: lighter;
     border: 1px solid $red-border;
     &:focus {
       background:$red-focus !important;
@@ -38,7 +49,6 @@ button {
   &.black {
     background: $black;
     color: $white;
-    font-weight: lighter;
     border: 1px solid $black-border;
     &:focus {
       background:$black-focus !important;
@@ -48,16 +58,33 @@ button {
   &.blue {
     background: $blue;
     color: $white;
-    font-weight: lighter;
     border: 1px solid $blue-border;
     &:focus {
       background:$blue-focus !important;
     }
   }
 
+  &.yellow {
+    background: $yellow;
+    color: $black;
+    border: 1px solid $yellow-border;
+    &:focus {
+      background:$yellow-focus !important;
+    }
+  }
+
+  &.green {
+    background: $green;
+    color: $white;
+    border: 1px solid $green-border;
+    &:focus {
+      background:$green-focus !important;
+    }
+  }
+
   & .icon {
-    padding-right: 6px;
-    padding-left: 6px;
+    padding-right: 8px;
+    padding-left: 8px;
     margin-right: 6px;
   }
 
@@ -67,6 +94,15 @@ button {
       padding-right: 8px;
       padding-left: 8px;
       margin: 0;
+    }
+  }
+
+  &.rounded {
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    & .icon {
+      margin-right: 10px;
     }
   }
 }
