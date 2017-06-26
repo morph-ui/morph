@@ -1,0 +1,37 @@
+.input-box {
+  display: table;
+  & label.money {
+    float: left;
+    font-weight: bold;
+    border-left: $gray-text;
+    height: 25px;
+    padding: 9px 7px 0px 9px;
+    @extend .gray-color;
+  }
+  & input {
+    float: left;
+    width: auto;
+    height: 34px;
+    padding: 0;
+    margin-top: 0;
+    border-right: none;
+    padding-left: 10px;
+    &[type="number"] {
+      text-align: right;
+    }
+  }
+
+  & button {
+    float: left;
+    margin: 0;
+    &.rounded {
+      border-radius: 0px 20px 20px 0px;
+    }
+
+    & .icon {
+      margin-left: 5px;
+    }
+  }
+
+
+}
