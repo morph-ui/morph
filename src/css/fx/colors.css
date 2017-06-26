@@ -1,0 +1,41 @@
+.white-color {
+  background: $white;
+  color: $black;
+  border: 1px solid $white-border;
+}
+
+.red-color {
+  background: $red;
+  color: $white;
+  border: 1px solid $red-border;
+}
+
+.black-color {
+  background: $black;
+  color: $white;
+  border: 1px solid $black-border;
+}
+
+.blue-color {
+  background: $blue;
+  color: $white;
+  border: 1px solid $blue-border;
+}
+
+.yellow-color {
+  background: $yellow;
+  color: $black;
+  border: 1px solid $yellow-border;
+}
+
+.green-color {
+  background: $green;
+  color: $white;
+  border: 1px solid $green-border;
+}
+
+.gray-color {
+  background: $gray-hold;
+  color: $gray-text;
+  border: 1px solid $gray-border;
+}

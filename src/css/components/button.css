@@ -1,7 +1,5 @@
 button {
-  background: $white;
-  color: $black;
-  border: 1px solid $white-border;
+  @extend .white-color;
   font-weight: lighter;
   padding: 10px;
   margin: 5px;
@@ -30,45 +28,35 @@ button {
 
 
   &.red {
-    background: $red;
-    color: $white;
-    border: 1px solid $red-border;
+    @extend .red-color;
     &:focus {
       background:$red-focus !important;
     }
   }
 
   &.black {
-    background: $black;
-    color: $white;
-    border: 1px solid $black-border;
+    @extend .black-color;
     &:focus {
       background:$black-focus !important;
     }
   }
 
   &.blue {
-    background: $blue;
-    color: $white;
-    border: 1px solid $blue-border;
+    @extend .blue-color;
     &:focus {
       background:$blue-focus !important;
     }
   }
 
   &.yellow {
-    background: $yellow;
-    color: $black;
-    border: 1px solid $yellow-border;
+    @extend .yellow-color;
     &:focus {
       background:$yellow-focus !important;
     }
   }
 
   &.green {
-    background: $green;
-    color: $white;
-    border: 1px solid $green-border;
+    @extend .green-color;
     &:focus {
       background:$green-focus !important;
     }

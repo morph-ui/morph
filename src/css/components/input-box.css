@@ -1,11 +1,12 @@
 .input-box {
   display: table;
-  & label {
+  & label.money {
     float: left;
-    height: 25px;
-    padding: 9px 9px 0px 9px;
     font-weight: bold;
-    @extend .green;
+    border-left: $gray-text;
+    height: 25px;
+    padding: 9px 7px 0px 9px;
+    @extend .gray-color;
   }
   & input {
     float: left;
