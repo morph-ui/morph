@@ -5,6 +5,7 @@
 @import "css/components/icon.css";
 @import "css/components/input.css";
 @import "css/components/input-box.css";
+@import "css/components/table.css";
 
 *{
   font-family: 'Roboto', sans-serif;

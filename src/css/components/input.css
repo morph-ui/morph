@@ -14,7 +14,7 @@ input {
   padding-left: 5px;
   @extend .transform;
   &:focus {
-    border-bottom: 3px solid $gray;
+    border-bottom: 3px solid $gray-border;
     background: $white-dirty;
   }
   &::placeholder{

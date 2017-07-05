@@ -1,0 +1,42 @@
+table {
+
+  background: $white;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 10px;
+
+  &.expand {
+    width: 100%;
+  }
+
+  &.zebra {
+
+  }
+
+  & thead {
+    & tr {
+      border-bottom: 1px solid $black;
+      & th {
+        padding: 15px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  & tbody {
+    padding-bottom: 10px;
+
+    & tr {
+      & td {
+        padding: 15px;
+        border-bottom: 1px solid $gray-text;
+      }
+    }
+
+    & tr:last-child td{
+      border: none;
+      margin-bottom: 10px;
+    }
+
+  }
+}
