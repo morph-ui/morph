@@ -9,17 +9,30 @@
   color: white;
   border: 1px solid #79211B;
 }
-.black-color {
-
+.black-color, button.black {
+  background: #000000;
+  color: white;
+  border: 1px solid #333333;
 }
-.blue-color {
-
+.blue-color, button.blue {
+  background: #2196F3;
+  color: white;
+  border: 1px solid #1976D2;
 }
-.yellow-color {
-
+.yellow-color, button.yellow {
+  background: #FFC107;
+  color: #000000;
+  border: 1px solid #9E790A;
 }
-.green-color {
-
+.green-color, button.green {
+  background: #49A84C;
+  color: white;
+  border: 1px solid #296B2C;
+}
+.gray-color, .input-box label.money {
+  background: #E3E3E3;
+  color: #96958D;
+  border: 1px solid #A5A5A5;
 }
 .transform, button, input {
   -webkit-transition: all 350ms ease-in-out;
@@ -44,46 +57,26 @@ button[disabled]:hover {
       cursor: not-allowed;
     }
 button:focus {
-    background:#E1E1E1 !important;
+    background: #E1E1E1 !important;
   }
 button:hover {
     -webkit-box-shadow: 0 2px 5px 0 #333;
     box-shadow: 0 2px 5px 0 #333;
   }
 button.red:focus {
-      background:#D32F2F !important;
+      background: #D32F2F !important;
     }
-button.black {
-    background: #000000;
-    color: white;
-    border: 1px solid #333333;
-  }
 button.black:focus {
-      background:#444444 !important;
+      background: #444444 !important;
     }
-button.blue {
-    background: #2196F3;
-    color: white;
-    border: 1px solid #1976D2;
-  }
 button.blue:focus {
-      background:#1976D2 !important;
+      background: #1976D2 !important;
     }
-button.yellow {
-    background: #FFC107;
-    color: #000000;
-    border: 1px solid #9E790A;
-  }
 button.yellow:focus {
-      background:#DAA507 !important;
+      background: #DAA507 !important;
     }
-button.green {
-    background: #49A84C;
-    color: white;
-    border: 1px solid #296B2C;
-  }
 button.green:focus {
-      background:#419243 !important;
+      background: #419243 !important;
     }
 button .icon {
     padding-right: 8px;
@@ -264,17 +257,17 @@ input {
   width: 100%;
   height: 30px;
   background: white;
-  border: 1px solid #A4A4A4;
+  border: 1px solid #F3F3F3;
   margin-top: 2px;
   margin-bottom: 15px;
   padding-left: 5px;
 }
 input:focus {
-    border-bottom: 3px solid #A4A4A4;
+    border-bottom: 3px solid #A5A5A5;
     background: #FAFAFA;
   }
 input::placeholder{
-    color: #BDBDBD;
+    color: #E3E3E3;
   }
 input.red:focus {
       border-bottom: 3px solid #F44336;
@@ -301,11 +294,12 @@ input.green:focus {
 
 
 }
-.input-box label {
+.input-box label.money {
     float: left;
-    height: 25px;
-    padding: 9px 9px 0px 9px;
     font-weight: bold;
+    border: none;
+    height: 27px;
+    padding: 9px 7px 0px 9px;
   }
 .input-box input {
     float: left;
@@ -328,6 +322,21 @@ input.green:focus {
     }
 .input-box button .icon {
       margin-left: 5px;
+    }
+table{
+
+  background: white;
+
+}
+table.expand {
+    width: 100%;
+  }
+table thead {
+    background: #F3F3F3;
+    padding: 5px;
+  }
+table thead th {
+      font-weight: bold;
     }
 *{
   font-family: 'Roboto', sans-serif;

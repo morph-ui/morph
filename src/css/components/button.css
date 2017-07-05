@@ -17,7 +17,7 @@ button {
   }
 
   &:focus {
-    background:$white-focus !important;
+    background: $white-focus !important;
   }
 
   &:hover {
@@ -30,35 +30,35 @@ button {
   &.red {
     @extend .red-color;
     &:focus {
-      background:$red-focus !important;
+      background: $red-focus !important;
     }
   }
 
   &.black {
     @extend .black-color;
     &:focus {
-      background:$black-focus !important;
+      background: $black-focus !important;
     }
   }
 
   &.blue {
     @extend .blue-color;
     &:focus {
-      background:$blue-focus !important;
+      background: $blue-focus !important;
     }
   }
 
   &.yellow {
     @extend .yellow-color;
     &:focus {
-      background:$yellow-focus !important;
+      background: $yellow-focus !important;
     }
   }
 
   &.green {
     @extend .green-color;
     &:focus {
-      background:$green-focus !important;
+      background: $green-focus !important;
     }
   }
 

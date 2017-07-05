@@ -3,8 +3,8 @@
   & label.money {
     float: left;
     font-weight: bold;
-    border-left: $gray-text;
-    height: 25px;
+    border: none;
+    height: 27px;
     padding: 9px 7px 0px 9px;
     @extend .gray-color;
   }
