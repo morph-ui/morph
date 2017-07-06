@@ -1,24 +1,45 @@
 table {
-
   background: $white;
   border-spacing: 0;
   border-collapse: collapse;
   margin: 10px;
 
-  &.expand {
+  &.expanded {
     width: 100%;
-  }
-
-  &.zebra {
-
   }
 
   & thead {
     & tr {
       border-bottom: 1px solid $black;
       & th {
-        padding: 15px;
+        padding: 10px;
         font-weight: 400;
+        &.center {
+          @extend .text-center;
+        }
+
+        &.right {
+          @extend .text-right;
+        }
+
+        &.left {
+          @extend .text-left;
+        }
+      }
+    }
+  }
+
+  &.phased {
+    & tbody {
+      & tr:nth-child(even) {
+        background: #EEE;
+      }
+      & tr:nth-child(odd) {
+        background: #FFF;
+      }
+
+      & tr:hover {
+        background: $yellow-dirty;
       }
     }
   }
@@ -27,10 +48,26 @@ table {
     padding-bottom: 10px;
 
     & tr {
+      @extend .transform;
       & td {
-        padding: 15px;
-        border-bottom: 1px solid $gray-text;
+        padding: 10px;
+        border-bottom: 1px solid $gray-hold;
+        &.center {
+          @extend .text-center;
+        }
+
+        &.right {
+          @extend .text-right;
+        }
+
+        &.left {
+          @extend .text-left;
+        }
       }
+    }
+
+    & tr:hover {
+      background: $yellow-dirty;
     }
 
     & tr:last-child td{
