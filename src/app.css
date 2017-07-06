@@ -1,6 +1,7 @@
 @import "css/themes/basic.css";
 @import "css/fx/colors.css";
 @import "css/fx/transform.css";
+@import "css/generic/alignment.css";
 @import "css/components/button.css";
 @import "css/components/icon.css";
 @import "css/components/input.css";
@@ -19,4 +20,5 @@ h1, h2, h3, h4, h5, strong, b {
 body {
   background: #CCC;
   font-weight: 300;
+  padding: 50px;
 }
