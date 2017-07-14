@@ -1,5 +1,4 @@
 table {
-  background: $white;
   border-spacing: 0;
   border-collapse: collapse;
   margin: 10px;
@@ -9,19 +8,19 @@ table {
   }
 
   & thead {
+    background: $white;
     & tr {
       border-bottom: 1px solid $black;
       & th {
-        padding: 10px;
+        padding: 7px;
         font-weight: 400;
+        border-right: 1px solid $gray-hold;
         &.center {
           @extend .text-center;
         }
-
         &.right {
           @extend .text-right;
         }
-
         &.left {
           @extend .text-left;
         }
@@ -29,20 +28,56 @@ table {
     }
   }
 
+  & tbody {
+    padding-bottom: 10px;
+    background: $white;
+    & tr {
+      @extend .transform;
+      & td {
+        @extend .transform;
+        padding: 7px;
+        border-bottom: 1px solid $gray-hold;
+        &.center {
+          @extend .text-center;
+        }
+        &.right {
+          @extend .text-right;
+        }
+        &.left {
+          @extend .text-left;
+        }
+      }
+    }
+
+    & tr:hover {
+      background: $gray-focus;
+      & td {
+          color: $white;
+          border-right: $gray-focus;
+      }
+    }
+    & tr:last-child td{
+      border-bottom: none;
+      margin-bottom: 10px;
+    }
+
+  }
+
   &.strip {
     & tbody {
+      & td {
+        border-right: 1px solid $gray-hold;
+      }
       & tr:nth-child(even) {
         background: $white;
       }
       & tr:nth-child(odd) {
         background: $gray;
       }
-
       & tr:hover {
-          background: $orange-dirty;
-          opacity: 0.6;
          & td:nth-child(n) {
-             border-bottom: 1px solid $orange-border;
+            background: $gray-focus;
+            color: $white;
          }
       }
     }
@@ -56,48 +91,13 @@ table {
           & td:nth-child(odd) {
               background: $gray
           }
-
           & tr:hover {
-              background: $orange-dirty;
               & td:nth-child(n) {
-                  opacity: 0.4;
-                  border-bottom: 1px solid $orange-border;
+                  background: $gray-focus;
+                 color: $white;
               }
           }
-
       }
   }
 
-  & tbody {
-    padding-bottom: 10px;
-
-    & tr {
-      @extend .transform;
-      & td {
-        @extend .transform;
-        padding: 10px;
-        border-bottom: 1px solid $gray-hold;
-        &.center {
-          @extend .text-center;
-        }
-
-        &.right {
-          @extend .text-right;
-        }
-
-        &.left {
-          @extend .text-left;
-        }
-      }
-    }
-
-    & tr:hover {
-      background: $yellow-dirty;
-    }
-
-    & tr:last-child td{
-      margin-bottom: 10px;
-    }
-
-  }
 }
