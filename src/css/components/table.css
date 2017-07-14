@@ -1,5 +1,4 @@
 table {
-  background: $white;
   border-spacing: 0;
   border-collapse: collapse;
   margin: 10px;
@@ -9,19 +8,19 @@ table {
   }
 
   & thead {
+    background: $white;
     & tr {
       border-bottom: 1px solid $black;
       & th {
-        padding: 10px;
+        padding: 7px;
         font-weight: 400;
+        border-right: 1px solid $gray-hold;
         &.center {
           @extend .text-center;
         }
-
         &.right {
           @extend .text-right;
         }
-
         &.left {
           @extend .text-left;
         }
@@ -29,37 +28,21 @@ table {
     }
   }
 
-  &.phased {
-    & tbody {
-      & tr:nth-child(even) {
-        background: #EEE;
-      }
-      & tr:nth-child(odd) {
-        background: #FFF;
-      }
-
-      & tr:hover {
-        background: $yellow-dirty;
-      }
-    }
-  }
-
   & tbody {
     padding-bottom: 10px;
-
+    background: $white;
     & tr {
       @extend .transform;
       & td {
-        padding: 10px;
+        @extend .transform;
+        padding: 7px;
         border-bottom: 1px solid $gray-hold;
         &.center {
           @extend .text-center;
         }
-
         &.right {
           @extend .text-right;
         }
-
         &.left {
           @extend .text-left;
         }
@@ -67,13 +50,54 @@ table {
     }
 
     & tr:hover {
-      background: $yellow-dirty;
+      background: $gray-focus;
+      & td {
+          color: $white;
+          border-right: $gray-focus;
+      }
     }
-
     & tr:last-child td{
-      border: none;
+      border-bottom: none;
       margin-bottom: 10px;
     }
 
   }
+
+  &.strip {
+    & tbody {
+      & td {
+        border-right: 1px solid $gray-hold;
+      }
+      & tr:nth-child(even) {
+        background: $white;
+      }
+      & tr:nth-child(odd) {
+        background: $gray;
+      }
+      & tr:hover {
+         & td:nth-child(n) {
+            background: $gray-focus;
+            color: $white;
+         }
+      }
+    }
+  }
+
+  &.strip-vertical {
+      & tbody {
+          & td:nth-child(even) {
+              background: $white
+          }
+          & td:nth-child(odd) {
+              background: $gray
+          }
+          & tr:hover {
+              & td:nth-child(n) {
+                  background: $gray-focus;
+                 color: $white;
+              }
+          }
+      }
+  }
+
 }

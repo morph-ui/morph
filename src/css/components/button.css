@@ -21,8 +21,7 @@ button {
   }
 
   &:hover {
-    -webkit-box-shadow: 0 2px 5px 0 $shadow;
-    box-shadow: 0 2px 5px 0 $shadow;
+    @extend .shadow;
   }
 
 

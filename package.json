@@ -26,6 +26,7 @@
     "postcss": "^6.0.1",
     "postcss-each": "^0.10.0",
     "postcss-extend": "^1.0.5",
+    "postcss-for": "^2.1.1",
     "postcss-import": "^10.0.0",
     "postcss-loader": "^2.0.5",
     "postcss-nested": "^2.0.2",

@@ -4,6 +4,7 @@ module.exports = {
     'postcss-simple-vars': {},
     'postcss-nested': {},
     'postcss-extend': {},
-    'postcss-each': {}
+    'postcss-each': {},
+    'postcss-for': {}
   }
 }
