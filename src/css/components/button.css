@@ -69,9 +69,17 @@ button {
 
   &.circle {
     border-radius: 50%;
+    height: 40px;
+    width: 40px;
     & .icon {
-      padding-right: 8px;
-      padding-left: 8px;
+      margin: 0;
+    }
+  }
+
+  &.square {
+    height: 40px;
+    width: 40px;
+    & .icon {
       margin: 0;
     }
   }
@@ -83,5 +91,25 @@ button {
     & .icon {
       margin-right: 10px;
     }
+  }
+
+  .diamond {
+  	width: 0;
+  	height: 0;
+  	border: 50px solid transparent;
+  	border-bottom-color: red;
+  	position: relative;
+  	top: -50px;
+  }
+
+  .diamond:after {
+  	content: '';
+  	position: absolute;
+  	left: -50px;
+  	top: 50px;
+  	width: 0;
+  	height: 0;
+  	border: 50px solid transparent;
+  	border-top-color: red;
   }
 }

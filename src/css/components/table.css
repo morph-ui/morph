@@ -56,6 +56,7 @@ table {
           border-right: $gray-focus;
       }
     }
+    
     & tr:last-child td{
       border-bottom: none;
       margin-bottom: 10px;
@@ -63,7 +64,7 @@ table {
 
   }
 
-  &.strip {
+  &.strip-horizontal {
     & tbody {
       & td {
         border-right: 1px solid $gray-hold;
