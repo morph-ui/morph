@@ -4,5 +4,4 @@
 
 Morph is a collection of UI Design patterns using only natural HTML and a minimal CSS classes abstraction with a semantic syntax to improve user, designer and coder experience.
 
-## Principles of morph?
-
+more documentation and explanation about morph here
