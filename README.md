@@ -1,2 +1,4 @@
 # morph
-Morph is a minimalist tool in css to design better user experiences
+
+**1¿What is morph?**
+Morph is a collection of UI Design patterns created using natural HTML and a minimal CSS classes abstraction with a semantic syntax to improve user, designer and coder experience.
