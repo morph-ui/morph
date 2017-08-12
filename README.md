@@ -1,6 +1,6 @@
 # morph
 
-![GitHub Logo](https://image.ibb.co/mqcuwa/morph_logo_1_fw.png)
+![GitHub Logo](https://image.ibb.co/iDS2Ga/morph_logo_mini_fw.png)
 
 ## ¿Que es morph? 
 
