@@ -70,7 +70,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-module.exports = "// removed by extract-text-webpack-plugin"
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 1 */

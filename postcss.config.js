@@ -5,6 +5,7 @@ module.exports = {
     'postcss-nested': {},
     'postcss-extend': {},
     'postcss-each': {},
-    'postcss-for': {}
+    'postcss-for': {},
+    'cssnano': {}
   }
 }
