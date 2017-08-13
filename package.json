@@ -1,7 +1,7 @@
 {
-  "name": "morph",
-  "version": "0.1.0",
-  "description": "Morph is a minimalist tool in css to design better user experiences",
+  "name": "webpack2-config",
+  "version": "1.0.0",
+  "description": "webpack2 project started",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -21,8 +21,8 @@
     "css-loader": "^0.28.2",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.2",
+    "html-loader": "^0.5.1",
     "html-webpack-plugin": "^2.28.0",
-    "node-sass": "^4.5.3",
     "postcss": "^6.0.1",
     "postcss-each": "^0.10.0",
     "postcss-extend": "^1.0.5",

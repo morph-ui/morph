@@ -1,7 +1,7 @@
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-
+var package = require('./package.json');
 module.exports = {
   entry: './src/app.js',
   output: {
@@ -14,8 +14,16 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.html$/,
+        loader: 'html-loader'
+      },
+      {
         test: /\.(jpg|png|gif|svg)$/i,
         loader: "file-loader?name=icons/[name].[ext]"
+      },
+      {
+        test: /\.css$/,
+        loader: 'raw-loader'
       },
       {
         test: /\.css$/,
@@ -36,7 +44,7 @@ module.exports = {
   },
   plugins: [
       new HtmlWebpackPlugin({
-      title: 'webpack2 config demo',
+      title: 'morph',
       minify: {
         collapseWhitespace: true
       },
@@ -44,7 +52,7 @@ module.exports = {
       template: 'src/index.ejs'
     }),
     new ExtractTextPlugin({
-      filename: 'app.css',
+      filename: 'morph-'+ package.version +'.css',
       disable: false,
       allChunks: true
     })

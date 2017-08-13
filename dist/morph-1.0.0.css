@@ -34,12 +34,25 @@
   color: #96958D;
   border: 1px solid #A5A5A5;
 }
-.transform, button, input {
-  -webkit-transition: all 350ms ease-in-out;
-  -moz-transition: all 350ms ease-in-out;
-  -ms-transition: all 350ms ease-in-out;
-  -o-transition: all 350ms ease-in-out;
-  transition: all 350ms ease-in-out;
+.transform, button, input, table tbody tr, table tbody tr td {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+.shadow, button:hover {
+    -webkit-box-shadow: 0 2px 6px 0 #666;
+    box-shadow: 0 2px 6px 0 #666;
+}
+.text-center, table thead tr th.center, table tbody tr td.center{
+  text-align: center;
+}
+.text-right, table thead tr th.right, table tbody tr td.right{
+  text-align: right;
+}
+.text-left, table thead tr th.left, table tbody tr td.left{
+  text-align: left;
 }
 button {
   font-weight: lighter;
@@ -58,10 +71,6 @@ button[disabled]:hover {
     }
 button:focus {
     background: #E1E1E1 !important;
-  }
-button:hover {
-    -webkit-box-shadow: 0 2px 5px 0 #333;
-    box-shadow: 0 2px 5px 0 #333;
   }
 button.red:focus {
       background: #D32F2F !important;
@@ -85,10 +94,17 @@ button .icon {
   }
 button.circle {
     border-radius: 50%;
+    height: 40px;
+    width: 40px;
   }
 button.circle .icon {
-      padding-right: 8px;
-      padding-left: 8px;
+      margin: 0;
+    }
+button.square {
+    height: 40px;
+    width: 40px;
+  }
+button.square .icon {
       margin: 0;
     }
 button.rounded {
@@ -99,6 +115,24 @@ button.rounded {
 button.rounded .icon {
       margin-right: 10px;
     }
+button .diamond {
+  	width: 0;
+  	height: 0;
+  	border: 50px solid transparent;
+  	border-bottom-color: red;
+  	position: relative;
+  	top: -50px;
+  }
+button .diamond:after {
+  	content: '';
+  	position: absolute;
+  	left: -50px;
+  	top: 50px;
+  	width: 0;
+  	height: 0;
+  	border: 50px solid transparent;
+  	border-top-color: red;
+  }
 .icon {
   background-size: 16px 16px !important;
 
@@ -257,7 +291,7 @@ input {
   width: 100%;
   height: 30px;
   background: white;
-  border: 1px solid #F3F3F3;
+  border: 1px solid #EEE;
   margin-top: 2px;
   margin-bottom: 15px;
   padding-left: 5px;
@@ -283,12 +317,41 @@ input.blue:focus {
     }
 input.yellow:focus {
       border-bottom: 3px solid #FFC107;
-      background: #FBFBEF;
+      background: #FFFDE7;
     }
 input.green:focus {
       border-bottom: 3px solid #49A84C;
-      background: #EFFBF5;
+      background: #FBF5EF;
     }
+/*type == number*/
+/*input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]::after {
+    content: "\25B2";
+    position: absolute;
+    color: blue;
+    left: 100%;
+    margin-left: -17px;
+    margin-top: 12%;
+    font-size: 11px;
+}
+
+input[type=number]::before {
+    content: "\25BC";
+    position: absolute;
+    color: blue;
+    left: 100%;
+    bottom: 0;
+    margin-left: -17px;
+    margin-bottom: -14%;
+    font-size: 11px;
+}
+*/
 .input-box {
   display: table;
 
@@ -323,21 +386,69 @@ input.green:focus {
 .input-box button .icon {
       margin-left: 5px;
     }
-table{
-
-  background: white;
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 10px;
 
 }
-table.expand {
+table.expanded {
     width: 100%;
   }
 table thead {
-    background: #F3F3F3;
-    padding: 5px;
+    background: white;
   }
-table thead th {
-      font-weight: bold;
+table thead tr {
+      border-bottom: 1px solid #000000;
     }
+table thead tr th {
+        padding: 7px;
+        font-weight: 400;
+        border-right: 1px solid #E3E3E3;
+      }
+table tbody {
+    padding-bottom: 10px;
+    background: white;
+
+  }
+table tbody tr td {
+        padding: 7px;
+        border-bottom: 1px solid #E3E3E3;
+      }
+table tbody tr:hover {
+      background: #ACACAC;
+    }
+table tbody tr:hover td {
+          color: white;
+          border-right: #ACACAC;
+      }
+table tbody tr:last-child td{
+      border-bottom: none;
+      margin-bottom: 10px;
+    }
+table.strip-horizontal tbody td {
+        border-right: 1px solid #E3E3E3;
+      }
+table.strip-horizontal tbody tr:nth-child(even) {
+        background: white;
+      }
+table.strip-horizontal tbody tr:nth-child(odd) {
+        background: #EEE;
+      }
+table.strip-horizontal tbody tr:hover td:nth-child(n) {
+            background: #ACACAC;
+            color: white;
+         }
+table.strip-vertical tbody td:nth-child(even) {
+              background: white
+          }
+table.strip-vertical tbody td:nth-child(odd) {
+              background: #EEE
+          }
+table.strip-vertical tbody tr:hover td:nth-child(n) {
+                  background: #ACACAC;
+                 color: white;
+              }
 *{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -348,4 +459,5 @@ h1, h2, h3, h4, h5, strong, b {
 body {
   background: #CCC;
   font-weight: 300;
+  padding: 50px;
 }
