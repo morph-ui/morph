@@ -1,6 +1,21 @@
 .input-box {
   display: table;
-  & label.money {
+  &.large {
+    & label{
+      height: 37px;
+      font-size: 20px;
+      padding: 14px 12px 0px 14px;
+    }
+    & input {
+      height: 50px;
+      font-size: 22px;
+    }
+    & button {
+      padding: 13px;
+      font-size: 20px
+    }
+  }
+  & label {
     float: left;
     font-weight: bold;
     border: none;
