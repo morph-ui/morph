@@ -8,6 +8,7 @@
 @import "css/components/input.css";
 @import "css/components/input-box.css";
 @import "css/components/table.css";
+@import "css/components/grid.css";
 
 *{
   font-family: 'Roboto', sans-serif;
