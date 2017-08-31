@@ -5,3 +5,7 @@
   }
 
 }
+
+@each $model in padding, margin {
+  .$(model)-clear { $(model):0px !important }
+}
