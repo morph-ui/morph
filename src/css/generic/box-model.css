@@ -1,0 +1,7 @@
+@each $model in padding, padding-left, padding-right, padding-top, padding-bottom, margin, margin-left, margin-right, margin-top, margin-bottom {
+
+  @for $i from 5 to 70 by 5 {
+    .$(model)-$(i) { $(model): $(i)px; }
+  }
+
+}
