@@ -1,3 +1,23 @@
+.red-text {
+  color:$red;
+}
+
+.blue-text {
+  color:$blue;
+}
+
+.yellow-text {
+  color:$yellow;
+}
+
+.green-text {
+  color:$green;
+}
+
+.gray-text {
+  color:$gray;
+}
+
 .white-color {
   background: $white;
   color: $black;
