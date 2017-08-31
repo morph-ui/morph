@@ -5,6 +5,9 @@
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
+.row {
+  display: flex;
+}
 .column,
 .columns {
   width: 100%;
