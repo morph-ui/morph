@@ -1,5 +1,8 @@
 .input-box {
   display: table;
+  &.center {
+    margin: 0 auto;
+  }
   &.large {
     & label{
       height: 37px;
