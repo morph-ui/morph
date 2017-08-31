@@ -4,8 +4,6 @@
     .$(model)-$(i) { $(model): $(i)px; }
   }
 
-}
-
-@each $model in padding, margin {
   .$(model)-clear { $(model):0px !important }
+
 }
