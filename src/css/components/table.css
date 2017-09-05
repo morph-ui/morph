@@ -1,7 +1,8 @@
 table {
-  border-spacing: 0;
+  border-spacing: 1;
   border-collapse: collapse;
   margin: 10px;
+  border: 1px solid $gray-border;
 
   &.expanded {
     width: 100%;
@@ -14,7 +15,7 @@ table {
       & th {
         padding: 7px;
         font-weight: 400;
-        border-right: 1px solid $gray-hold;
+        border-right: 1px solid $gray-border;
         &.center {
           @extend .text-center;
         }
@@ -53,10 +54,10 @@ table {
       background: $gray-focus;
       & td {
           color: $white;
-          border-right: $gray-focus;
+          border-right: $gray-border;
       }
     }
-    
+
     & tr:last-child td{
       border-bottom: none;
       margin-bottom: 10px;
@@ -68,6 +69,9 @@ table {
     & tbody {
       & td {
         border-right: 1px solid $gray-hold;
+      }
+      & td:last-child {
+        border-right: 1px solid $gray-border;
       }
       & tr:nth-child(even) {
         background: $white;

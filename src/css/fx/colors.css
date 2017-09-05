@@ -18,6 +18,14 @@
   color:$gray;
 }
 
+.white-text{
+  color: $white;
+}
+
+.black-text{
+  color: $black;
+}
+
 .white-color {
   background: $white;
   color: $black;
