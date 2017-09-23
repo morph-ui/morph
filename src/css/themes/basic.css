@@ -19,7 +19,7 @@ $blue-border: #1976D2;
 $blue-focus: #1976D2;
 $blue-dirty: #EFF5FB;
 
-$yellow: #FFC107;
+$yellow: #FEC007;
 $yellow-border: #9E790A;
 $yellow-focus: #DAA507;
 $yellow-dirty: #FFFDE7;
@@ -39,5 +39,11 @@ $gray-border: #A5A5A5;
 $gray-focus: #ACACAC;
 $gray-hold: #D2D2D2;
 $gray-text: #96958D;
+
+$graf: #3E3E3E;
+$graf-border: #3E3E3E;
+$graf-focus: #3E3E3E;
+$graf-background: #3E3E3E;
+$graf-text: #FFFFFF;
 
 $shadow: #666;

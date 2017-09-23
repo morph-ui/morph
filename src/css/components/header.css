@@ -1,0 +1,39 @@
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  @extend .white-color;
+  &.absolute {
+    position: absolute !important;
+  }
+  & .brand {
+    position: relative;
+    margin: 10px;
+    font-size: 25px;
+    font-weight:400;
+  }
+  &.blue {
+    @extend .blue-color;
+  }
+  &.red {
+    @extend .red-color;
+  }
+  &.green {
+    @extend .green-color;
+  }
+  &.yellow {
+    @extend .yellow-color;
+  }
+  &.gray {
+    @extend .gray-color;
+  }
+  &.black {
+    @extend .black-color;
+  }
+}
+
+header {
+  @extend .header;
+}

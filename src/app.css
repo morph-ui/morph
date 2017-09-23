@@ -4,12 +4,14 @@
 @import "css/fx/shadow.css";
 @import "css/generic/alignment.css";
 @import "css/generic/box-model.css";
+@import "css/generic/font-size.css";
 @import "css/components/button.css";
 @import "css/components/icon.css";
 @import "css/components/input.css";
 @import "css/components/input-box.css";
 @import "css/components/table.css";
 @import "css/components/grid.css";
+@import "css/components/header.css";
 
 *{
   font-family: 'Roboto', sans-serif;
@@ -20,7 +22,33 @@ h1, h2, h3, h4, h5, strong, b {
   font-weight: 400;
 }
 
-body {
-  font-weight: 300;
-  padding: 50px;
+
+$development: true;
+
+@if $development {
+
+  body {
+    font-weight: 300;
+    padding: 50px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $blue;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: $red;
+  }
+
+  code {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    display: table;
+    @extend .grafite-color;
+  }
+
 }

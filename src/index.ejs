@@ -15,12 +15,23 @@
     <h1>
       ¿Que es morph?
     </h1>
-    <p>
-      Morph es una colección de Patrones de Diseño Web para Interfaces Graficas de Usuario (GUI). Las cuales han sido creadas usando solamente HTML natural y un mínimo de clases CSS abstraídas con una sintaxis semántica. Todo ello para mejorar la experiencia del diseñador, programador y del usuario.
+    <p class="font-20">
+      Morph es una colección de Patrones de Diseño Web<br>
+      que sirven para crear Interfaces Graficas de Usuario (GUI) lo mas facíl posible.<br>
+      Las cuales, han sido creadas usando solamente HTML al natural en lo posible<br>
+      y un mínimo de clases CSS.<br><br>
+      Asi mismo, se abstrae en el nombre de las clases una sintaxis semántica que<br>
+      hace referencia a un lenguiaje natural de acuerdo a lo que se quiere hacer o usar.<br><br>
+      <b>Finalemnte todo ello permite mejorar la experiencia del diseñador, programador y del usuario.</b><br>
     </p>
-    <p>
-      <a href="https://github.com/techfano/morph/wiki/Morph-fundamentos">
-        Mas detalles
+    <p class="font-18">
+      <a href="https://github.com/techfano/morph">
+        Github
+      </a>
+    </p>
+    <p class="font-18">
+      <a href="https://morph-60313.firebaseapp.com/morph-1.4.0.css" download>
+        Descargar v1.4.0
       </a>
     </p>
     <hr>
@@ -135,33 +146,33 @@
 
     <button type="button" class="rounded red">
       <span class="icon add_white"></span>
-      Button rojo redondeado con icono
+      Boton rojo redondeado con icono
     </button>
     <button type="button" class="rounded black">
       <span class="icon clear_white"></span>
-      Button negro redondeado con icono
+      Boton negro redondeado con icono
     </button>
     <button type="button" class="rounded blue">
       <span class="icon chat_white"></span>
-      Button azul redondeado con icono
+      Boton azul redondeado con icono
     </button>
     <button type="button" class="rounded blue" disabled="">
       <span class="icon chat_white"></span>
-      Button azul redondeado con icono deshabilitado
+      Boton azul redondeado con icono deshabilitado
     </button>
     <button type="button" class="rounded yellow">
       <span class="icon error_black"></span>
-      Button yellow redondeado con icono
+      Boton yellow redondeado con icono
     </button>
     <button type="button" class="rounded green">
       <span class="icon favorite_white"></span>
-      Button green redondeado con icono
+      Boton green redondeado con icono
     </button>
   </p>
   <hr>
   <br>
   <p>
-    <h3>Buttons circulares</h3>
+    <h3>Botones circulares</h3>
   </p>
   <p>
     <button type="button" class="circle">
@@ -195,7 +206,7 @@
   <hr>
   <br>
   <p>
-    <h3>Buttons cuadrados</h3>
+    <h3>Botones cuadrados</h3>
   </p>
   <p>
     <button type="button" class="square">
@@ -581,6 +592,127 @@
         </tr>
       </tbody>
     </table>
+
+    <p>
+      <h3>header ejemplos</h3>
+    </p>
+
+    <header class="margin-5">
+      <div class="brand">
+        Morph
+      </div>
+    </header>
+    <header class="margin-5 gray">
+      <div class="brand">
+        Morph
+      </div>
+    </header>
+    <header class="margin-5 yellow">
+      <div class="brand">
+        Morph
+      </div>
+    </header>
+    <header class="margin-5 red">
+      <div class="brand">
+        Morph
+      </div>
+    </header>
+    <header class="margin-5 green">
+      <div class="brand">
+        Morph
+      </div>
+    </header>
+    <header class="margin-5 blue">
+      <div class="brand">
+        Morph
+      </div>
+    </header>
+    <div class="header margin-5 black">
+      <div class="brand">
+        Morph
+      </div>
+    </div>
+    <h4>Código</h4>
+    <p>Puedes usar la etiqueta header</p>
+    <code>
+      &lt;header&gt;
+        &lt;div class="brand"&gt;
+          Morph
+        &lt;/div&gt;
+      &lt;/header&gt;
+      <br />
+      <br />
+      &lt;header class="gray"&gt;
+        &lt;div class="brand"&gt;
+          Morph
+        &lt;/div&gt;
+      &lt;/header&gt;
+      <br />
+      <br />
+      &lt;header class="yellow"&gt;
+        &lt;div class="brand"&gt;
+          Morph
+        &lt;/div&gt;
+      &lt;/header&gt;
+      <br />
+      <br />
+      &lt;header class="red"&gt;
+        &lt;div class="brand"&gt;
+          Morph
+        &lt;/div&gt;
+      &lt;/header&gt;
+      <br />
+      <br />
+      &lt;header class="green"&gt;
+        &lt;div class="brand"&gt;
+          Morph
+        &lt;/div&gt;
+      &lt;/header&gt;
+      <br />
+      <br />
+      &lt;header class="blue"&gt;
+        &lt;div class="brand"&gt;
+          Morph
+        &lt;/div&gt;
+      &lt;/header&gt;
+      <br />
+      <br />
+      &lt;header class="black"&gt;
+        &lt;div class="brand"&gt;
+          Morph
+        &lt;/div&gt;
+      &lt;/header&gt;
+    </code>
+    <br />
+    <p>Tambien declarar la clase de estilo
+      <span class="grafite-color padding-2">.header</span>
+       o junto con colores (<span class="grafite-color padding-2 red-text">.red</span>,
+         <span class="grafite-color padding-2 blue-text"> .blue</span>, etc)</p>
+    <code>
+      &lt;div class="header black"&gt;
+        &lt;div class="brand"&gt;
+          Morph
+        &lt;/div&gt;
+      &lt;/div&gt;
+    </code>
+    <br />
+    <p>Asi mismo, ponerle la clase <span class="grafite-color padding-2">.absolute</span>
+       y ponerla en la parte superior de toda la pantalla</p>
+    <code>
+      &lt;header class="black absolute"&gt;
+        &lt;div class="brand"&gt;
+          Morph
+        &lt;/div&gt;
+      &lt;/header&gt;
+      <br>
+      <br>
+      &lt;div class="header black absolute"&gt;
+        &lt;div class="brand"&gt;
+          Morph
+        &lt;/div&gt;
+      &lt;/div&gt;
+    </code>
+
 
   </body>
 </html>
