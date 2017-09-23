@@ -1,29 +1,29 @@
 .red-text {
-  color:$red;
+  color:$red !important;
 }
 
 .blue-text {
-  color:$blue;
+  color: $blue !important
 }
 
 .yellow-text {
-  color:$yellow;
+  color:$yellow !important
 }
 
 .green-text {
-  color:$green;
+  color:$green !important
 }
 
 .gray-text {
-  color:$gray;
+  color:$gray !important
 }
 
 .white-text{
-  color: $white;
+  color: $white !important;
 }
 
 .black-text{
-  color: $black;
+  color: $black !important;
 }
 
 .white-color {
@@ -66,4 +66,9 @@
   background: $gray-hold;
   color: $gray-text;
   border: 1px solid $gray-border;
+}
+.grafite-color {
+  background: $graf-background;
+  color: $graf-text;
+  border: 1px solid $graf-border;
 }
