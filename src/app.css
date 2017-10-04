@@ -21,34 +21,3 @@
 h1, h2, h3, h4, h5, strong, b {
   font-weight: 400;
 }
-
-
-$development: true;
-
-@if $development {
-
-  body {
-    font-weight: 300;
-    padding: 50px;
-  }
-
-  a {
-    text-decoration: none;
-    color: $blue;
-  }
-
-  a:hover {
-    text-decoration: underline;
-    color: $red;
-  }
-
-  code {
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 800px;
-    display: table;
-    @extend .grafite-color;
-  }
-
-}
