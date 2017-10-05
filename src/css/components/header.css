@@ -10,28 +10,130 @@
   }
   & .brand {
     position: relative;
-    margin: 10px;
+    height: 42px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 25px;
-    font-weight:400;
+    font-weight: 400;
+    width: auto;
+    float: left;
+    border-right: 1px solid $white-border;
+  }
+  & .option{
+    position: relative;
+    height: 33px;
+    width: auto;
+    padding-top: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    @extend .transform;
+    &.right{
+      float: right;
+    }
+    &.left{
+      float: left;
+    }
+    & a{
+      @extend .black-text;
+      text-decoration: none;
+    }
+  }
+  & .option:hover, .option.selected{
+    background: $white-focus !important;
+    cursor: pointer;
   }
   &.blue {
     @extend .blue-color;
+    & .brand {
+      border-right: 1px solid $blue-border;
+    }
+    & .option{
+      & a{
+        @extend .white-text;
+      }
+    }
+    & .option:hover, .option.selected{
+      background: $blue-focus !important;
+      cursor: pointer;
+    }
   }
   &.red {
     @extend .red-color;
+    & .brand {
+      border-right: 1px solid $red-border;
+    }
+    & .option{
+      & a{
+        @extend .white-text;
+      }
+    }
+    & .option:hover, .option.selected{
+      background: $red-focus !important;
+      cursor: pointer;
+    }
   }
   &.green {
     @extend .green-color;
+    & .brand {
+      border-right: 1px solid $green-border;
+    }
+    & .option{
+      & a{
+        @extend .white-text;
+      }
+    }
+    & .option:hover, .option.selected{
+      background: $green-focus !important;
+      cursor: pointer;
+    }
   }
   &.yellow {
     @extend .yellow-color;
+    & .brand {
+      border-right: 1px solid $yellow-border;
+    }
+    & .option{
+      & a{
+        @extend .black-text;
+      }
+    }
+    & .option:hover, .option.selected{
+      background: $yellow-focus !important;
+      cursor: pointer;
+    }
   }
   &.gray {
     @extend .gray-color;
+    & .brand {
+      border-right: 1px solid $gray-border;
+    }
+    & .option{
+      & a{
+        @extend .black-text;
+      }
+    }
+    & .option:hover, .option.selected{
+      background: $gray-focus !important;
+      cursor: pointer;
+    }
   }
   &.black {
     @extend .black-color;
+    & .brand {
+      border-right: 1px solid $black-border;
+    }
+    & .option{
+      & a{
+        @extend .white-text;
+      }
+    }
+    & .option:hover, .option.selected{
+      background: $black-focus !important;
+      cursor: pointer;
+    }
   }
+
 }
 
 header {
