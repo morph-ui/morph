@@ -20,7 +20,7 @@
     float: left;
     border-right: 1px solid $white-border;
   }
-  & .option{
+  & .option, a.option{
     position: relative;
     height: 33px;
     width: auto;
@@ -53,7 +53,11 @@
         @extend .white-text;
       }
     }
-    & .option:hover, .option.selected{
+    & a.option {
+      text-decoration: none;
+      @extend .white-text;
+    }
+    & .option:hover, a.option.selected, .option.selected{
       background: $blue-focus !important;
       cursor: pointer;
     }
@@ -68,7 +72,11 @@
         @extend .white-text;
       }
     }
-    & .option:hover, .option.selected{
+    & a.option {
+      text-decoration: none;
+      @extend .white-text;
+    }
+    & .option:hover, a.option.selected, .option.selected{
       background: $red-focus !important;
       cursor: pointer;
     }
@@ -83,7 +91,11 @@
         @extend .white-text;
       }
     }
-    & .option:hover, .option.selected{
+    & a.option {
+      text-decoration: none;
+      @extend .white-text;
+    }
+    & .option:hover, a.option.selected, .option.selected{
       background: $green-focus !important;
       cursor: pointer;
     }
@@ -98,7 +110,11 @@
         @extend .black-text;
       }
     }
-    & .option:hover, .option.selected{
+    & a.option {
+      text-decoration: none;
+      @extend .black-text;
+    }
+    & .option:hover, a.option.selected, .option.selected{
       background: $yellow-focus !important;
       cursor: pointer;
     }
@@ -113,7 +129,11 @@
         @extend .black-text;
       }
     }
-    & .option:hover, .option.selected{
+    & a.option {
+      text-decoration: none;
+      @extend .black-text;
+    }
+    & .option:hover, a.option.selected, .option.selected{
       background: $gray-focus !important;
       cursor: pointer;
     }
@@ -128,7 +148,11 @@
         @extend .white-text;
       }
     }
-    & .option:hover, .option.selected{
+    & a.option {
+      text-decoration: none;
+      @extend .white-text;
+    }
+    & .option:hover, a.option.selected, .option.selected{
       background: $black-focus !important;
       cursor: pointer;
     }
