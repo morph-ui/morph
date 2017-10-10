@@ -20,6 +20,10 @@
     float: left;
     border-right: 1px solid $white-border;
   }
+  & a.brand{
+    text-decoration: none;
+    @extend .white-text;
+  }
   & .option, a.option{
     position: relative;
     height: 33px;
