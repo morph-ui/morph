@@ -8,7 +8,50 @@
   &.absolute {
     position: absolute !important;
   }
-  & .brand {
+  &.fixed {
+    position: fixed !important;
+  }
+  & ul.menu{
+    position: absolute;
+    list-style: none;
+    top: 50px;
+    margin: 0;
+    padding: 0;
+    @extend .white-color;
+    @extend .transform;
+    &.hide{
+      display: none;
+    }
+    &.show {
+      display: block;
+    }
+  }
+  & ul.menu li{
+    padding: 30px;
+    cursor: pointer;
+    @extend .transform;
+  }
+  & ul.menu li:hover, li.selected{
+    background: $white-focus;
+  }
+  & ul.menu li.selected{
+    font-weight: 400;
+    @extend .blue-text;
+  }
+  & .action{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    &.left{
+      float: left;
+      border-right: 1px solid $white-border;
+    }
+    &.right{
+      float: right;
+      border-left: 1px solid $white-border;
+    }
+  }
+  & .brand{
     position: relative;
     height: 42px;
     padding-top: 9px;
@@ -43,14 +86,38 @@
       text-decoration: none;
     }
   }
-  & .option:hover, .option.selected{
-    background: $white-focus !important;
+  & .option:hover, a.option.selected, .option.selected{
+    background: $white-focus;
     cursor: pointer;
+  }
+  & a.option.selected, .option.selected{
+    & a{
+      font-weight: 400;
+      @extend .blue-text;
+    }
   }
   &.blue {
     @extend .blue-color;
     & .brand {
       border-right: 1px solid $blue-border;
+    }
+    & ul.menu{
+      @extend .blue-color;
+    }
+    & ul.menu li:hover, li.selected{
+      background: $blue-focus;
+    }
+    & ul.menu li.selected{
+      font-weight: 400;
+      @extend .yellow-text;
+    }
+    & .action{
+      &.left{
+        border-right-color: $blue-border
+      }
+      &.right{
+        border-left-color: $blue-border
+      }
     }
     & .option{
       & a{
@@ -65,11 +132,35 @@
       background: $blue-focus !important;
       cursor: pointer;
     }
+    & a.option.selected, .option.selected{
+      & a{
+        font-weight: 400;
+        @extend .yellow-text;
+      }
+    }
   }
   &.red {
     @extend .red-color;
-    & .brand {
+    & .brand{
       border-right: 1px solid $red-border;
+    }
+    & ul.menu{
+      @extend .red-color;
+    }
+    & ul.menu li:hover, li.selected{
+      background: $red-focus;
+    }
+    & ul.menu li.selected{
+      font-weight: 400;
+      @extend .gray-text;
+    }
+    & .action{
+      &.left{
+        border-right-color: $red-border
+      }
+      &.right{
+        border-left-color: $red-border
+      }
     }
     & .option{
       & a{
@@ -84,11 +175,35 @@
       background: $red-focus !important;
       cursor: pointer;
     }
+    & a.option.selected, .option.selected{
+      & a{
+        font-weight: 400;
+        @extend .gray-text;
+      }
+    }
   }
-  &.green {
+  &.green{
     @extend .green-color;
     & .brand {
       border-right: 1px solid $green-border;
+    }
+    & ul.menu{
+      @extend .green-color;
+    }
+    & ul.menu li:hover, li.selected{
+      background: $green-focus;
+    }
+    & ul.menu li.selected{
+      font-weight: 400;
+      @extend .black-text;
+    }
+    & .action{
+      &.left{
+        border-right-color: $green-border
+      }
+      &.right{
+        border-left-color: $green-border
+      }
     }
     & .option{
       & a{
@@ -103,11 +218,35 @@
       background: $green-focus !important;
       cursor: pointer;
     }
+    & a.option.selected, .option.selected{
+      & a{
+        font-weight: 400;
+        @extend .black-text;
+      }
+    }
   }
   &.yellow {
     @extend .yellow-color;
     & .brand {
       border-right: 1px solid $yellow-border;
+    }
+    & ul.menu{
+      @extend .yellow-color;
+    }
+    & ul.menu li:hover, li.selected{
+      background: $yellow-focus;
+    }
+    & ul.menu li.selected{
+      font-weight: 400;
+      @extend .white-text;
+    }
+    & .action{
+      &.left{
+        border-right-color: $yellow-border
+      }
+      &.right{
+        border-left-color: $yellow-border
+      }
     }
     & .option{
       & a{
@@ -122,11 +261,35 @@
       background: $yellow-focus !important;
       cursor: pointer;
     }
+    & a.option.selected, .option.selected{
+      & a{
+        font-weight: 400;
+        @extend .white-text;
+      }
+    }
   }
   &.gray {
     @extend .gray-color;
     & .brand {
       border-right: 1px solid $gray-border;
+    }
+    & ul.menu{
+      @extend .gray-color;
+    }
+    & ul.menu li:hover, li.selected{
+      background: $gray-focus;
+    }
+    & ul.menu li.selected{
+      font-weight: 400;
+      @extend .black-text;
+    }
+    & .action{
+      &.left{
+        border-right-color: $gray-border
+      }
+      &.right{
+        border-left-color: $gray-border
+      }
     }
     & .option{
       & a{
@@ -141,11 +304,35 @@
       background: $gray-focus !important;
       cursor: pointer;
     }
+    & a.option.selected, .option.selected{
+      & a{
+        font-weight: 400;
+        @extend .black-text;
+      }
+    }
   }
   &.black {
     @extend .black-color;
     & .brand {
       border-right: 1px solid $black-border;
+    }
+    & ul.menu{
+      @extend .black-color;
+    }
+    & ul.menu li:hover, li.selected{
+      background: $black-focus;
+    }
+    & ul.menu li.selected{
+      font-weight: 400;
+      @extend .gray-text;
+    }
+    & .action{
+      &.left{
+        border-right-color: $black-border
+      }
+      &.right{
+        border-left-color: $black-border
+      }
     }
     & .option{
       & a{
@@ -159,6 +346,12 @@
     & .option:hover, a.option.selected, .option.selected{
       background: $black-focus !important;
       cursor: pointer;
+    }
+    & a.option.selected, .option.selected{
+      & a{
+        font-weight: 400;
+        @extend .gray-text;
+      }
     }
   }
 
