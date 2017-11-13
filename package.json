@@ -1,6 +1,6 @@
 {
   "name": "webpack2-config",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "webpack2 project started",
   "main": "index.js",
   "scripts": {

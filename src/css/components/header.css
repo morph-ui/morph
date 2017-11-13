@@ -19,6 +19,12 @@
     padding: 0;
     @extend .white-color;
     @extend .transform;
+    &.left {
+      left: 0;
+    }
+    &.right {
+      right: 0
+    };
     &.hide{
       display: none;
     }
