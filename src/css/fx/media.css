@@ -23,7 +23,7 @@
     & .option{
       display: block;
     }
-    & .menu, .menu.show {
+    & .menu{
       display: none;
     }
   }
