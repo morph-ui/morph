@@ -24,7 +24,7 @@
     }
     &.right {
       right: 0
-    };
+    }
     &.hide{
       display: none;
     }
