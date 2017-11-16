@@ -33,16 +33,20 @@
     }
   }
   & ul.menu li{
-    padding: 20px;
+    padding: 0px;
     cursor: pointer;
     @extend .transform;
   }
-  & ul.menu li:hover, li.selected{
-    background: $white-focus;
-  }
   & ul.menu li a{
+    margin: 0px;
+    padding: 20px;
+    display: block;
+    height: 100%;
     text-decoration: none;
     @extend .black-text;
+  }
+  & ul.menu li:hover, li.selected, ul.menu li a.selected{
+    background: $white-focus;
   }
   & ul.menu li.selected, ul.menu li.selected a{
     font-weight: 400;
