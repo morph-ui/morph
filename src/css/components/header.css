@@ -152,11 +152,9 @@
       background: $blue-focus !important;
       cursor: pointer;
     }
-    & a.option.selected, .option.selected{
-      & a{
-        font-weight: 400;
-        @extend .yellow-text;
-      }
+    & a.option.selected, .option.selected, .option.selected a{
+      font-weight: 400;
+      @extend .yellow-text;
     }
   }
   &.red {
@@ -200,11 +198,9 @@
       background: $red-focus !important;
       cursor: pointer;
     }
-    & a.option.selected, .option.selected{
-      & a{
-        font-weight: 400;
-        @extend .gray-text;
-      }
+    & a.option.selected, .option.selected, .option.selected a{
+      font-weight: 400;
+      @extend .gray-text;
     }
   }
   &.green{
@@ -248,11 +244,9 @@
       background: $green-focus !important;
       cursor: pointer;
     }
-    & a.option.selected, .option.selected{
-      & a{
-        font-weight: 400;
-        @extend .black-text;
-      }
+    & a.option.selected, .option.selected, .option.selected a{
+      font-weight: 400;
+      @extend .black-text;
     }
   }
   &.yellow {
@@ -296,11 +290,9 @@
       background: $yellow-focus !important;
       cursor: pointer;
     }
-    & a.option.selected, .option.selected{
-      & a{
-        font-weight: 400;
-        @extend .white-text;
-      }
+    & a.option.selected, .option.selected, .option.selected a{
+      font-weight: 400;
+      @extend .white-text;
     }
   }
   &.gray {
@@ -344,11 +336,9 @@
       background: $gray-focus !important;
       cursor: pointer;
     }
-    & a.option.selected, .option.selected{
-      & a{
-        font-weight: 400;
-        @extend .black-text;
-      }
+    & a.option.selected, .option.selected, .option.selected a{
+      font-weight: 400;
+      @extend .black-text;
     }
   }
   &.black {
@@ -392,11 +382,9 @@
       background: $black-focus !important;
       cursor: pointer;
     }
-    & a.option.selected, .option.selected{
-      & a{
-        font-weight: 400;
-        @extend .gray-text;
-      }
+    & a.option.selected, .option.selected, .option.selected a{
+      font-weight: 400;
+      @extend .gray-text;
     }
   }
 

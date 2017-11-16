@@ -1,11 +1,11 @@
 {
   "name": "webpack2-config",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "description": "webpack2 project started",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "prod": "webpack -p"
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
