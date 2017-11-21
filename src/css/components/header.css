@@ -45,8 +45,11 @@
     text-decoration: none;
     @extend .black-text;
   }
-  & ul.menu li:hover, li.selected, ul.menu li a.selected{
+  & ul.menu li:hover, ul.menu li.selected, ul.menu li a.selected{
     background: $white-focus;
+  }
+  & ul.menu li.selected, ul.menu li a.selected{
+    border-bottom: 3px solid $blue;
   }
   & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
     @extend .blue-text;
@@ -119,7 +122,7 @@
     & ul.menu{
       @extend .blue-color;
     }
-    & ul.menu li:hover, li.selected, ul.menu li a.selected{
+    & ul.menu li:hover, ul.menu li.selected, ul.menu li a.selected{
       background: $blue-focus;
     }
     & ul.menu li a{
@@ -129,6 +132,9 @@
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
       @extend .yellow-text;
       text-decoration: none;
+    }
+    & ul.menu li.selected, ul.menu li a.selected{
+      border-bottom: 3px solid $yellow;
     }
     & .action{
       &.left{
@@ -167,7 +173,7 @@
     & ul.menu{
       @extend .red-color;
     }
-    & ul.menu li:hover, li.selected, ul.menu li a.selected{
+    & ul.menu li:hover, ul.menu li.selected, ul.menu li a.selected{
       background: $red-focus;
     }
     & ul.menu li a{
@@ -177,6 +183,9 @@
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
       @extend .gray-text;
       text-decoration: none;
+    }
+    & ul.menu li.selected, ul.menu li a.selected{
+      border-bottom: 3px solid $gray-text;
     }
     & .action{
       &.left{
@@ -215,7 +224,7 @@
     & ul.menu{
       @extend .green-color;
     }
-    & ul.menu li:hover, li.selected, ul.menu li a.selected{
+    & ul.menu li:hover, ul.menu li.selected, ul.menu li a.selected{
       background: $green-focus;
     }
     & ul.menu li a{
@@ -225,6 +234,9 @@
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
       @extend .black-text;
       text-decoration: none;
+    }
+    & ul.menu li.selected, ul.menu li a.selected{
+      border-bottom: 3px solid $black;
     }
     & .action{
       &.left{
@@ -263,7 +275,7 @@
     & ul.menu{
       @extend .yellow-color;
     }
-    & ul.menu li:hover, li.selected, ul.menu li a.selected{
+    & ul.menu li:hover, ul.menu li.selected, ul.menu li a.selected{
       background: $yellow-focus;
     }
     & ul.menu li a{
@@ -273,6 +285,9 @@
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
       @extend .white-text;
       text-decoration: none;
+    }
+    & ul.menu li.selected, ul.menu li a.selected{
+      border-bottom: 3px solid $white;
     }
     & .action{
       &.left{
@@ -311,7 +326,7 @@
     & ul.menu{
       @extend .gray-color;
     }
-    & ul.menu li:hover, li.selected, ul.menu li a.selected{
+    & ul.menu li:hover, ul.menu li.selected, ul.menu li a.selected{
       background: $gray-focus;
     }
     & ul.menu li a{
@@ -321,6 +336,9 @@
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
       @extend .white-text;
       text-decoration: none;
+    }
+    & ul.menu li.selected, ul.menu li a.selected{
+      border-bottom: 3px solid $black;
     }
     & .action{
       &.left{
@@ -359,7 +377,7 @@
     & ul.menu{
       @extend .black-color;
     }
-    & ul.menu li:hover, li.selected, ul.menu li a.selected{
+    & ul.menu li:hover, ul.menu li.selected, ul.menu li a.selected{
       background: $black-focus;
     }
     & ul.menu li a{
@@ -369,6 +387,9 @@
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
       @extend .gray-text;
       text-decoration: none;
+    }
+    & ul.menu li.selected, ul.menu li a.selected{
+      border-bottom: 3px solid $gray-text;
     }
     & .action{
       &.left{
