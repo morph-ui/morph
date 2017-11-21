@@ -49,7 +49,6 @@
     background: $white-focus;
   }
   & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
-    font-weight: 400;
     @extend .blue-text;
     text-decoration: none;
   }
@@ -106,10 +105,11 @@
     cursor: pointer;
   }
   & a.option.selected, .option.selected{
-    & a{
-      font-weight: 400;
-      @extend .blue-text;
-    }
+    border-bottom: 3px solid $blue;
+    height: 31px;
+  }
+  & a.option.selected, .option.selected, .option.selected a{
+    @extend .blue-text;
   }
   &.blue {
     @extend .blue-color;
@@ -127,7 +127,6 @@
       @extend .white-text;
     }
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
-      font-weight: 400;
       @extend .yellow-text;
       text-decoration: none;
     }
@@ -152,8 +151,11 @@
       background: $blue-focus !important;
       cursor: pointer;
     }
+    & a.option.selected, .option.selected{
+      border-bottom: 3px solid $yellow;
+      height: 31px;
+    }
     & a.option.selected, .option.selected, .option.selected a{
-      font-weight: 400;
       @extend .yellow-text;
     }
   }
@@ -173,7 +175,6 @@
       @extend .white-text;
     }
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
-      font-weight: 400;
       @extend .gray-text;
       text-decoration: none;
     }
@@ -198,8 +199,11 @@
       background: $red-focus !important;
       cursor: pointer;
     }
+    & a.option.selected, .option.selected{
+      border-bottom: 3px solid $gray-text;
+      height: 31px;
+    }
     & a.option.selected, .option.selected, .option.selected a{
-      font-weight: 400;
       @extend .gray-text;
     }
   }
@@ -219,7 +223,6 @@
       @extend .white-text;
     }
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
-      font-weight: 400;
       @extend .black-text;
       text-decoration: none;
     }
@@ -244,8 +247,11 @@
       background: $green-focus !important;
       cursor: pointer;
     }
+    & a.option.selected, .option.selected{
+      border-bottom: 3px solid $black;
+      height: 31px;
+    }
     & a.option.selected, .option.selected, .option.selected a{
-      font-weight: 400;
       @extend .black-text;
     }
   }
@@ -265,7 +271,6 @@
       @extend .black-text;
     }
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
-      font-weight: 400;
       @extend .white-text;
       text-decoration: none;
     }
@@ -290,8 +295,11 @@
       background: $yellow-focus !important;
       cursor: pointer;
     }
+    & a.option.selected, .option.selected{
+      border-bottom: 3px solid $white;
+      height: 31px;
+    }
     & a.option.selected, .option.selected, .option.selected a{
-      font-weight: 400;
       @extend .white-text;
     }
   }
@@ -311,7 +319,6 @@
       @extend .gray-text;
     }
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
-      font-weight: 400;
       @extend .white-text;
       text-decoration: none;
     }
@@ -336,8 +343,11 @@
       background: $gray-focus !important;
       cursor: pointer;
     }
+    & a.option.selected, .option.selected{
+      border-bottom: 3px solid $black;
+      height: 31px;
+    }
     & a.option.selected, .option.selected, .option.selected a{
-      font-weight: 400;
       @extend .black-text;
     }
   }
@@ -357,7 +367,6 @@
       @extend .white-text;
     }
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
-      font-weight: 400;
       @extend .gray-text;
       text-decoration: none;
     }
@@ -382,8 +391,11 @@
       background: $black-focus !important;
       cursor: pointer;
     }
+    & a.option.selected, .option.selected{
+      border-bottom: 3px solid $gray-text;
+      height: 31px;
+    }
     & a.option.selected, .option.selected, .option.selected a{
-      font-weight: 400;
       @extend .gray-text;
     }
   }
