@@ -109,7 +109,7 @@
   }
   & a.option.selected, .option.selected{
     border-bottom: 3px solid $blue;
-    height: 31px;
+    height: 30px;
   }
   & a.option.selected, .option.selected, .option.selected a{
     @extend .blue-text;
@@ -159,7 +159,7 @@
     }
     & a.option.selected, .option.selected{
       border-bottom: 3px solid $yellow;
-      height: 31px;
+      height: 30px;
     }
     & a.option.selected, .option.selected, .option.selected a{
       @extend .yellow-text;
@@ -178,14 +178,14 @@
     }
     & ul.menu li a{
       text-decoration: none;
-      @extend .white-text;
+      @extend .black-text;
     }
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
-      @extend .gray-text;
+      @extend .white-text;
       text-decoration: none;
     }
     & ul.menu li.selected, ul.menu li a.selected{
-      border-bottom: 3px solid $gray-text;
+      border-bottom: 3px solid $white;
     }
     & .action{
       &.left{
@@ -197,23 +197,23 @@
     }
     & .option{
       & a{
-        @extend .white-text;
+        @extend .black-text;
       }
     }
     & a.option {
       text-decoration: none;
-      @extend .white-text;
+      @extend .black-text;
     }
     & .option:hover, a.option.selected, .option.selected{
       background: $red-focus !important;
       cursor: pointer;
     }
     & a.option.selected, .option.selected{
-      border-bottom: 3px solid $gray-text;
-      height: 31px;
+      border-bottom: 3px solid $white;
+      height: 30px;
     }
     & a.option.selected, .option.selected, .option.selected a{
-      @extend .gray-text;
+      @extend .white-text;
     }
   }
   &.green{
@@ -229,14 +229,14 @@
     }
     & ul.menu li a{
       text-decoration: none;
-      @extend .white-text;
+      @extend .black-text;
     }
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
-      @extend .black-text;
+      @extend .white-text;
       text-decoration: none;
     }
     & ul.menu li.selected, ul.menu li a.selected{
-      border-bottom: 3px solid $black;
+      border-bottom: 3px solid $white;
     }
     & .action{
       &.left{
@@ -248,23 +248,23 @@
     }
     & .option{
       & a{
-        @extend .white-text;
+        @extend .black-text;
       }
     }
     & a.option {
       text-decoration: none;
-      @extend .white-text;
+      @extend .black-text;
     }
     & .option:hover, a.option.selected, .option.selected{
       background: $green-focus !important;
       cursor: pointer;
     }
     & a.option.selected, .option.selected{
-      border-bottom: 3px solid $black;
-      height: 31px;
+      border-bottom: 3px solid $white;
+      height: 30px;
     }
     & a.option.selected, .option.selected, .option.selected a{
-      @extend .black-text;
+      @extend .white-text;
     }
   }
   &.yellow {
@@ -312,7 +312,7 @@
     }
     & a.option.selected, .option.selected{
       border-bottom: 3px solid $white;
-      height: 31px;
+      height: 30px;
     }
     & a.option.selected, .option.selected, .option.selected a{
       @extend .white-text;
@@ -334,7 +334,7 @@
       @extend .gray-text;
     }
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
-      @extend .white-text;
+      @extend .black-text;
       text-decoration: none;
     }
     & ul.menu li.selected, ul.menu li a.selected{
@@ -350,12 +350,12 @@
     }
     & .option{
       & a{
-        @extend .black-text;
+        @extend .gray-text;
       }
     }
     & a.option {
       text-decoration: none;
-      @extend .black-text;
+      @extend .gray-text;
     }
     & .option:hover, a.option.selected, .option.selected{
       background: $gray-focus !important;
@@ -363,7 +363,7 @@
     }
     & a.option.selected, .option.selected{
       border-bottom: 3px solid $black;
-      height: 31px;
+      height: 30px;
     }
     & a.option.selected, .option.selected, .option.selected a{
       @extend .black-text;
@@ -382,14 +382,14 @@
     }
     & ul.menu li a{
       text-decoration: none;
-      @extend .white-text;
+      @extend .gray-text;
     }
     & ul.menu li.selected, ul.menu li.selected a, ul.menu li a.selected{
-      @extend .gray-text;
+      @extend .white-text;
       text-decoration: none;
     }
     & ul.menu li.selected, ul.menu li a.selected{
-      border-bottom: 3px solid $gray-text;
+      border-bottom: 3px solid $white;
     }
     & .action{
       &.left{
@@ -401,23 +401,23 @@
     }
     & .option{
       & a{
-        @extend .white-text;
+        @extend .gray-text;
       }
     }
     & a.option {
       text-decoration: none;
-      @extend .white-text;
+      @extend .gray-text;
     }
     & .option:hover, a.option.selected, .option.selected{
       background: $black-focus !important;
       cursor: pointer;
     }
     & a.option.selected, .option.selected{
-      border-bottom: 3px solid $gray-text;
-      height: 31px;
+      border-bottom: 3px solid $white;
+      height: 30px;
     }
     & a.option.selected, .option.selected, .option.selected a{
-      @extend .gray-text;
+      @extend .white-text;
     }
   }
 
