@@ -1,6 +1,7 @@
 var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var ZipPlugin = require('zip-webpack-plugin');
 
 var package = require('./package.json');
 module.exports = {
@@ -52,6 +53,15 @@ module.exports = {
       filename: 'morph-'+ package.version +'.css',
       disable: false,
       allChunks: true
+    }),
+    new ZipPlugin({
+      path: './zip',
+      pathPrefix: 'dist',
+      exclude: [/\.js$/, /\.html$/],
+      filename: 'morph-' + package.version +'.zip',
+      zipOptions: {
+        forceZip64Format: false,
+      },
     })
   ]
 }
