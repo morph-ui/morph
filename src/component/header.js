@@ -9,7 +9,7 @@ export default class Header extends React.Component {
       <Router>
         <div>
         <RouterMain />
-        <header className="fixed black">
+        <header className="fixed">
           <div className="action icon menu_black left"></div>
           {/*
           <ul className="menu left">
@@ -22,11 +22,6 @@ export default class Header extends React.Component {
                 {this.props.appname}
             </Link>
           </div>
-          <NavLink to="/"
-            className="option left"
-            activeClassName="selected">
-              Inicio
-          </NavLink>
           <NavLink to="/component/button"
             className="option left"
             activeClassName="selected">
@@ -35,7 +30,12 @@ export default class Header extends React.Component {
           <NavLink to="/component/input"
             className="option left"
             activeClassName="selected">
-              Input
+              Caja de texto
+          </NavLink>
+          <NavLink to="/component/grid"
+            className="option left"
+            activeClassName="selected">
+              Grilla
           </NavLink>
         </header>
         </div>

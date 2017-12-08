@@ -80,7 +80,11 @@
     float: left;
     border-right: 1px solid $white-border;
   }
-  & a.brand, .brand a{
+  & .brand a{
+    color: $black;
+    text-decoration: none;
+  }
+  & a.brand{
     text-decoration: none;
     @extend .white-text;
   }
@@ -112,7 +116,7 @@
     border-bottom: 3px solid $blue;
     height: 30px;
   }
-  & a.option.selected, .option.selected, .option.selected a{
+  & a.option, a.option.selected, .option.selected, .option.selected a{
     @extend .blue-text;
   }
   &.blue {
