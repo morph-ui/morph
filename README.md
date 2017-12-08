@@ -12,9 +12,9 @@ Morph es una colección de Patrones de Diseño Web para Interfaces Graficas de U
 
 ## Instalación simple
 
-**1. Ve a la pagina morph.pe y descarga la ultima version estable haciendo click en el enlace Descargar [numero de version]**
+**1. Ve a la pagina [morph.pe](https://morph.pe) y descarga la ultima version estable haciendo click en el enlace Descargar [numero de version]**
 
-![Morph Logo](https://image.ibb.co/meMLLG/Descargacss.png)
+![Morph Logo](https://image.ibb.co/fbdBSw/css.png)
 
 **2. Luego de descargar, descomprime el zip**
 ![Morph Logo](https://image.ibb.co/d8v87w/Descomprimir.png)
