@@ -38,6 +38,7 @@ Por ejemplo:
   </head>
  ```
  **5. ¿Como usar mi primer componente?**
+ 
 Para crear tu primer componente, sigue las instrucciones [aqui]()
 
 
