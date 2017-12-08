@@ -46,8 +46,8 @@ export default class Home extends React.Component {
         <h3>1. Minimalismo</h3>
         <div className="row font-18">
           <div className="eight columns padding-5 margin-10">
-            Morph usa minimalismo como una prioridad para crear interfaces en su minima expresion de diseño
-            en detalles y elementos e incrementar eficiencia.
+            Morph usa minimalismo como una prioridad para crear interfaces en su minima expresion de diseño,
+            detalles y elementos para incrementar eficiencia.
           </div>
         </div>
         <h3>2. Formas</h3>
