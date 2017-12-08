@@ -10,8 +10,8 @@ export default class Header extends React.Component {
         <div>
         <RouterMain />
         <header className="fixed">
-          <div className="action icon menu_black left"></div>
-          {/*
+          {/*<div className="action icon menu_black left"></div>
+
           <ul className="menu left">
               <li>
               <a href="">Button</a>
@@ -36,6 +36,16 @@ export default class Header extends React.Component {
             className="option left"
             activeClassName="selected">
               Grilla
+          </NavLink>
+          <NavLink to="/component/table"
+            className="option left"
+            activeClassName="selected">
+              Tabla
+          </NavLink>
+          <NavLink to="/component/header"
+            className="option left"
+            activeClassName="selected">
+              Cabecera
           </NavLink>
         </header>
         </div>

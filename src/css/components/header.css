@@ -82,6 +82,7 @@
   }
   & .brand a{
     color: $black;
+    font-weight: 400;
     text-decoration: none;
   }
   & a.brand{
@@ -97,6 +98,7 @@
     padding-right: 10px;
     text-decoration: none;
     @extend .transform;
+    @extend .black-text;
     &.right{
       float: right;
     }

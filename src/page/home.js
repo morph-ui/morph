@@ -1,4 +1,7 @@
 import React from 'react';
+import packageJson from '../../package.json';
+
+console.log(packageJson.version);
 
 export default class Home extends React.Component {
   render() {
@@ -34,10 +37,25 @@ export default class Home extends React.Component {
         </p>
         <p className="font-18">
           <a className="button green rounded"
-            href="https://morph-60313.firebaseapp.com/zip/morph-1.5.9.zip" download>
-            Descargar v1.5.9
+            href={`https://morph.pe/zip/morph-${ packageJson.version }`} download>
+            Descargar v{packageJson.version}
           </a>
         </p>
+        <hr/>
+        <h1>Fundamentos sobre Morph</h1>
+        <h3>1. Minimalismo</h3>
+        <div className="row font-18">
+          <div className="eight columns padding-5 margin-10">
+            Morph usa minimalismo como una prioridad para crear interfaces en su minima expresion de diseño
+            en detalles y elementos e incrementar eficiencia.
+          </div>
+        </div>
+        <h3>2. Formas</h3>
+        <div className="row font-18">
+          <div className="eight columns padding-5 margin-10">
+            Solo formas geometricas basicas como cuadrados, circulos y sus caracteristicas derivadas.
+          </div>
+        </div>
       </div>
     )
   }
