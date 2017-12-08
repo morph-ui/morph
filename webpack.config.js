@@ -30,6 +30,10 @@ module.exports = {
           use: ['css-loader','postcss-loader'],
           publicPath: '/'
         })
+      },{
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: 'babel-loader'
       }
     ]
   },

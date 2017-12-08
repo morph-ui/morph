@@ -80,7 +80,7 @@
     float: left;
     border-right: 1px solid $white-border;
   }
-  & a.brand{
+  & a.brand, .brand a{
     text-decoration: none;
     @extend .white-text;
   }
@@ -91,6 +91,7 @@
     padding-top: 17px;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
     @extend .transform;
     &.right{
       float: right;

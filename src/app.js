@@ -1,3 +1,11 @@
 const css = require('./app.css');
 
-console.log('hello from app.js');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './component/header';
+ReactDOM.render(
+  <div>
+    <Header appname="Morph" />
+  </div>,
+  document.getElementById('root')
+);
