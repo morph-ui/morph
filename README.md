@@ -124,4 +124,5 @@ Por ejemplo, cambiaremos a rojo:
 
 ¡Y listo! Así ya tienes los elementos necesarios para crear y programar una cabecera con opciones de navegación.
 
+- Ejemplo en vivo [jsfiddle](https://jsfiddle.net/techfano/4doxss7p)
 - Para más detalles visita [morph.pe](https://morph.pe)
