@@ -1,8 +1,6 @@
 import React from 'react';
 import packageJson from '../../package.json';
 
-console.log(packageJson.version);
-
 export default class Home extends React.Component {
   render() {
     return (
@@ -14,14 +12,21 @@ export default class Home extends React.Component {
           ¿Qué es morph?
         </h1>
         <div className="row font-18">
-          <div className="eight columns padding-5 margin-10">
-          Morph es una colección de Patrones de Diseño Web, sirve para crear Interfaces Gráficas de Usuario (GUI del inglés Graphical User Interface) de la manera más sencilla posible. Ha sido creado usando sólo HTML y con un mínimo de clases CSS. Asimismo, se abstrae en el nombre de las clases de estilos CSS una semántica que hace referencia a un lenguaje natural de acuerdo a lo que se quiere hacer o usar.
-          Finalmente, todo ello permite mejorar la experiencia del diseñador, programador y del usuario.
+          <div className="nine columns">
+            Morph es una colección de patrones para crear Interfaces Gráficas de
+            Usuario <strong>(GUI - Graphic User Interface)</strong> de la manera más sencilla posible.
           </div>
-          <div className="four columns padding-5 margin-10"></div>
+        </div>
+        <br/>
+        <div className="row font-18">
+          <div className="nine columns">
+            Ha sido creado usando sólo <strong>HTML</strong> y con un mínimo de clases <strong>CSS</strong>.
+            Asimismo, se abstrae en el nombre de las clases de estilos <strong>CSS</strong> con una semántica
+            que hace referencia a un lenguaje natural de acuerdo a lo que se quiere hacer o usar.
+          </div>
         </div>
         <div className="row font-18">
-          <div className="eight columns padding-5 margin-10">
+          <div className="eight columns">
             <b>Finalmente todo ello permite mejorar la experiencia del diseñador, programador y del usuario.</b>
           </div>
         </div>
@@ -40,13 +45,13 @@ export default class Home extends React.Component {
         </p>
         <hr/>
         <h1>Fundamentos sobre Morph</h1>
-        <h3>1. Minimalismo</h3>
+        <h2>1. Minimalismo</h2>
         <div className="row font-18">
           <div className="eight columns padding-5 margin-10">
             Morph usa minimalismo como una prioridad para crear interfaces en su mínima expresión de diseño, detalles y elementos para incrementar eficiencia.
           </div>
         </div>
-        <h3>2. Formas</h3>
+        <h2>2. Formas</h2>
         <div className="row font-18">
           <div className="eight columns padding-5 margin-10">
             Sólo formas geométricas básicas como cuadrados, círculos y sus características derivadas.

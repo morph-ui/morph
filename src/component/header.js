@@ -22,30 +22,15 @@ export default class Header extends React.Component {
                 {this.props.appname}
             </Link>
           </div>
-          <NavLink to="/component/button"
+          <NavLink to="/instalacion"
             className="option left"
             activeClassName="selected">
-              Boton
+              Instalación
           </NavLink>
-          <NavLink to="/component/input"
+          <NavLink to="/componentes"
             className="option left"
             activeClassName="selected">
-              Caja de texto
-          </NavLink>
-          <NavLink to="/component/grid"
-            className="option left"
-            activeClassName="selected">
-              Grilla
-          </NavLink>
-          <NavLink to="/component/table"
-            className="option left"
-            activeClassName="selected">
-              Tabla
-          </NavLink>
-          <NavLink to="/component/header"
-            className="option left"
-            activeClassName="selected">
-              Cabecera
+              Componentes
           </NavLink>
         </header>
         </div>

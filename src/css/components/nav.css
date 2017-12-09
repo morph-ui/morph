@@ -1,0 +1,26 @@
+nav{
+  width: auto;
+  @extend .white-color;
+  position: absolute;
+  &.fixed{
+    position: fixed;
+  }
+  & a{
+    color: $black;
+    display: table;
+    border-spacing: 10px;
+    width: 100%;
+    text-decoration: none;
+    @extend .transform;
+
+    &.selected{
+      background: $white-focus;
+      border-bottom: 3px solid $blue;
+      height: 30px;
+      @extend .blue-text;
+    }
+  }
+  & a:hover {
+    background: $white-focus;
+  }
+}

@@ -1,11 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
 import Home from '../page/home';
-import Button from '../page/button';
-import Input from '../page/input';
-import Grid from '../page/grid';
-import Table from '../page/table';
-import Header from '../page/header';
+import Installation from '../page/installation';
+import Component from '../page/component';
 
 export default class RouterMain extends React.Component {
   render() {
@@ -13,11 +10,8 @@ export default class RouterMain extends React.Component {
       <div>
           <div>
             <Route exact path="/" component={Home} />
-            <Route path="/component/button" component={Button} />
-            <Route path="/component/input" component={Input} />
-            <Route path="/component/grid" component={Grid} />
-            <Route path="/component/table" component={Table} />
-            <Route path="/component/header" component={Header} />
+            <Route path="/instalacion" component={Installation} />
+            <Route path="/componentes" component={Component}/>
           </div>
       </div>
     )

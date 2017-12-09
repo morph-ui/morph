@@ -1,3 +1,9 @@
+require('codemirror/lib/codemirror.css');
+require('codemirror/theme/material.css');
+require('codemirror/theme/neat.css');
+require('codemirror/mode/xml/xml.js');
+require('codemirror/mode/javascript/javascript.js');
+
 const css = require('./app.css');
 
 import React from 'react';
