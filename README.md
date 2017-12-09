@@ -2,7 +2,7 @@
 
 ![Morph Logo](https://image.ibb.co/iqOQ7F/morph_logo_mini_fw.png)
 
-## ¿Que es morph?
+## ¿Qué es morph?
 
 Morph es una colección de Patrones de Diseño Web para Interfaces Graficas de Usuario (GUI). Las cuales han sido creadas usando solamente HTML natural y un mínimo de clases CSS abstraídas con una sintaxis semántica. Todo ello para mejorar la experiencia del diseñador, programador y del usuario.
 
@@ -12,7 +12,7 @@ Morph es una colección de Patrones de Diseño Web para Interfaces Graficas de U
 
 ## Instalación simple
 
-**1. Ve a la pagina [morph.pe](https://morph.pe) y descarga la ultima version estable haciendo click en el enlace Descargar [numero de version]**
+**1. Ve a la página [morph.pe](https://morph.pe) y descarga la última versión estable haciendo clic en el enlace Descargar [número de versión]**
 
 **2. Luego de descargar, descomprime el zip**
 ![Morph Logo](https://image.ibb.co/d8v87w/Descomprimir.png)
@@ -20,7 +20,7 @@ Morph es una colección de Patrones de Diseño Web para Interfaces Graficas de U
 **3. Una vez descomprimido, copia el folder "dist" en tu proyecto**
 ![Morph Logo](https://image.ibb.co/gUUAnw/Proyecto1.png)
 
-**4. Luego inserta el archivo morph-x.css en tu proyecto a travez de la etiqueta link**
+**4. Luego inserta el archivo morph-x.css en tu proyecto a través de la etiqueta link**
 ![Morph Logo](https://image.ibb.co/mrGefG/Proyecto2.png)
 
 Por ejemplo:
