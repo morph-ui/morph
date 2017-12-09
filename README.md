@@ -34,7 +34,7 @@ Por ejemplo:
 
 ## ¿Como usar mi primer componente?
  
-Una vez instalado morph, la mayoría los elementos HTML usaran los estilos predefinidos, pero para ciertos colores o características deseadas se deben manejar y editar ciertas clases como mostraremos a continuación:
+Una vez instalado morph, la mayoría los elementos HTML usaran los estilos predefinidos, pero para ciertos colores o características deseadas se deben manejar y editar ciertas clases y elementos como mostraremos a continuación:
 
 **Haremos una cabecera con opciones de navegación**
 
