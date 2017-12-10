@@ -8,7 +8,8 @@ module.exports = {
   entry: './src/app.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'app.bundle.js'
+    filename: 'app.bundle.js',
+    publicPath: '/'
   },
   resolve: {
       extensions: ['.js', '.html']
@@ -42,7 +43,10 @@ module.exports = {
     compress: true,
     port: 8181,
     stats: 'errors-only',
-    open: true
+    open: true,
+    historyApiFallback: {
+      index: 'index.html'
+    }
   },
   plugins: [
       new HtmlWebpackPlugin({
