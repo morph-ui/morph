@@ -12,10 +12,10 @@ Morph es una colección de patrones de diseño web para **interfaces graficas de
 
 **1. Ve a la página [morph.pe](https://morph.pe) y descarga la última versión estable haciendo clic en el enlace Descargar [número de versión]**
 
-**2. Luego de descargar, descomprime el zip**
+**2. Luego de descargar, descomprime el archivo en zip**
 ![Morph Logo](https://image.ibb.co/d8v87w/Descomprimir.png)
 
-**3. Una vez descomprimido, copia el folder "dist" en tu proyecto**
+**3. Una vez descomprimido el archivo, copia el folder "dist" en tu proyecto**
 ![Morph Logo](https://image.ibb.co/gUUAnw/Proyecto1.png)
 
 **4. Luego inserta el archivo morph-x.css en tu proyecto a través de la etiqueta link**
