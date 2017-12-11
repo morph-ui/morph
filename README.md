@@ -34,4 +34,4 @@ Por ejemplo:
  
 Una vez instalado morph, la mayoría de los elementos HTML usaran los estilos predefinidos, pero para ciertos colores o características deseadas se deben manejar y editar ciertas clases y elementos como mostraremos a continuación:
 
-- Para más detalles visita [morph.pe](https://morph.pe)
+- Para más detalles visita [https://morph.pe/componentes/primer-paso](https://morph.pe/componentes/primer-paso)
