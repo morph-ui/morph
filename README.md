@@ -6,7 +6,7 @@ Morph es una colección de patrones de diseño web para **interfaces graficas de
 
 - Documentación sobre morph a detalle [documentación](https://github.com/techfano/morph/wiki/Morph-fundamentos)
 - [Sitio Web](https://morph.pe/)
-- More documentation about morph [wiki](https://github.com/techfano/morph/wiki/Soon-in-English)
+- (Inglés - English) More documentation about morph [wiki](https://github.com/techfano/morph/wiki/Soon-in-English)
 
 ## Instalación simple
 
