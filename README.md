@@ -2,11 +2,10 @@
 
 ## ¿Qué es morph?
 
-Morph es una colección de patrones de diseño web para **interfaces graficas de usuario (GUI - Graphic User Interface)**. Las cuales han sido creadas usando solamente HTML natural y un mínimo de clases CSS abstraídas con una sintaxis semántica. Todo ello para mejorar la experiencia del diseñador, programador y del usuario.
+Morph es una colección de patrones de diseño web para **interfaces graficas de usuario (GUI - Graphic User Interface)**. Las cuales han sido creadas usando solamente **HTML** natural y un mínimo de clases **CSS** abstraídas con una sintaxis semántica. Todo ello para mejorar la experiencia del diseñador, programador y del usuario.
 
-- Documentación sobre morph a detalle [documentación](https://github.com/techfano/morph/wiki/Morph-fundamentos)
 - [Sitio Web](https://morph.pe/)
-- (Inglés - English) More documentation about morph [wiki](https://github.com/techfano/morph/wiki/Soon-in-English)
+- **(Inglés - English)** More documentation about morph [wiki](https://github.com/techfano/morph/wiki/Soon-in-English)
 
 ## Instalación simple
 
