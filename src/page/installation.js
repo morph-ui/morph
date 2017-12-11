@@ -12,8 +12,7 @@ export default class Installation extends React.Component {
         <div className="row">
           <div className="nine columns">
             <p>
-              1. <a className="button green rounded"
-                href={`https://morph.pe/zip/morph-${ packageJson.version }.zip`} download>
+              1. <a href={`https://morph.pe/zip/morph-${ packageJson.version }.zip`} download>
                 Descargar morph v{packageJson.version} aquí
               </a>
             </p>

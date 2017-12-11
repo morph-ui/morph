@@ -37,7 +37,7 @@ export default class Home extends React.Component {
             Github
           </a>
         </p>
-        <p className="font-18">
+        <p className="font-18 padding-top-5">
           <a className="button green rounded"
             href={`https://morph.pe/zip/morph-${ packageJson.version }.zip`} download>
             Descargar v{packageJson.version}

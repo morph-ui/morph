@@ -1,6 +1,7 @@
 import React from 'react';
 import RouterMain from '../router/main';
 import { BrowserRouter as Router, NavLink, Link } from 'react-router-dom';
+import packageJson from '../../package.json';
 
 export default class Header extends React.Component {
 
@@ -32,6 +33,19 @@ export default class Header extends React.Component {
             activeClassName="selected">
               Componentes
           </NavLink>
+          <div className="element right">
+            <a className="button green rounded"
+              href={`https://morph.pe/zip/morph-${ packageJson.version }.zip`} download>
+              Descargar v{packageJson.version}
+            </a>
+          </div>
+          <div className="element right">
+            <a className="button black rounded"
+              href="https://github.com/techfano/morph"
+              target="_blank">
+              Github
+            </a>
+          </div>
         </header>
         </div>
       </Router>

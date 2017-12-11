@@ -126,10 +126,10 @@ export default class First extends React.Component {
               El cual se verá así por defecto
             </h4>
             <header>
-              <div class="brand">
+              <div className="brand">
                 Proyecto
               </div>
-              <div class="option left">
+              <div className="option left">
                 <a href="">
                   Opcion 1
                   </a>
@@ -177,15 +177,15 @@ export default class First extends React.Component {
               El cual se verá así por defecto
             </h4>
             <header>
-              <div class="brand">
+              <div className="brand">
                 Proyecto
               </div>
-              <div class="option left">
+              <div className="option left">
                 <a href="">
                   Opcion 1
                 </a>
               </div>
-              <div class="option left selected">
+              <div className="option left selected">
                 <a href="">
                   Opcion 2
                 </a>
@@ -233,16 +233,16 @@ export default class First extends React.Component {
             <h4>
               El cual se verá así por defecto
             </h4>
-            <header class="red">
-              <div class="brand">
+            <header className="red">
+              <div className="brand">
                 Proyecto
               </div>
-              <div class="option left">
+              <div className="option left">
                 <a href="">
                   Opcion 1
                 </a>
               </div>
-              <div class="option left selected">
+              <div className="option left selected">
                 <a href="">
                   Opcion 2
                 </a>

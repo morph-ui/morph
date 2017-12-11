@@ -1,4 +1,12 @@
-button {
+a.button {
+  text-decoration: none;
+}
+
+a.button:hover{
+  text-decoration: underline;
+}
+
+.button {
   @extend .white-color;
   font-weight: lighter;
   padding: 10px;
@@ -7,15 +15,6 @@ button {
   outline-style: none;
   cursor: pointer;
   @extend .transform;
-
-  &[disabled] {
-    opacity: 0.4;
-    &:hover {
-      box-shadow: 0 0 0 0;
-      cursor: not-allowed;
-    }
-  }
-
   &:focus {
     background: $white-focus !important;
   }
@@ -23,8 +22,6 @@ button {
   &:hover {
     @extend .shadow;
   }
-
-
 
   &.red {
     @extend .red-color;
@@ -111,5 +108,16 @@ button {
   	height: 0;
   	border: 50px solid transparent;
   	border-top-color: red;
+  }
+}
+
+button {
+  @extend .button;
+  &[disabled] {
+    opacity: 0.4;
+    &:hover {
+      box-shadow: 0 0 0 0;
+      cursor: not-allowed;
+    }
   }
 }
