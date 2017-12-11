@@ -13,14 +13,14 @@ export default class Home extends React.Component {
         </h1>
         <div className="row font-18">
           <div className="nine columns">
-            Morph es una colección de patrones para crear Interfaces Gráficas de
+            Morph es una colección de patrones de diseño web para crear Interfaces Gráficas de
             Usuario <strong>(GUI - Graphic User Interface)</strong> de la manera más sencilla posible.
           </div>
         </div>
         <br/>
         <div className="row font-18">
           <div className="nine columns">
-            Ha sido creado usando sólo <strong>HTML</strong> y con un mínimo de clases <strong>CSS</strong>.
+            Ha sido creado usando sólo <strong>HTML</strong> y un mínimo de clases <strong>CSS</strong>.
             Asimismo, se abstrae en el nombre de las clases de estilos <strong>CSS</strong> con una semántica
             que hace referencia a un lenguaje natural de acuerdo a lo que se quiere hacer o usar.
           </div>

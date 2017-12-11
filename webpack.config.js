@@ -50,7 +50,7 @@ module.exports = {
   },
   plugins: [
       new HtmlWebpackPlugin({
-      title: 'morph' + package.version,
+      title: 'Morph, una biblioteca de patrones de diseño web en HTML y CSS',
       minify: {
         collapseWhitespace: true
       },
