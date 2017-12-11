@@ -1,6 +1,6 @@
 # morph
 
-![Morph Logo](https://image.ibb.co/iqOQ7F/morph_logo_mini_fw.png)
+![Morph Logo](https://image.ibb.co/dOceFG/morph_logo_mini_fw.png)
 
 ## ¿Qué es morph?
 
