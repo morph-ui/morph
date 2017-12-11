@@ -50,7 +50,7 @@ module.exports = {
   },
   plugins: [
       new HtmlWebpackPlugin({
-      title: 'morph',
+      title: 'morph' + package.version,
       minify: {
         collapseWhitespace: true
       },

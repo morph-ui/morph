@@ -1,7 +1,7 @@
 {
-  "name": "webpack2-config",
+  "name": "morph",
   "version": "1.6.2",
-  "description": "webpack2 project started",
+  "description": "Morph es una colección de patrones para crear Interfaces Gráficas de Usuario (GUI - Graphic User Interface) de la manera más sencilla posible.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
