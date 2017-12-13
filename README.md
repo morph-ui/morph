@@ -1,4 +1,4 @@
-![Morph Logo](https://image.ibb.co/bG0pkR/morph_vect.png)
+![Morph Logo](https://image.ibb.co/bs1vQR/morph_vect_mini_fw.png)
 
 ## ¿Qué es Morph?
 
