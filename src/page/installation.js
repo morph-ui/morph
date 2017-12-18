@@ -6,9 +6,9 @@ export default class Installation extends React.Component {
   render() {
     return (
       <div>
-        <h2>
+        <h1>
           Instalación simple
-        </h2>
+        </h1>
         <div className="row">
           <div className="nine columns">
             <p>
@@ -21,7 +21,7 @@ export default class Installation extends React.Component {
         <div className="row">
           <div className="nine columns">
             <h4>
-              2. Luego de descargar, descomprime el zip
+              2. Luego de descargar descomprime el archivo en formato zip
             </h4>
             <img src="https://image.ibb.co/d8v87w/Descomprimir.png" />
           </div>
@@ -29,7 +29,7 @@ export default class Installation extends React.Component {
         <div className="row">
           <div className="nine columns">
             <h4>
-              3. Una vez descomprimido, copia el folder "dist" en tu proyecto
+              3. Una vez descomprimido procede a copiar la carpeta "dist" en tu proyecto
             </h4>
             <img src="https://image.ibb.co/gUUAnw/Proyecto1.png" />
           </div>

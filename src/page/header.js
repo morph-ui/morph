@@ -4,6 +4,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
+        <h1>Cabecera</h1>
         <h3>Cabeceras con opciones a la izquierda</h3>
         <header className="margin-5">
           <div className="brand">

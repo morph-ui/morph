@@ -1,7 +1,6 @@
 table {
   border-spacing: 1;
   border-collapse: collapse;
-  margin: 10px;
   border: 1px solid $gray-border;
 
   &.expanded {

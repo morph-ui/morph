@@ -4,7 +4,8 @@ export default class Button extends React.Component {
   render() {
     return (
       <div>
-        <h3>Botones</h3>
+        <h1>Boton</h1>
+        <h3>Botones simples</h3>
         <p>
           <button>
             Boton

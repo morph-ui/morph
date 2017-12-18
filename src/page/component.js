@@ -12,7 +12,7 @@ import NavPage from '../page/nav';
 const navMenu = [
   {
     url: '/componentes/primer-paso',
-    name: 'Primer paso'
+    name: 'Primeros pasos'
   },
   {
     url: '/componentes/grid',

@@ -1,56 +1,27 @@
 import React from 'react';
+import {UnControlled as CodeMirror} from 'react-codemirror2';
 
 export default class Grid extends React.Component {
   render() {
     return (
       <div>
-        <h3>Sistema de grilla</h3>
-        <div className="gray-color padding-10">
-            <div className="row">
-              <div className="one column white-color padding-5 margin-10">One</div>
-              <div className="eleven columns white-color padding-5 margin-10">Eleven</div>
-            </div>
-            <div className="row">
-              <div className="two columns white-color padding-5 margin-10">Two</div>
-              <div className="ten columns white-color padding-5 margin-10">Ten</div>
-            </div>
-            <div className="row">
-              <div className="three columns white-color padding-5 margin-10">Three</div>
-              <div className="nine columns white-color padding-5 margin-10">Nine</div>
-            </div>
-            <div className="row">
-              <div className="four columns white-color padding-5 margin-10">Four</div>
-              <div className="eight columns white-color padding-5 margin-10">Eight</div>
-            </div>
-            <div className="row">
-              <div className="five columns white-color padding-5 margin-10">Five</div>
-              <div className="seven columns white-color padding-5 margin-10">Seven</div>
-            </div>
-            <div className="row">
-              <div className="six columns white-color padding-5 margin-10">Six</div>
-              <div className="six columns white-color padding-5 margin-10">Six</div>
-            </div>
-            <div className="row">
-              <div className="seven columns white-color padding-5 margin-10">Seven</div>
-              <div className="five columns white-color padding-5 margin-10">Five</div>
-            </div>
-            <div className="row">
-              <div className="eight columns white-color padding-5 margin-10">Eight</div>
-              <div className="four  columns white-color padding-5 margin-10">Four</div>
-            </div>
-            <div className="row">
-              <div className="nine columns white-color padding-5 margin-10">Nine</div>
-              <div className="three columns white-color padding-5 margin-10">Three</div>
-            </div>
-            <div className="row">
-              <div className="ten columns white-color padding-5 margin-10">Ten</div>
-              <div className="two columns white-color padding-5 margin-10">Two</div>
-            </div>
-            <div className="row">
-              <div className="eleven columns white-color padding-5 margin-10">Eleven</div>
-              <div className="one column white-color padding-5 margin-10">One</div>
-            </div>
+        <h1>Sistema de grilla</h1>
+        <div className="row">
+          <div className="nine columns">
+            <p>El sistema de grilla está basado en un esquema de 12 columnas con clases <strong>CSS </strong>
+            que están nombradas simplemente con la nomenclatura de números y columnas en inglés (one, two, three..., twelve) y
+            una clase (column o columns de acuerdo a la cantidad de columnas)
+            </p>
+            <iframe width="100%"
+              height="410"
+              src="//jsfiddle.net/techfano/19yju8dr/embedded/result,html,css/"
+              allowpaymentrequest
+              allowfullscreen="allowfullscreen"
+              frameborder="0">
+            </iframe>
           </div>
+        </div>
+
       </div>
     )
   }

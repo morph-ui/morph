@@ -21,7 +21,7 @@ export default class NavPage extends React.Component {
     return (
       <div>
         <div className="row">
-          <h2>Componente de navegación</h2>
+          <h1>Componente de navegación</h1>
         </div>
         <div className="row">
           <div className="two columns">
@@ -49,7 +49,7 @@ export default class NavPage extends React.Component {
           </div>
         </div>
         <div className="row">
-          <h4>Cambemos de color (red, yellow, green, blue, black, gray), por ejemplo a Rojo (red)</h4>
+          <h4>Cambiemos de color la navegación (red, yellow, green, blue, black, gray), por ejemplo a Rojo (red)</h4>
         </div>
         <div className="row">
           <div className="two columns">

@@ -4,7 +4,7 @@ export default class Input extends React.Component {
   render() {
     return (
       <div>
-        <h3>Cajas de texto</h3>
+        <h1>Caja de texto</h1>
         <p>
           <label>Cajas de texto</label>
           <input type="text" name="" defaultValue="" placeholder="Input" />
