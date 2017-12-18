@@ -8,7 +8,6 @@ a.button:hover{
 
 .button {
   @extend .white-color;
-  font-weight: lighter;
   padding: 10px;
   margin: 5px;
   font-size: 12px;

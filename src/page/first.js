@@ -25,8 +25,7 @@ export default class First extends React.Component {
               value='<header>
               </header>'
               options={{
-                mode: 'xml',
-                theme: 'material',
+                mode: 'xml',  
                 lineNumbers: true,
                 readOnly: true
               }}
@@ -45,8 +44,7 @@ export default class First extends React.Component {
               value='<header class="fixed">
               </header>'
               options={{
-                mode: 'xml',
-                theme: 'material',
+                mode: 'xml',  
                 lineNumbers: true,
                 readOnly: true
               }}
@@ -68,8 +66,7 @@ export default class First extends React.Component {
               </div>
               </header>'
               options={{
-                mode: 'xml',
-                theme: 'material',
+                mode: 'xml',  
                 lineNumbers: true,
                 readOnly: true
               }}
@@ -109,8 +106,7 @@ export default class First extends React.Component {
               </div>
               </header>'
               options={{
-                mode: 'xml',
-                theme: 'material',
+                mode: 'xml',  
                 lineNumbers: true,
                 readOnly: true
               }}
@@ -160,8 +156,7 @@ export default class First extends React.Component {
               </div>
               </header>'
               options={{
-                mode: 'xml',
-                theme: 'material',
+                mode: 'xml',  
                 lineNumbers: true,
                 readOnly: true
               }}
@@ -217,8 +212,7 @@ export default class First extends React.Component {
               </div>
               </header>'
               options={{
-                mode: 'xml',
-                theme: 'material',
+                mode: 'xml',  
                 lineNumbers: true,
                 readOnly: true
               }}

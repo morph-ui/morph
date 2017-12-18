@@ -58,7 +58,7 @@ export default class Table extends React.Component {
 
             <iframe width="100%"
               height="300"
-              src="//jsfiddle.net/techfano/3c0k600c/embedded/result,html,css/" 
+              src="//jsfiddle.net/techfano/3c0k600c/embedded/result,html/" 
               allowpaymentrequest
               allowfullscreen="allowfullscreen"
               frameborder="0">

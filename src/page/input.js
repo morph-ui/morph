@@ -4,104 +4,51 @@ export default class Input extends React.Component {
   render() {
     return (
       <div>
-        <h1>Caja de texto</h1>
-        <p>
-          <label>Cajas de texto</label>
-          <input type="text" name="" defaultValue="" placeholder="Input" />
+        <div className="row">
+          <div className="ten columns">
+            <h1>Cajas de texto</h1>
 
-          <label>Cajas de texto roja</label>
-          <input type="text" name="" defaultValue="" placeholder="Input red" className="red" />
+            <iframe width="100%"
+              height="500"
+              src="//jsfiddle.net/techfano/r2f6qy1t/embedded/result,html/"
+              allowpaymentrequest
+              allowfullscreen="allowfullscreen"
+              frameborder="0">
+            </iframe>
 
-          <label>Cajas de texto negra</label>
-          <input type="text" name="" defaultValue="" placeholder="Input black" className="black" />
-
-          <label>Cajas de texto azul</label>
-          <input type="text" name="" defaultValue="" placeholder="Input blue" className="blue" />
-
-          <label>Cajas de texto amarillo</label>
-          <input type="text" name="" defaultValue="" placeholder="Input yellow" className="yellow" />
-
-          <label>Cajas de texto verde</label>
-          <input type="text" name="" defaultValue="" placeholder="Input green" className="green" />
-        </p>
-        <hr/>
-        <br/>
-        <h3>Cajas de texto con botoones (.input-box)</h3>
-        <div className="input-box">
-          <input type="text" />
-          <button type="button">Buscar</button>
-        </div>
-        <div className="input-box">
-          <input type="text" />
-          <button type="button" name="button" className="rounded">Buscar</button>
-        </div>
-        <div className="input-box">
-          <input type="text" />
-          <button type="button" name="button" className="rounded red">Buscar</button>
-        </div>
-        <div className="input-box">
-          <input type="text" />
-          <button type="button" name="button" className="rounded black">
-            <span className="icon search_white"></span>
-            Buscar
-          </button>
-        </div>
-        <div className="input-box">
-          <label>S/.</label>
-          <input type="number"
-            defaultValue="850"
-            min="850"
-            max="20000"
-            step="50"
-            maxLength="5"
-            style={{width:'100px'}} />
-          <button type="button" name="button" className="rounded blue">
-            <span className="icon search_white"></span>
-          </button>
+          </div>
         </div>
 
-        <div className="input-box large">
-          <label>S/.</label>
-          <input type="number"
-            defaultValue="850"
-            min="850"
-            max="20000"
-            step="50"
-            maxLength="5"
-            style={{width:'100px'}} />
-          <button type="button" name="button" className="rounded blue">
-            <span className="icon search_white"></span>
-          </button>
+        <div className="row">
+          <div className="ten columns">
+            <h1>Cajas de texto con boton (.input-box)</h1>
+
+            <iframe width="100%"
+              height="300"
+              src="//jsfiddle.net/techfano/ov6mo8Lg/embedded/result,html/"
+              allowpaymentrequest
+              allowfullscreen="allowfullscreen"
+              frameborder="0">
+            </iframe>
+
+          </div>
         </div>
 
-        <div className="input-box large">
-          <label>S/.</label>
-          <input type="number"
-            defaultValue="850"
-            min="850"
-            max="20000"
-            step="50"
-            maxLength="5"
-            style={{width:'100px'}} />
-          <button type="button" name="button" className="rounded blue">
-            Buscar
-          </button>
+        <div className="row">
+          <div className="ten columns">
+            <h1>Cajas de texto con boton redondeado (.input-box .rounded)</h1>
+
+            <iframe width="100%"
+              height="300"
+              src="//jsfiddle.net/techfano/funks8gL/embedded/result,html/"
+              allowpaymentrequest
+              allowfullscreen="allowfullscreen"
+              frameborder="0">
+            </iframe>
+
+          </div>
         </div>
 
-        <div className="input-box large">
-          <label>S/.</label>
-          <input type="number"
-            defaultValue="850"
-            min="850"
-            max="20000"
-            step="50"
-            maxLength="5"
-            style={{width:'100px'}}/>
-          <button type="button" name="button" className="rounded red">
-            <span className="icon search_white"></span>
-            Buscar
-          </button>
-        </div>
       </div>
     )
   }
