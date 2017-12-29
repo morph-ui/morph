@@ -42,16 +42,25 @@ const navMenu = [
 
 
 export default class Component extends React.Component {
+
+  processRedirect(){
+    if(this.props.location.pathname === this.props.match.url){
+      return(
+        <Redirect to="/componentes/primer-paso"/>
+      )
+    }
+  }
+
   render() {
     return (
       <div>
         <div className="row">
+          <div>{this.processRedirect()}</div>
           <div className="two columns padding-5">
             <Nav position="fixed"
               options={ navMenu }/>
           </div>
           <div className="ten no-margin columns padding-5">
-            <Redirect to="/componentes/primer-paso"/>
             <Route exact path={`${this.props.match.url}/primer-paso`} component={First} />
             <Route path={`${this.props.match.url}/grid`} component={Grid} />
             <Route path={`${this.props.match.url}/table`} component={Table} />

@@ -12,9 +12,7 @@ export default class Button extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/a3obsrcc/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>
@@ -27,9 +25,7 @@ export default class Button extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/np2deoop/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>
@@ -42,9 +38,7 @@ export default class Button extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/y227sr5t/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>
@@ -57,9 +51,7 @@ export default class Button extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/4yq5xbn2/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>
@@ -72,9 +64,7 @@ export default class Button extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/a9hzb44h/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>
@@ -87,9 +77,7 @@ export default class Button extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/szt753hw/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>

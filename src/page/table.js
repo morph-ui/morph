@@ -14,9 +14,7 @@ export default class Table extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/8zvke4uo/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>
@@ -29,9 +27,7 @@ export default class Table extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/8jmnr6rr/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>
@@ -44,9 +40,7 @@ export default class Table extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/k0s5nma6/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>
@@ -58,10 +52,8 @@ export default class Table extends React.Component {
 
             <iframe width="100%"
               height="300"
-              src="//jsfiddle.net/techfano/3c0k600c/embedded/result,html/" 
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              src="//jsfiddle.net/techfano/3c0k600c/embedded/result,html/"
+              frameBorder="0">
             </iframe>
 
           </div>
@@ -74,9 +66,7 @@ export default class Table extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/sv40pksL/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>
@@ -89,9 +79,7 @@ export default class Table extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/Lvq2k2sx/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>

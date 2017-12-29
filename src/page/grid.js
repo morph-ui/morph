@@ -13,11 +13,9 @@ export default class Grid extends React.Component {
             una clase (column o columns de acuerdo a la cantidad de columnas)
             </p>
             <iframe width="100%"
-              height="410"
+              height="590"
               src="//jsfiddle.net/techfano/19yju8dr/embedded/result,html,css/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
           </div>
         </div>

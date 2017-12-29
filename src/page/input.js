@@ -11,9 +11,7 @@ export default class Input extends React.Component {
             <iframe width="100%"
               height="500"
               src="//jsfiddle.net/techfano/r2f6qy1t/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>
@@ -26,9 +24,7 @@ export default class Input extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/ov6mo8Lg/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>
@@ -41,9 +37,7 @@ export default class Input extends React.Component {
             <iframe width="100%"
               height="300"
               src="//jsfiddle.net/techfano/funks8gL/embedded/result,html/"
-              allowpaymentrequest
-              allowfullscreen="allowfullscreen"
-              frameborder="0">
+              frameBorder="0">
             </iframe>
 
           </div>
