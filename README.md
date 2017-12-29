@@ -1,26 +1,23 @@
-# morph
+![Morph Logo](https://image.ibb.co/bs1vQR/morph_vect_mini_fw.png)
 
-![Morph Logo](https://image.ibb.co/dOceFG/morph_logo_mini_fw.png)
+## ¿Qué es Morph?
 
-## ¿Qué es morph?
+Morph es una colección de patrones de diseño web para **interfaces graficas de usuario (GUI - Graphic User Interface)**. Las cuales han sido creadas usando solamente **HTML** natural y un mínimo de clases **CSS** abstraídas con una sintaxis semántica. Todo ello para mejorar la experiencia del diseñador, programador y del usuario.
 
-Morph es una colección de Patrones de Diseño Web para Interfaces Graficas de Usuario (GUI). Las cuales han sido creadas usando solamente HTML natural y un mínimo de clases CSS abstraídas con una sintaxis semántica. Todo ello para mejorar la experiencia del diseñador, programador y del usuario.
-
-- Documentación sobre morph a detalle [documentación](https://github.com/techfano/morph/wiki/Morph-fundamentos)
-- [Web Demo](https://morph.pe/)
-- More documentation about morph [wiki](https://github.com/techfano/morph/wiki/Soon-in-English)
+- [Sitio Web](https://morph.pe/)
+- **(Inglés - English)** More documentation about morph [wiki](https://github.com/techfano/morph/wiki/Soon-in-English)
 
 ## Instalación simple
 
 **1. Ve a la página [morph.pe](https://morph.pe) y descarga la última versión estable haciendo clic en el enlace Descargar [número de versión]**
 
-**2. Luego de descargar, descomprime el zip**
+**2. Luego de descargar, descomprime el archivo en zip**
 ![Morph Logo](https://image.ibb.co/d8v87w/Descomprimir.png)
 
-**3. Una vez descomprimido, copia el folder "dist" en tu proyecto**
+**3. Una vez descomprimido el archivo procede a copiar la carpeta "dist" en tu proyecto**
 ![Morph Logo](https://image.ibb.co/gUUAnw/Proyecto1.png)
 
-**4. Luego inserta el archivo morph-x.css en tu proyecto a través de la etiqueta link**
+**4. Luego inserta el archivo morph-x.css en tu archivo html a través de la etiqueta link**
 ![Morph Logo](https://image.ibb.co/mrGefG/Proyecto2.png)
 
 Por ejemplo:
@@ -36,4 +33,4 @@ Por ejemplo:
  
 Una vez instalado morph, la mayoría de los elementos HTML usaran los estilos predefinidos, pero para ciertos colores o características deseadas se deben manejar y editar ciertas clases y elementos como mostraremos a continuación:
 
-- Para más detalles visita [morph.pe](https://morph.pe)
+- Para más detalles visita [https://morph.pe/componentes/primer-paso](https://morph.pe/componentes/primer-paso)
