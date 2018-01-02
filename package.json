@@ -1,6 +1,6 @@
 {
   "name": "morph",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "Morph es una colección de patrones para crear Interfaces Gráficas de Usuario (GUI - Graphic User Interface) de la manera más sencilla posible.",
   "main": "index.js",
   "scripts": {
@@ -48,8 +48,6 @@
     "zip-webpack-plugin": "^2.1.0"
   },
   "dependencies": {
-    "codemirror": "^5.32.0",
-    "react-codemirror2": "^3.0.7",
     "react-router-dom": "^4.2.2"
   }
 }

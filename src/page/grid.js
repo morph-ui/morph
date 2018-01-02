@@ -1,5 +1,4 @@
 import React from 'react';
-import {UnControlled as CodeMirror} from 'react-codemirror2';
 
 export default class Grid extends React.Component {
   render() {

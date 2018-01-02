@@ -25,6 +25,14 @@
     background: url("icons/add_white.svg") no-repeat center;
   }
 
+  &.arrow_forward_black {
+    background: url("icons/arrow_forward_black.svg") no-repeat center;
+  }
+
+  &.arrow_forward_white {
+    background: url("icons/arrow_forward_white.svg") no-repeat center;
+  }
+
   &.chat_black {
     background: url("icons/chat_black.svg") no-repeat center;
   }
@@ -167,6 +175,22 @@
 
   &.search_white {
     background: url("icons/search_white.svg") no-repeat center;
+  }
+
+  &.share_black {
+    background: url("icons/share_black.svg") no-repeat center;
+  }
+
+  &.share_white {
+    background: url("icons/share_white.svg") no-repeat center;
+  }
+
+  &.turned_in_not_black {
+    background: url("icons/turned_in_not_black.svg") no-repeat center;
+  }
+
+  &.turned_in_not_white {
+    background: url("icons/turned_in_not_white.svg") no-repeat center;
   }
 
   &.visibility_black {

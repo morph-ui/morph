@@ -13,7 +13,7 @@
 @import "css/components/table.css";
 @import "css/components/grid.css";
 @import "css/components/header.css";
-@import "css/components/nav.css";
+@import "css/components/card.css";
 
 *{
   font-family: 'Roboto', sans-serif;
@@ -22,9 +22,4 @@
 
 h1, h2, h3, h4, h5, strong, b {
   font-weight: 400;
-}
-
-.CodeMirror {
-  border: 1px solid #eee;
-  height: auto;
 }

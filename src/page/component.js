@@ -5,38 +5,33 @@ import Button from '../page/button';
 import Input from '../page/input';
 import Grid from '../page/grid';
 import Table from '../page/table';
-import Header from '../page/header';
-import First from '../page/first';
-import NavPage from '../page/nav';
+import HeaderPage from '../page/header';
+import CardPage from '../page/card';
 
 const navMenu = [
   {
-    url: '/componentes/primer-paso',
-    name: 'Primeros pasos'
-  },
-  {
-    url: '/componentes/grid',
+    url: '/componentes/grilla',
     name: 'Grilla'
   },
   {
-    url: '/componentes/table',
+    url: '/componentes/tabla',
     name: 'Tabla'
   },
   {
-    url: '/componentes/button',
+    url: '/componentes/boton',
     name: 'Boton'
   },
   {
-    url: '/componentes/input',
+    url: '/componentes/caja_de_texto',
     name: 'Caja de texto'
   },
   {
-    url: '/componentes/header',
+    url: '/componentes/cabecera',
     name: 'Cabecera'
   },
   {
-    url: '/componentes/nav',
-    name: 'Navegación'
+    url: '/componentes/tarjeta',
+    name: 'Tarjeta'
   }
 ]
 
@@ -46,7 +41,7 @@ export default class Component extends React.Component {
   processRedirect(){
     if(this.props.location.pathname === this.props.match.url){
       return(
-        <Redirect to="/componentes/primer-paso"/>
+        <Redirect to="/componentes/grilla"/>
       )
     }
   }
@@ -61,13 +56,12 @@ export default class Component extends React.Component {
               options={ navMenu }/>
           </div>
           <div className="ten no-margin columns padding-5">
-            <Route exact path={`${this.props.match.url}/primer-paso`} component={First} />
-            <Route path={`${this.props.match.url}/grid`} component={Grid} />
-            <Route path={`${this.props.match.url}/table`} component={Table} />
-            <Route path={`${this.props.match.url}/button`} component={Button} />
-            <Route path={`${this.props.match.url}/input`} component={Input} />
-            <Route path={`${this.props.match.url}/header`} component={Header} />
-            <Route path={`${this.props.match.url}/nav`} component={NavPage} />
+            <Route path={`${this.props.match.url}/grilla`} component={Grid} />
+            <Route path={`${this.props.match.url}/tabla`} component={Table} />
+            <Route path={`${this.props.match.url}/boton`} component={Button} />
+            <Route path={`${this.props.match.url}/caja_de_texto`} component={Input} />
+            <Route path={`${this.props.match.url}/cabecera`} component={HeaderPage} />
+            <Route path={`${this.props.match.url}/tarjeta`} component={CardPage} />
           </div>
         </div>
       </div>

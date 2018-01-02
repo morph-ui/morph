@@ -1,6 +1,5 @@
 import React from 'react';
 import packageJson from '../../package.json';
-import {UnControlled as CodeMirror} from 'react-codemirror2';
 
 export default class Installation extends React.Component {
   render() {
@@ -42,29 +41,6 @@ export default class Installation extends React.Component {
             <img src="https://image.ibb.co/mrGefG/Proyecto2.png" />
           </div>
         </div>
-        <div className="row">
-          <div className="nine columns">
-            <h4>
-              Por ejemplo:
-            </h4>
-            <CodeMirror
-              value='<head>
-                <meta charset="utf-8" />
-                <title></title>
-                <link rel="stylesheet" href="dist/morph-[version].css" />
-              </head>'
-              options={{
-                mode: 'xml',
-                theme: 'material',
-                lineNumbers: true,
-                readOnly: true
-              }}
-              onChange={(editor, data, value) => {
-              }}
-            />
-          </div>
-        </div>
-
       </div>
     )
   }
