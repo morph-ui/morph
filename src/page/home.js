@@ -6,7 +6,10 @@ export default class Home extends React.Component {
     return (
       <div>
         <p>
-          <img src="https://image.ibb.co/bs1vQR/morph_vect_mini_fw.png" alt="" />
+          <img src="https://image.ibb.co/bs1vQR/morph_vect_mini_fw.png"
+            height="90"
+            width="400"
+            alt="" />
         </p>
         <h1>
           ¿Qué es morph?
