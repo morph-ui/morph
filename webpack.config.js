@@ -31,10 +31,10 @@ module.exports = {
           use: ['css-loader','postcss-loader'],
           publicPath: '/'
         })
-      },{
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: 'babel-loader'
+      },
+      {
+          test: /\.(eot|svg|ttf|woff|woff2)$/,
+          loader: 'file-loader?name=public/fonts/[name].[ext]'
       }
     ]
   },

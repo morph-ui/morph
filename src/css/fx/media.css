@@ -13,6 +13,16 @@
       display: none;
     }
   }
+
+  .card{
+    & .content{
+      & .media{
+        iframe{
+          height: 300px;
+        }
+      }
+    }
+  }
 }
 
 @media (min-width: 1000px) {
@@ -25,6 +35,16 @@
     }
     & .menu{
       display: none;
+    }
+  }
+
+  .card{
+    & .content{
+      & .media{
+        iframe{
+          height: 450px;
+        }
+      }
     }
   }
 }

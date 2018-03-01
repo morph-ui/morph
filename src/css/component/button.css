@@ -1,0 +1,36 @@
+button{
+  position: relative;
+  color: white;
+  border: 1px solid #CCC;
+  padding: 5px 10px 5px 30px;
+  outline: none;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 16px;
+  @extend .transition;
+  & .icon{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 30px;
+    font-size: 18px;
+  }
+  &.primary{
+    &:focus{
+      font-weight: 300;
+      @extend .primary-focus;
+    }
+    &:hover{
+      @extend .primary-hover;
+    }
+  }
+  &.secondary{
+    &:focus{
+      font-weight: 300;
+      @extend .secondary-focus;
+    }
+    &:hover{
+      @extend .secondary-hover;
+    }
+  }
+}

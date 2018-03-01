@@ -1,4 +1,4 @@
 .shadow {
-    -webkit-box-shadow: 0 2px 6px 0 $shadow;
-    box-shadow: 0 2px 6px 0 $shadow;
+    -webkit-box-shadow: 0 2px 6px 0 $grey-500;
+    box-shadow: 0 2px 6px 0 $grey-500;
 }

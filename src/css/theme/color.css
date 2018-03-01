@@ -1,0 +1,63 @@
+@import "pallete.css";
+
+.red{
+  background-color: $red-500;
+  border: 2px solid $red-500;
+  color: white;
+}
+
+.red-hover{
+  background-color: $red-400;
+  border: 2px solid $red-400;
+  color: white;
+  @extend .shadow;
+}
+
+.red-inverted{
+  border: 2px solid $red-500;
+  background-color: white;
+  color: $red-500;
+}
+
+.blue{
+  background-color: $blue-500;
+  border: 2px solid $blue-500;
+  color: white;
+}
+
+.blue-hover{
+  background-color: $blue-400;
+  border: 2px solid $blue-400;
+  color: white;
+  @extend .shadow;
+}
+
+.blue-inverted{
+  border: 2px solid $blue-500;
+  background-color: white;
+  color: $blue-500;
+}
+
+.primary{
+  @extend .red;
+}
+
+.primary-hover{
+  @extend .red-hover;
+}
+
+.primary-focus{
+  @extend .red-inverted;
+}
+
+.secondary{
+  @extend .blue;
+}
+
+.secondary-hover{
+  @extend .blue-hover;
+}
+
+.secondary-focus{
+  @extend .blue-inverted;
+}
