@@ -1,15 +1,25 @@
 @import "font/MaterialIcons.css";
 @import "font/NunitoSans.css";
+@import "css/layout/grid.css";
+@import "css/layout/alignment.css";
 @import "css/component/button.css";
+@import "css/component/button.css";
+@import "css/component/header.css";
 @import "css/theme/color.css";
 @import "css/fx/transition.css";
 @import "css/fx/shadow.css";
 
 *{
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 h1, h2, h3, h4, h5, strong, b {
   font-weight: 400;
+}
+
+body{
+  background: #ebebeb;
+  padding: 0;
+  margin: 0;
 }
