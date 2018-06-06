@@ -1,4 +1,21 @@
 @import "pallete.css";
+/*system basics*/
+.gray{
+  background: gray;
+}
+.white{
+  background: white;
+}
+
+.text-white{
+  color: white;
+}
+.text-gray{
+  color: gray;
+}
+/*system basics*/
+
+
 
 .red{
   background-color: $red-500;

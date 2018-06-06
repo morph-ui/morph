@@ -2,10 +2,12 @@
 @import "font/NunitoSans.css";
 @import "css/layout/grid.css";
 @import "css/layout/alignment.css";
+@import "css/layout/color.css";
+@import "css/layout/box-model.css";
+/************/
 @import "css/component/button.css";
 @import "css/component/button.css";
 @import "css/component/header.css";
-@import "css/theme/color.css";
 @import "css/fx/transition.css";
 @import "css/fx/shadow.css";
 

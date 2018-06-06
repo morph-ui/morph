@@ -1,12 +1,14 @@
-.row{
-  display: flex;
-  & .column, .one{
-    flex: 1;
-  }
-  @each $val, $i in zero, one, two, three, four, five, six , seven , eight, nine, ten, eleven, twelve {
-    @if $i > 0 {
-      & .$(val) {
-        flex: $(i);
+.flex{
+  & .row{
+    display: flex;
+    & .column{
+      flex: 1;
+    }
+    @each $val, $i in zero, one, two, three, four, five, six , seven , eight, nine, ten, eleven, twelve {
+      @if $i > 0 {
+        & .$(val) {
+          flex: $(i);
+        }
       }
     }
   }
