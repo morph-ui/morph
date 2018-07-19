@@ -5,7 +5,7 @@
   font-weight: 200;
   src: local('Nunito Sans ExtraLight'),
   local('NunitoSans-ExtraLight'),
-  url(./font/NunitoSans-ExtraLight.ttf) format('truetype');
+  url(./assets/fonts/NunitoSans-ExtraLight.ttf) format('truetype');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -15,7 +15,7 @@
   font-weight: 200;
   src: local('Nunito Sans ExtraLight'),
   local('NunitoSans-ExtraLight'),
-  url(./font/NunitoSans-ExtraLight.ttf) format('truetype');
+  url(./assets/fonts/NunitoSans-ExtraLight.ttf) format('truetype');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* latin-ext */
@@ -25,7 +25,7 @@
   font-weight: 300;
   src: local('Nunito Sans Light'),
   local('NunitoSans-Light'),
-  url(./font/NunitoSans-Light.ttf) format('truetype');
+  url(./assets/fonts/NunitoSans-Light.ttf) format('truetype');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -35,7 +35,7 @@
   font-weight: 300;
   src: local('Nunito Sans Light'),
   local('NunitoSans-Light'),
-  url(./font/NunitoSans-Light.ttf) format('truetype');
+  url(./assets/fonts/NunitoSans-Light.ttf) format('truetype');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -46,7 +46,7 @@
   font-weight: 400;
   src: local('Nunito Sans Regular'),
   local('NunitoSans-Regular'),
-  url(./font/NunitoSans-Regular.ttf) format('truetype');
+  url(./assets/fonts/NunitoSans-Regular.ttf) format('truetype');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -56,6 +56,6 @@
   font-weight: 400;
   src: local('Nunito Sans Regular'),
   local('NunitoSans-Regular'),
-  url(./font/NunitoSans-Regular.ttf) format('truetype');
+  url(./assets/fonts/NunitoSans-Regular.ttf) format('truetype');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
