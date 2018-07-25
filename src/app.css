@@ -1,5 +1,8 @@
+/*Loading fonts and icons*/
 @import "assets/fonts/MaterialIcons.css";
 @import "assets/fonts/NunitoSans.css";
+
+/*Loading PostCSS files*/
 @import "css/layout/flexbox.css";
 @import "css/layout/box-model.css";
 @import "css/layout/color.css";

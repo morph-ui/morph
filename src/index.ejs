@@ -52,14 +52,25 @@
 </script>
 </head>
 <body>
-<div class="container">
-  <h1>Modelo de cajas con Flexbox</h1>
+  <div class="container">
+    <h1>Modelo de cajas con Flexbox</h1>
+  </div>
+<div class="container margin-bottom-20 margin-top-20">
   <h2>Columnas simples</h2>
+  <p>Organiza la disposición del contenido de tu web (layout) usando la cantidad de columnas y filas que necesites. (basado en flexbox)</p>
   <div class="flex">
     <div class="row">
       <div class="six">
 <textarea id="demo1">
 <div class="flex">
+  <div class="row">
+    <div class="column">
+      Columna 1
+    </div>
+    <div class="column">
+      Columna 2
+    </div>
+  </div>
   <div class="row">
     <div class="column">
       Columna 1
@@ -78,6 +89,11 @@
     </div>
     <div class="column">
       Columna 6
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      Columna 1
     </div>
   </div>
 </div>
@@ -105,6 +121,17 @@
               <div class="column gray text-white margin-5 text-center">
                 Columna 3
               </div>
+            </div>
+            <div class="row">
+              <div class="column gray text-white margin-5 text-center">
+                Columna 1
+              </div>
+              <div class="column gray text-white margin-5 text-center">
+                Columna 2
+              </div>
+              <div class="column gray text-white margin-5 text-center">
+                Columna 3
+              </div>
               <div class="column gray text-white margin-5 text-center">
                 Columna 4
               </div>
@@ -115,129 +142,148 @@
                 Columna 6
               </div>
             </div>
+            <div class="row">
+              <div class="column gray text-white margin-5 text-center">
+                Columna 1
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <h2>Columnas en diferentes tamaños</h2>
-    <div class="row">
-      <div class="six">
-<textarea  id="columnsSized">
-<div class="flex">
-  <div class="row">
-    <div class="one">
-      one
-    </div>
-    <div class="eleven">
-      eleven
-    </div>
-  </div>
-  <div class="row">
-    <div class="two">
-      two
-    </div>
-    <div class="ten">
-      ten
-    </div>
-  </div>
-  <div class="row">
-    <div class="three">
-      three
-    </div>
-    <div class="nine">
-      nine
-    </div>
-  </div>
-  <div class="row">
-    <div class="four">
-      four
-    </div>
-    <div class="eight">
-      eight
-    </div>
-  </div>
-  <div class="row">
-    <div class="five">
-      five
-    </div>
-    <div class="seven">
-      seven
-    </div>
-  </div>
-  <div class="row">
-    <div class="six">
-      six
-    </div>
-    <div class="six">
-      six
     </div>
   </div>
 </div>
+
+<div class="container">
+  <h2>Columnas en diferentes tamaños</h2>
+  <p>Organiza la disposición (layout) del contenido de tu web usando un sistema de grilla en filas y 12 columnas. (basado en flexbox)</p>
+  <div class="flex">
+  <div class="row">
+    <div class="six">
+<textarea  id="columnsSized">
+<div class="flex">
+<div class="row">
+  <div class="column">
+    Columna 1
+  </div>
+  <div class="column">
+    Columna 2
+  </div>
+</div>
+<div class="row">
+  <div class="one">
+    one
+  </div>
+  <div class="eleven">
+    eleven
+  </div>
+</div>
+<div class="row">
+  <div class="two">
+    two
+  </div>
+  <div class="ten">
+    ten
+  </div>
+</div>
+<div class="row">
+  <div class="three">
+    three
+  </div>
+  <div class="nine">
+    nine
+  </div>
+</div>
+<div class="row">
+  <div class="four">
+    four
+  </div>
+  <div class="eight">
+    eight
+  </div>
+</div>
+<div class="row">
+  <div class="five">
+    five
+  </div>
+  <div class="seven">
+    seven
+  </div>
+</div>
+<div class="row">
+  <div class="six">
+    six
+  </div>
+  <div class="six">
+    six
+  </div>
+</div>
+</div>
 </textarea>
-        <script>
-          var delay;
-          var editor = CodeMirror.fromTextArea(document.getElementById("columnsSized"), {
-            mode: "text/html",
-            lineNumbers: true,
-            scrollbarStyle: "simple",
-            readOnly: true
-          });
-        </script>
-      </div>
-      <div class="six">
-        <div class="flex">
-          <div class="row">
-            <div class="one gray text-white margin-5 text-center">
-              one
-            </div>
-            <div class="eleven gray text-white margin-5 text-center">
-              eleven
-            </div>
+      <script>
+        var delay;
+        var editor = CodeMirror.fromTextArea(document.getElementById("columnsSized"), {
+          mode: "text/html",
+          lineNumbers: true,
+          scrollbarStyle: "simple",
+          readOnly: true
+        });
+      </script>
+    </div>
+    <div class="six">
+      <div class="flex">
+        <div class="row">
+          <div class="one gray text-white margin-5 text-center">
+            one
           </div>
-          <div class="row">
-            <div class="two gray text-white margin-5 text-center">
-              two
-            </div>
-            <div class="ten gray text-white margin-5 text-center">
-              ten
-            </div>
+          <div class="eleven gray text-white margin-5 text-center">
+            eleven
           </div>
-          <div class="row">
-            <div class="three gray text-white margin-5 text-center">
-              three
-            </div>
-            <div class="nine gray text-white margin-5 text-center">
-              nine
-            </div>
+        </div>
+        <div class="row">
+          <div class="two gray text-white margin-5 text-center">
+            two
           </div>
-          <div class="row">
-            <div class="four gray text-white margin-5 text-center">
-              four
-            </div>
-            <div class="eight gray text-white margin-5 text-center">
-              eight
-            </div>
+          <div class="ten gray text-white margin-5 text-center">
+            ten
           </div>
-          <div class="row">
-            <div class="five gray text-white margin-5 text-center">
-              five
-            </div>
-            <div class="seven gray text-white margin-5 text-center">
-              seven
-            </div>
+        </div>
+        <div class="row">
+          <div class="three gray text-white margin-5 text-center">
+            three
           </div>
-          <div class="row">
-            <div class="six gray text-white margin-5 text-center">
-              six
-            </div>
-            <div class="six gray text-white margin-5 text-center">
-              six
-            </div>
+          <div class="nine gray text-white margin-5 text-center">
+            nine
+          </div>
+        </div>
+        <div class="row">
+          <div class="four gray text-white margin-5 text-center">
+            four
+          </div>
+          <div class="eight gray text-white margin-5 text-center">
+            eight
+          </div>
+        </div>
+        <div class="row">
+          <div class="five gray text-white margin-5 text-center">
+            five
+          </div>
+          <div class="seven gray text-white margin-5 text-center">
+            seven
+          </div>
+        </div>
+        <div class="row">
+          <div class="six gray text-white margin-5 text-center">
+            six
+          </div>
+          <div class="six gray text-white margin-5 text-center">
+            six
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 </div>
 </body>
 
