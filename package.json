@@ -7,6 +7,11 @@
     "start": "webpack-dev-server",
     "build": "webpack -p"
   },
+  "keywords": [
+    "morph",
+    "gui",
+    "pattern collection"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/techfano/webpack2-config.git"
