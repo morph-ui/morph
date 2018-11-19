@@ -5,6 +5,7 @@ before_script:
   - npm install
 script: 
   - npm run build
+  - cp package.json dist/
   - cd dist/
 deploy:
   provider: npm
@@ -12,4 +13,4 @@ deploy:
   api_key: 
     secure: $NPM
   on:
-    branch: master
+    branch: ci
