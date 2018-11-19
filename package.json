@@ -17,7 +17,7 @@
     "url": "git+https://github.com/techfano/webpack2-config.git"
   },
   "author": "techfano",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/techfano/webpack2-config/issues"
   },
