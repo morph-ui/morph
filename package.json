@@ -1,5 +1,5 @@
 {
-  "name": "morph",
+  "name": "morphcss",
   "version": "1.6.3",
   "description": "Morph es una colección de patrones para crear Interfaces Gráficas de Usuario (GUI - Graphic User Interface) de la manera más sencilla posible.",
   "main": "index.js",
