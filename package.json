@@ -15,11 +15,11 @@
     "CSS"
   ],
   "author": "techfano",
-  "contributors":[
+  "contributors": [
     {
-      "name" : "Ivan Uriarte",
-      "email" : "pilmee@gmail.com",
-      "url" : ""
+      "name": "Ivan Uriarte",
+      "email": "pilmee@gmail.com",
+      "url": ""
     }
   ],
   "publishConfig": {
