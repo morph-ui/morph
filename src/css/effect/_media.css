@@ -1,0 +1,50 @@
+@media (max-width: 1000px) {
+  header.media, .header.media{
+    & .action{
+      display: block;
+    }
+    & .option{
+      display: none;
+    }
+    & ul.menu.show {
+      display: block;
+    }
+    & ul.menu, .menu.hide {
+      display: none;
+    }
+  }
+
+  .card{
+    & .content{
+      & .media{
+        iframe{
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  header.media, .header.media{
+    & .action{
+      display: none;
+    }
+    & .option{
+      display: block;
+    }
+    & .menu{
+      display: none;
+    }
+  }
+
+  .card{
+    & .content{
+      & .media{
+        iframe{
+          height: 450px;
+        }
+      }
+    }
+  }
+}

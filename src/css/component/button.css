@@ -1,36 +1,35 @@
 button{
-  position: relative;
-  color: white;
-  border: 1px solid #CCC;
-  padding: 5px 10px 5px 30px;
+  border: 1px solid $secondary-text-color;
+  background: white;
+  padding: 6px 24px 6px 24px;
   outline: none;
-  font-weight: 300;
-  cursor: pointer;
-  font-size: 16px;
   @extend .transition;
-  & .icon{
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 30px;
-    font-size: 18px;
+  cursor: pointer;
+  &:hover{
+    @extend .shadow;
   }
   &.primary{
+    background: $primary-color;
+    color: white;
     &:focus{
-      font-weight: 300;
-      @extend .primary-focus;
-    }
-    &:hover{
-      @extend .primary-hover;
+      background: $dark-primary-color;
     }
   }
   &.secondary{
+    background: white;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    font-weight: 400;
     &:focus{
-      font-weight: 300;
-      @extend .secondary-focus;
+      border: 1px solid $dark-primary-color;
+      color: $dark-primary-color;
     }
-    &:hover{
-      @extend .secondary-hover;
-    }
+  }
+  &.rounded{
+    border-radius: 18px;
+  }
+  &.circle{
+    padding: 12px 12px 9px 12px;
+    border-radius: 100%;
   }
 }

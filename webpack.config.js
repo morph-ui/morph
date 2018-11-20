@@ -55,7 +55,7 @@ module.exports = {
         collapseWhitespace: true
       },
       hash: true,
-      template: 'src/index.ejs'
+      template: 'src/index.html'
     }),
     new ExtractTextPlugin({
       filename: 'morph-'+ package.version +'.css',

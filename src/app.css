@@ -3,22 +3,26 @@
 @import "assets/fonts/NunitoSans.css";
 
 /*Loading PostCSS files*/
+@import "css/color/pallete.css";
+
+@import "css/effect/shadow.css";
+@import "css/effect/transition.css";
+
 @import "css/layout/flexbox.css";
 @import "css/layout/box-model.css";
-@import "css/layout/color.css";
 @import "css/layout/alignment.css";
 
-/*
+
 @import "css/component/button.css";
-@import "css/component/button.css";
-@import "css/component/header.css";
-@import "css/fx/transition.css";
-@import "css/fx/shadow.css";
-*/
+
+.gray{
+  background: gray;
+  color: white;
+}
 
 *{
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, strong, b {
