@@ -1,22 +1,39 @@
 {
-  "name": "morph",
-  "version": "1.6.4",
-  "description": "Morph es una colección de patrones para crear Interfaces Gráficas de Usuario (GUI - Graphic User Interface) de la manera más sencilla posible.",
+  "name": "@morph-ui/core",
+  "version": "1.9.2",
+  "description": "Morph es un sistema de diseño web hecho en CSS que permite desarrollar componentes para Interfaces Gráficas de Usuario en la Web. Asi mismo, sin depender de ningun framework de forma exclusiva en JS.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack -p"
   },
+  "keywords": [
+    "Morph",
+    "GUI",
+    "UI",
+    "System Design",
+    "CSS"
+  ],
+  "author": "techfano",
+  "contributors":[
+    {
+      "name" : "Ivan Uriarte",
+      "email" : "pilmee@gmail.com",
+      "url" : ""
+    }
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/techfano/webpack2-config.git"
+    "url": "git+https://github.com/techfano/morph.git"
   },
-  "author": "techfano",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/techfano/webpack2-config/issues"
+    "url": "https://github.com/techfano/morph/issues"
   },
-  "homepage": "https://github.com/techfano/webpack2-config#readme",
+  "homepage": "https://morph.pe/",
   "devDependencies": {
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.2",
@@ -39,8 +56,5 @@
     "webpack": "^2.7.0",
     "webpack-dev-server": "^2.4.5",
     "zip-webpack-plugin": "^2.1.0"
-  },
-  "dependencies": {
-    "react-router-dom": "^4.2.2"
   }
 }
