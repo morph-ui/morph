@@ -1,7 +1,7 @@
 {
   "name": "@morph-ui/core",
-  "version": "1.9.2",
-  "description": "Morph es un sistema de diseño web hecho en CSS que permite desarrollar componentes para Interfaces Gráficas de Usuario en la Web. Asi mismo, sin depender de ningun framework de forma exclusiva en JS.",
+  "version": "1.9.4",
+  "description": "Morph es un sistema de diseño web hecho en CSS que permite desarrollar componentes para Interfaces Gráficas de Usuario en la Web. Asi mismo, permite hacerlo sin depender de ningun framework de forma exclusiva en JS.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",

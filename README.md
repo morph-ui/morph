@@ -2,35 +2,29 @@
 
 ## ¿Qué es Morph?
 
-Morph es una colección de patrones de diseño web para **interfaces graficas de usuario (GUI - Graphic User Interface)**. Las cuales han sido creadas usando solamente **HTML** natural y un mínimo de clases **CSS** abstraídas con una sintaxis semántica. Todo ello para mejorar la experiencia del diseñador, programador y del usuario.
+Morph es un sistema de diseño web hecho en CSS que permite desarrollar componentes para Interfaces Gráficas de Usuario en la Web. Asi mismo, permite hacerlo sin depender de ningun framework de forma exclusiva en JS.
 
-- [Sitio Web](https://morph.pe/)
-- **(Inglés - English)** More documentation about morph [wiki](https://github.com/techfano/morph/wiki/Soon-in-English)
+## ¿Como instalar para desarrollar?
 
-## Instalación simple
+**Requisitos para trabajar en el proyecto**
 
-**1. Ve a la página [morph.pe](https://morph.pe) y descarga la última versión estable haciendo clic en el enlace Descargar [número de versión]**
+- [Instalar NodeJS](https://nodejs.org/es/download/)
 
-**2. Luego de descargar, descomprime el archivo en zip**
-![Morph Logo](https://image.ibb.co/d8v87w/Descomprimir.png)
+**Ejecutar los siguientes comandos**
 
-**3. Una vez descomprimido el archivo procede a copiar la carpeta "dist" en tu proyecto**
-![Morph Logo](https://image.ibb.co/gUUAnw/Proyecto1.png)
+- npm start - permite iniciar el proyecto
+- npm run build - permite construir el empaquetado de CSS
 
-**4. Luego inserta el archivo morph-x.css en tu archivo html a través de la etiqueta link**
-![Morph Logo](https://image.ibb.co/mrGefG/Proyecto2.png)
+## ¿Que tecnologias usa Morph?
 
-Por ejemplo:
- ``` [html]
- <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="dist/morph-[version].css">
-  </head>
- ```
+- [Webpack](https://webpack.js.org)
+- [PostCSS](https://postcss.org/)
 
-## ¿Como usar mi primer componente?
+## Reporte de bugs o comunicación con el Equipo
 
-Una vez instalado morph, la mayoría de los elementos HTML usaran los estilos predefinidos, pero para ciertos colores o características deseadas se deben manejar y editar ciertas clases y elementos como mostraremos a continuación:
+ - Estefano Castañeda (mixc21@gmail.com)
+ - Ivan Uriarte (pilmee@gmail.com)
+
+## Más información
 
 - Para más detalles visita [https://morph.pe/componentes](https://morph.pe/componentes)
