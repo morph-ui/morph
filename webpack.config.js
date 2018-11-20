@@ -58,7 +58,7 @@ module.exports = {
       template: 'src/index.ejs'
     }),
     new ExtractTextPlugin({
-      filename: 'morph-'+ package.version +'.css',
+      filename: 'morphcss-'+ package.version +'.css',
       disable: false,
       allChunks: true
     }),
@@ -66,7 +66,7 @@ module.exports = {
       path: './zip',
       pathPrefix: 'dist',
       exclude: [/\.js$/, /\.html$/],
-      filename: 'morph-' + package.version +'.zip',
+      filename: 'morphcss-' + package.version +'.zip',
       zipOptions: {
         forceZip64Format: false,
       },
