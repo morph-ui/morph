@@ -13,4 +13,4 @@ deploy:
   api_key:
     secure: $NPM
   on:
-    branch: version/two
+    branch: master
