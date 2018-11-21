@@ -1,0 +1,35 @@
+button{
+  border: 1px solid $secondary-text-color;
+  background: white;
+  padding: 6px 24px 6px 24px;
+  outline: none;
+  @extend .transition;
+  cursor: pointer;
+  &:hover{
+    @extend .shadow;
+  }
+  &.primary{
+    background: $primary-color;
+    color: white;
+    &:focus{
+      background: $dark-primary-color;
+    }
+  }
+  &.secondary{
+    background: white;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    font-weight: 400;
+    &:focus{
+      border: 1px solid $dark-primary-color;
+      color: $dark-primary-color;
+    }
+  }
+  &.rounded{
+    border-radius: 18px;
+  }
+  &.circle{
+    padding: 12px 12px 9px 12px;
+    border-radius: 100%;
+  }
+}
