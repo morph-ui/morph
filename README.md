@@ -2,7 +2,7 @@
 
 ## ¿Qué es Morph?
 
-Morph es un sistema de diseño web hecho en CSS que permite desarrollar componentes para Interfaces Gráficas de Usuario en la Web. Asi mismo, permite hacerlo sin depender de ningun framework de forma exclusiva en JS.
+Morph es un sistema de diseño web hecho en CSS que permite desarrollar componentes para Interfaces Gráficas de Usuario en la Web. Así mismo, permite hacerlo sin depender de ningun framework de forma exclusiva en JS.
 
 ## ¿Como instalar para desarrollar?
 
@@ -10,12 +10,12 @@ Morph es un sistema de diseño web hecho en CSS que permite desarrollar componen
 
 - [Instalar NodeJS](https://nodejs.org/es/download/)
 
-**Ejecutar los siguientes comandos**
+**Después de clonar el repositorio, debes ejecutar los siguientes comandos**
 
 - npm start - permite iniciar el proyecto
 - npm run build - permite construir el empaquetado de CSS
 
-## ¿Que tecnologias usa Morph?
+## ¿Que tecnologías usa Morph?
 
 - [Webpack](https://webpack.js.org)
 - [PostCSS](https://postcss.org/)
@@ -26,5 +26,3 @@ Morph es un sistema de diseño web hecho en CSS que permite desarrollar componen
  - Ivan Uriarte (pilmee@gmail.com)
 
 ## Más información
-
-- Para más detalles visita [https://morph.pe/componentes](https://morph.pe/componentes)
