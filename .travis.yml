@@ -18,5 +18,6 @@ deploy:
   email: $EMAIL
   api_key:
     secure: $NPM
+  skip_cleanup: true
   on:
     branch: master
