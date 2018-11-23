@@ -6,6 +6,7 @@ before_script:
 script:
   - npm run build
   - cp package.json dist/
+  - cp README.md dist/
   - cd dist/
 deploy:
   provider: npm
