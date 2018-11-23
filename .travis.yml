@@ -8,6 +8,11 @@ script:
   - cp package.json dist/
   - cp README.md dist/
   - cd dist/
+after_success:
+  - npm version patch
+  - git add .
+  - git commit -m 'bump patch version'
+  - git push origin master
 deploy:
   provider: npm
   email: $EMAIL
