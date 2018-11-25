@@ -1,4 +1,4 @@
-button{
+.button{
   border: 1px solid $secondary-text-color;
   background: white;
   padding: 6px 24px 6px 24px;
@@ -32,4 +32,8 @@ button{
     padding: 12px 12px 9px 12px;
     border-radius: 100%;
   }
+}
+
+button{
+  @extend .button;
 }
