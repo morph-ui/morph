@@ -14,6 +14,8 @@
 @import "css/layout/box-model.css";
 @import "css/layout/alignment.css";
 
+/*Loading Type Tools*/
+@import "css/type/font.css";
 
 /*Loading Components Design*/
 @import "css/component/button.css";
