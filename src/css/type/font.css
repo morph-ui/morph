@@ -62,7 +62,7 @@
 
 /*Heading Classes*/
 
-h1 { 
+h1 {
   @extend .font-size-96;
 	letter-spacing: -1.5px;
 	font-weight: lighter;
@@ -75,77 +75,77 @@ h2 {
 }
 
 h3 {
-	@extend .font-size-96;
+	@extend .font-size-48;
 	letter-spacing: 0;
-	font-weight: normal; 
+	font-weight: normal;
 }
 
 h4 {
 	@extend .font-size-36;
 	letter-spacing: 0.25px;
-	font-weight: normal; 
+	font-weight: normal;
 }
 
 h5 {
 	@extend .font-size-27;
 	letter-spacing: 0;
-	font-weight: normal; 
+	font-weight: normal;
 }
 
 h6 {
 	@extend .font-size-24;
 	letter-spacing: 0.15px;
-	font-weight: medium; 
+	font-weight: medium;
 }
 
 /*Text Classes*/
 
-.subtitle-1 {
+.subtitle-1-text {
 	@extend .font-size-18;
 	letter-spacing: 0.15px;
-	font-weight: normal; 
+	font-weight: normal;
 }
 
-.subtitle-2 {
+.subtitle-2-text {
 	@extend .font-size-15;
 	letter-spacing: 0.1px;
-	font-weight: medium; 
+	font-weight: medium;
 }
 
-.body-1 {
+.body-1-text {
 	@extend .font-size-18;
 	letter-spacing: 0.5px;
-	font-weight: normal; 
+	font-weight: normal;
 }
 
-.body-2 {
+.body-2-text {
 	@extend .font-size-15;
 	letter-spacing: 0.25px;
-	font-weight: normal; 
+	font-weight: normal;
 }
 
 .button-text {
 	@extend .font-size-15;
 	letter-spacing: 0.75px;
-	font-weight: medium; 
+	font-weight: medium;
 }
 
 .caption-text {
 	@extend .font-size-12;
 	letter-spacing: 0.4px;
-	font-weight: normal; 
+	font-weight: normal;
 }
 
 .overline-text {
 	@extend .font-size-9;
 	letter-spacing: 1.5px;
-	font-weight: normal; 
+	font-weight: normal;
 }
 
 /*Paragraph Classes*/
 
 p {
-	@extend .body-1;	
+	@extend .body-1;
 	margin: 0;
 	padding: 0.25em 0px;
 	letter-spacing: -0.25px;

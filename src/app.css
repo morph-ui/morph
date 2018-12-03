@@ -20,20 +20,9 @@
 /*Loading Components Design*/
 @import "css/component/button.css";
 
-.gray{
-  background: gray;
-  color: white;
-}
-
 *{
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 300;
-}
-
-h1, h2, h3, h4, h5, strong, b {
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
 }
 
 body{
