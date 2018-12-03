@@ -18,8 +18,8 @@
 @import "css/type/font.css";
 
 /*Loading Form System*/
-@import "css/type/form/input/text.css";
-@import "css/type/form/textarea.css";
+@import "css/form/input/text.css";
+@import "css/form/textarea.css";
 
 /*Loading Components Design*/
 @import "css/component/button.css";
