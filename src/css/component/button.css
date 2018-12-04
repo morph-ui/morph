@@ -1,8 +1,8 @@
 .button{
-  border: 1px solid $secondary-text-color;
   background: white;
-  padding: 6px 24px 6px 24px;
+  padding: 8px 24px 8px 24px;
   outline: none;
+  text-decoration: none;
   @extend .transition;
   cursor: pointer;
   &:hover{

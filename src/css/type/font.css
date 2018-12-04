@@ -145,7 +145,7 @@ h6 {
 /*Paragraph Classes*/
 
 p {
-	@extend .body-1;
+	@extend .body-1-text;
 	margin: 0;
 	padding: 0.25em 0px;
 	letter-spacing: -0.25px;
