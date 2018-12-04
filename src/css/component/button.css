@@ -1,3 +1,7 @@
+a.button{
+  display: inline-flex;
+}
+
 .button{
   background: white;
   padding: 8px 24px 8px 24px;
@@ -26,11 +30,17 @@
     }
   }
   &.rounded{
-    border-radius: 18px;
+    border-radius: 36px;
   }
   &.circle{
     padding: 12px 12px 9px 12px;
     border-radius: 100%;
+  }
+  & .icon{
+    padding: 6px;
+  }
+  & .text{
+    padding-top: 9px;
   }
 }
 
