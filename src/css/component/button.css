@@ -28,6 +28,9 @@ a.button{
       border: 1px solid $dark-primary-color;
       color: $dark-primary-color;
     }
+    & .text{
+      font-weight: 400;
+    }
   }
   &.rounded{
     border-radius: 36px;
