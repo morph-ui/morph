@@ -4,7 +4,8 @@ a.button{
 
 .button{
   background: white;
-  padding: 8px 24px 8px 24px;
+  border: 1px solid $border-color;
+  padding: 9px 24px 9px 24px;
   outline: none;
   text-decoration: none;
   @extend .transition;
@@ -36,7 +37,7 @@ a.button{
     border-radius: 36px;
   }
   &.circle{
-    padding: 12px 12px 9px 12px;
+    padding: 18px;
     border-radius: 100%;
   }
   & .icon{
