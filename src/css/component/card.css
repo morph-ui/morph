@@ -1,0 +1,77 @@
+.card{
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  color: white;
+  &.rounded{
+    border-radius: 10px;
+  }
+  & .header, header{
+    border:none;
+    height: auto;
+    & img {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      height: 50px;
+      width: 50px;
+      float: left;
+      &.rounded {
+        border-radius: 50%;
+      }
+    }
+    & .info{
+      margin-top: 10px;
+      & .title{
+        font-size: 25px;
+        width: auto;
+      }
+      & .meta{
+        width: auto;
+        @extend .gray-text;
+      }
+    }
+  }
+  & .content{
+    & .media{
+      img{
+        height: auto;
+        width: 100%;
+        &.rounded{
+          border-radius: 10px 10px 0 0
+        }
+      }
+      iframe{
+        height: 300px;
+        width: 100%;
+      }
+    }
+    & .controls{
+      padding: 5px;
+      &.right{
+        text-align: right;
+      }
+      &.left{
+        text-align: left;
+      }
+    }
+    & .description{
+      padding: 10px;
+      & h1,h2,h3,h4,h5{
+        margin: 0;
+      }
+    }
+    & .social{
+      padding: 10px;
+      &.right{
+        text-align: right;
+      }
+      &.left{
+        text-align: left;
+      }
+      & button{
+        margin: 0;
+      }
+    }
+  }
+}
