@@ -127,7 +127,7 @@ h6 {
 .button-text {
 	@extend .font-size-15;
 	letter-spacing: 0.75px;
-	font-weight: medium;
+	font-weight: bold;
 }
 
 .caption-text {
@@ -139,6 +139,12 @@ h6 {
 .overline-text {
 	@extend .font-size-9;
 	letter-spacing: 1.5px;
+	font-weight: normal;
+}
+
+.label-text{
+	@extend .font-size-12;
+	letter-spacing: 0.4;
 	font-weight: normal;
 }
 
