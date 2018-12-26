@@ -4,31 +4,26 @@ a.button{
 
 .button{
   background: white;
-  border: 1px solid $border-color;
   padding: 9px 24px 9px 24px;
   outline: none;
   text-decoration: none;
-  @extend .transition;
   cursor: pointer;
+  display: inline-flex;
+  border-radius: 6px;
+  @extend .transition;
+  @extend .button-text;
   &:hover{
     @extend .shadow;
   }
   &.primary{
     background: $primary-color;
     color: white;
-    &:focus{
-      background: $dark-primary-color;
-    }
   }
   &.secondary{
     background: white;
-    border: 1px solid $primary-color;
-    color: $primary-color;
+    border: 1px solid $secondary-color;
+    color: $secondary-color;
     font-weight: 400;
-    &:focus{
-      border: 1px solid $dark-primary-color;
-      color: $dark-primary-color;
-    }
     & .text{
       font-weight: 400;
     }
