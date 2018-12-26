@@ -1,0 +1,4 @@
+label{
+  @extend .label-text;
+  margin-bottom: 9px; 
+}

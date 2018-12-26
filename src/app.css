@@ -18,8 +18,10 @@
 @import "css/type/font.css";
 
 /*Loading Form System*/
+@import "css/form/input/input-box.css";
 @import "css/form/input/text.css";
 @import "css/form/textarea.css";
+@import "css/form/label.css";
 
 /*Loading Components Design*/
 @import "css/component/button.css";
@@ -31,5 +33,5 @@
 
 body{
   padding: 0;
-  margin: 0;
+  margin: 15px;
 }

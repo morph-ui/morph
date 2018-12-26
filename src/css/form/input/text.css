@@ -1,2 +1,16 @@
 input, input[type="text"]{
+  color: $primary-text-color;
+	outline:none;
+  border:none;
+  width: 100%;
+  border-bottom: 3px solid $primary-text-color;
+  &::-webkit-input-placeholder{
+    color: $secondary-text-color;
+    @extend .body-1-text;
+  }
+  &:focus{
+    border-bottom: 3px solid $secondary-color;
+  }
+  @extend .transition;
+  @extend .body-1-text;
 }
