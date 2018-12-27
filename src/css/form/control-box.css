@@ -1,7 +1,7 @@
-.input-box{
+.control-box{
   width: 100%;
   display: inline-grid;
-  & .input-controls{
+  & .control-input{
     display: inline-flex;
     padding-left: 6px;
     border-bottom: 3px solid $primary-text-color;
@@ -31,7 +31,7 @@
       }
     }
   }
-  & .input-message{
+  & .control-message{
     padding: 6px;
     @extend .overline-text;
   }
@@ -39,13 +39,13 @@
     & label{
       color: $error-color;
     }
-    & .input-controls{
+    & .control-input{
       border-bottom: 3px solid $error-color;
       & .action{
         color: $error-color;
       }
     }
-    & .input-message{
+    & .control-message{
       color: $error-color;
     }
     & input[type="text"]{
