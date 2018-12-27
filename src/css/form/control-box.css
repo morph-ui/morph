@@ -39,17 +39,30 @@
     & label{
       color: $error-color;
     }
+    & input[type="text"]{
+      border-bottom: 3px solid $error-color;
+    }
     & .control-input{
       border-bottom: 3px solid $error-color;
       & .action{
         color: $error-color;
       }
     }
+    select{
+      border: 1px solid $error-color;
+      background-image: linear-gradient($error-color, $error-color),
+      linear-gradient(-135deg, transparent 50%, white 50%),
+      linear-gradient(-225deg, transparent 50%, white 50%),
+      linear-gradient(white 42%, $error-color 42%);
+      &:hover{
+        background-image: linear-gradient($error-color, $error-color),
+        linear-gradient(-135deg, transparent 50%, white 50%),
+        linear-gradient(-225deg, transparent 50%, white 50%),
+        linear-gradient(white 42%, $error-color 42%);
+      }
+    }
     & .control-message{
       color: $error-color;
-    }
-    & input[type="text"]{
-      border-bottom: 3px solid $error-color;
     }
   }
 }
