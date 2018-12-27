@@ -134,7 +134,7 @@ h6 {
 .caption-text {
 	@extend .font-size-12;
 	letter-spacing: 0.4px;
-	font-weight: normal;
+	font-weight: medium;
 }
 
 .overline-text {
