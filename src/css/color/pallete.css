@@ -7,4 +7,7 @@ $primary-text-color: #212121;
 $text-icon-color: #3C3C3C;
 $secondary-text-color: #757575;
 $border-color: #BDBDBD;
-$shadow-color: #666666;
+$error-color: #FF1744;
+$shadow-color: #999999;
+$action-color: #EFEFEF;
+

@@ -1,0 +1,55 @@
+.input-box{
+  width: 100%;
+  display: inline-grid;
+  & .input-controls{
+    display: inline-flex;
+    padding-left: 6px;
+    border-bottom: 3px solid $primary-text-color;
+    & input[type="text"]{
+      border-bottom: none !important;
+      padding-bottom: 3px;
+      padding-top: 3px;
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+    & .action{
+      @extend .icon;
+      cursor: pointer;
+      padding-left: 3px;
+      padding-right: 3px;
+      padding-top:3px;
+      padding-bottom:3px;
+      margin-bottom: 3px;
+      user-select: none;
+      &:hover{
+        border-radius: 50%;
+        @extend .transition;
+        @extend .shadow;
+      }
+      &:active{
+        background: $action-color;
+      }
+    }
+  }
+  & .input-message{
+    padding: 6px;
+    @extend .overline-text;
+  }
+  &.error{
+    & label{
+      color: $error-color;
+    }
+    & .input-controls{
+      border-bottom: 3px solid $error-color;
+      & .action{
+        color: $error-color;
+      }
+    }
+    & .input-message{
+      color: $error-color;
+    }
+    & input[type="text"]{
+      border-bottom: 3px solid $error-color;
+    }
+  }
+}
