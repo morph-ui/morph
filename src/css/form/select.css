@@ -23,7 +23,6 @@ select{
   }
   &:focus{
     border: 1px solid $secondary-color;
-    /* background-color: $action-color; */
     background-image: linear-gradient($secondary-color, $secondary-color),
     linear-gradient(-135deg, transparent 50%, white 50%),
     linear-gradient(-225deg, transparent 50%, white 50%),
@@ -44,6 +43,19 @@ select{
     border-radius: 12px;
     padding-left: 9px;
     padding-right: 9px;
+  }
+  &.error{
+    border: 1px solid $error-color;
+    background-image: linear-gradient($error-color, $error-color),
+    linear-gradient(-135deg, transparent 50%, white 50%),
+    linear-gradient(-225deg, transparent 50%, white 50%),
+    linear-gradient(white 42%, $error-color 42%);
+    &:hover{
+      background-image: linear-gradient($error-color, $error-color),
+      linear-gradient(-135deg, transparent 50%, white 50%),
+      linear-gradient(-225deg, transparent 50%, white 50%),
+      linear-gradient(white 42%, $error-color 42%);
+    }
   }
   @extend .transition;
   @extend .caption-text;
