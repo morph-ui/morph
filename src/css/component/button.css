@@ -15,9 +15,15 @@ a.button{
   &:hover{
     @extend .shadow;
   }
+  &:focus{
+    background: $action-color; 
+  }
   &.primary{
     background: $primary-color;
     color: white;
+    &:focus{
+      background: $dark-primary-color; 
+    }
   }
   &.secondary{
     background: white;
@@ -26,6 +32,9 @@ a.button{
     font-weight: 400;
     & .text{
       font-weight: 400;
+    }
+    &:focus{
+      background: $action-color; 
     }
   }
   &.rounded{

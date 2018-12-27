@@ -4,7 +4,6 @@
   & .input-controls{
     display: inline-flex;
     padding-left: 6px;
-    padding-right: 6px;
     border-bottom: 3px solid $primary-text-color;
     & input[type="text"]{
       border-bottom: none !important;
@@ -15,11 +14,26 @@
     }
     & .action{
       @extend .icon;
+      cursor: pointer;
+      padding-left: 3px;
+      padding-right: 3px;
+      padding-top:3px;
+      padding-bottom:3px;
+      margin-bottom: 3px;
+      user-select: none;
+      &:hover{
+        border-radius: 50%;
+        @extend .transition;
+        @extend .shadow;
+      }
+      &:active{
+        background: $action-color;
+      }
     }
   }
   & .input-message{
-    @extend .overline-text;
     padding: 6px;
+    @extend .overline-text;
   }
   &.error{
     & label{
