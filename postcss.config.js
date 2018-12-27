@@ -7,6 +7,7 @@ module.exports = {
     'postcss-conditionals': {},
     'postcss-nested': {},
     'postcss-extend': {},
-    'cssnano': {}
+    'cssnano': {},
+    'autoprefixer': {}
   }
 }

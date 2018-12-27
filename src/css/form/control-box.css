@@ -1,7 +1,7 @@
-.input-box{
+.control-box{
   width: 100%;
   display: inline-grid;
-  & .input-controls{
+  & .control-input{
     display: inline-flex;
     padding-left: 6px;
     border-bottom: 3px solid $primary-text-color;
@@ -31,7 +31,7 @@
       }
     }
   }
-  & .input-message{
+  & .control-message{
     padding: 6px;
     @extend .overline-text;
   }
@@ -39,17 +39,30 @@
     & label{
       color: $error-color;
     }
-    & .input-controls{
+    & input[type="text"]{
+      border-bottom: 3px solid $error-color;
+    }
+    & .control-input{
       border-bottom: 3px solid $error-color;
       & .action{
         color: $error-color;
       }
     }
-    & .input-message{
-      color: $error-color;
+    select{
+      border: 1px solid $error-color;
+      background-image: linear-gradient($error-color, $error-color),
+      linear-gradient(-135deg, transparent 50%, white 50%),
+      linear-gradient(-225deg, transparent 50%, white 50%),
+      linear-gradient(white 42%, $error-color 42%);
+      &:hover{
+        background-image: linear-gradient($error-color, $error-color),
+        linear-gradient(-135deg, transparent 50%, white 50%),
+        linear-gradient(-225deg, transparent 50%, white 50%),
+        linear-gradient(white 42%, $error-color 42%);
+      }
     }
-    & input[type="text"]{
-      border-bottom: 3px solid $error-color;
+    & .control-message{
+      color: $error-color;
     }
   }
 }

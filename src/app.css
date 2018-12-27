@@ -19,10 +19,11 @@
 @import "css/type/font.css";
 
 /*Loading Form System*/
-@import "css/form/input/input-box.css";
+@import "css/form/control-box.css";
 @import "css/form/input/text.css";
-@import "css/form/textarea.css";
 @import "css/form/label.css";
+@import "css/form/select.css";
+@import "css/form/textarea.css";
 
 /*Loading Components Design*/
 @import "css/component/button.css";

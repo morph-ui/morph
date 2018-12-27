@@ -61,5 +61,8 @@
     "webpack": "^2.7.0",
     "webpack-dev-server": "^2.4.5",
     "zip-webpack-plugin": "^2.1.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.4.3"
   }
 }
