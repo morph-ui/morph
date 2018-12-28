@@ -5,7 +5,7 @@ input, input[type="text"]{
   width: 100%;
   border-bottom: 3px solid $primary-text-color;
   &::-webkit-input-placeholder{
-    color: $secondary-text-color;
+    @extend .font-shadow;
     @extend .body-1-text;
   }
   &:focus{
