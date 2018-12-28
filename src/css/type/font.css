@@ -125,7 +125,7 @@ h6 {
 }
 
 .button-text {
-	@extend .font-size-15;
+	@extend .font-size-12;
 	letter-spacing: 0.75px;
 	font-weight: bold;
 	text-transform: uppercase
