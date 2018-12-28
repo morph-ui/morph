@@ -3,32 +3,36 @@ a.button{
 }
 
 .button{
-  background: white;
   padding: 9px 24px 9px 24px;
   outline: none;
   text-decoration: none;
   cursor: pointer;
   display: inline-flex;
   border-radius: 6px;
+  user-select: none;
   @extend .transition;
   @extend .button-text;
+  @extend .default-theme;
   &:hover{
     @extend .shadow;
   }
   &:focus{
     background: $action-color; 
   }
-  &.primary{
-    background: $primary-color;
-    color: white;
-    &:focus{
-      background: $dark-primary-color; 
+  &:disabled, &[disabled]{
+    @extend .disabled-theme;
+    &:hover{
+      box-shadow: none;
+      cursor: not-allowed;
     }
   }
+  &.primary{
+    &:focus{
+      background: $primary-dark-color; 
+    }
+    @extend .primary-theme;
+  }
   &.secondary{
-    background: white;
-    border: 1px solid $secondary-color;
-    color: $secondary-color;
     font-weight: 400;
     & .text{
       font-weight: 400;
@@ -36,6 +40,7 @@ a.button{
     &:focus{
       background: $action-color; 
     }
+    @extend .secondary-theme;
   }
   &.rounded{
     border-radius: 36px;
@@ -43,6 +48,9 @@ a.button{
   &.circle{
     padding: 18px;
     border-radius: 100%;
+  }
+  &.error{
+    @extend .error-theme;
   }
   & .icon{
     padding: 6px;

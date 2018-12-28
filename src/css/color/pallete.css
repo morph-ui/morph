@@ -1,11 +1,11 @@
 $primary-color: #2196F3;
-$dark-primary-color: #1976D2;
-$light-primary-color: #BBDEFB;
+$primary-dark-color: #1976D2;
+$primary-light-color: #BBDEFB;
 $secondary-color: #03A9F4;
-$dark-secondary-color: #03A9F4;
+$secondary-dark-color: #03A9F4;
 $primary-text-color: #212121;
 $secondary-text-color: #757575;
-$text-icon-color: #3C3C3C;
+$icon-text-color: #3C3C3C;
 $border-color: #BDBDBD;
 $error-color: #FF1744;
 $shadow-color: #999999;

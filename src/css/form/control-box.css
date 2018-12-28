@@ -1,6 +1,4 @@
 .control-box{
-  width: 100%;
-  display: inline-grid;
   & .control-input{
     display: inline-flex;
     padding-left: 6px;
@@ -48,7 +46,8 @@
         color: $error-color;
       }
     }
-    select{
+    & select{
+      background-color: white;
       border: 1px solid $error-color;
       background-image: linear-gradient($error-color, $error-color),
       linear-gradient(-135deg, transparent 50%, white 50%),
@@ -61,8 +60,17 @@
         linear-gradient(white 42%, $error-color 42%);
       }
     }
+    & button, .button{
+      @extend .error-theme;
+    }
+    & button.primary{
+      @extend .error-reverse-theme;
+    }
     & .control-message{
       color: $error-color;
     }
+  }
+  & select{
+    width: 100%;
   }
 }

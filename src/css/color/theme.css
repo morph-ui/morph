@@ -1,0 +1,84 @@
+.default-theme{
+  @extend .background-white;
+  @extend .border-color;
+  @extend .font-primary-text;
+}
+
+.black-theme{
+  @extend .background-primary-text;
+  @extend .border-white;
+  @extend .font-white;
+}
+
+.secondary-black-theme{
+  @extend .background-icon-text;
+  @extend .border-white;
+  @extend .font-white;
+}
+
+.gray-theme{
+  @extend .background-secondary-text;  
+  @extend .border-white;
+  @extend .font-white;
+}
+
+.primary-theme{
+  @extend .background-primary;
+  @extend .border-primary;
+  @extend .font-white;
+}
+
+.primary-reverse-theme{
+  @extend .background-white;
+  @extend .border-primary;
+  @extend .font-primary;
+}
+
+.primary-dark-theme{
+  @extend .background-primary-dark;
+  @extend .border-white;
+  @extend .font-white;
+}
+
+.primary-light-theme{
+  @extend .background-primary-light;
+  @extend .border-icon-text;
+  @extend .font-icon-text;
+}
+
+.secondary-theme{
+  @extend .background-white;
+  @extend .border-secondary;
+  @extend .font-secondary;
+}
+
+.secondary-reverse-theme{
+  @extend .background-secondary;
+  @extend .border-white;
+  @extend .font-white;
+}
+
+.secondary-dark-theme{
+  @extend .background-secondary-dark;
+  @extend .border-white;
+  @extend .font-white;
+}
+
+.error-theme{
+  @extend .background-white;
+  @extend .border-error;
+  @extend .font-error;
+}
+
+.error-reverse-theme{
+  @extend .background-error;
+  @extend .border-error;
+  @extend .font-white;
+}
+
+.disabled-theme{
+  @extend .font-primary-text; 
+  @extend .background-border;
+  opacity: 0.5;  
+}
+
