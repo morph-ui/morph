@@ -50,6 +50,7 @@
     }
     select{
       border: 1px solid $error-color;
+      width: 100%;
       background-image: linear-gradient($error-color, $error-color),
       linear-gradient(-135deg, transparent 50%, white 50%),
       linear-gradient(-225deg, transparent 50%, white 50%),

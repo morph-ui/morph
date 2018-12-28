@@ -1,0 +1,4 @@
+.default-theme{
+  background-color: white;
+  border: 1px solid $secondary-text-color;
+}

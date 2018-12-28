@@ -1,5 +1,6 @@
 /*Loading Color theme*/
 @import "css/color/pallete.css";
+@import "css/color/theme.css";
 
 /*Loading Font and Icons*/
 @import "assets/fonts/NunitoSans.css";

@@ -2,6 +2,7 @@ select{
   -webkit-appearance: button;
   appearance: button;
   -webkit-user-select: none;
+  width: 10%;
   user-select: none;
   outline: none;
   background-attachment: white;
