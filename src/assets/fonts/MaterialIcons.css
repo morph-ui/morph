@@ -11,6 +11,9 @@
 }
 
 .icon {
+  color: $icon-text-color;
+  padding-top: 3px;
+  user-select: none;
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;

@@ -22,8 +22,7 @@ Morph es un Sistema de Diseño web hecho en CSS que permite desarrollar componen
 
 ## Reporte de bugs o comunicación con el Equipo
 
- - Estefano Castañeda (mixc21@gmail.com)
- - Ivan Uriarte (pilmee@gmail.com)
+ - Estefano Castañeda (conecta@peru-dev.org)
 
 ## Documento de diseño en DRIVE
 

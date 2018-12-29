@@ -1,9 +1,14 @@
+/*Loading Color theme*/
+@import "css/color/pallete.css";
+@import "css/color/font.css";
+@import "css/color/border.css";
+@import "css/color/background.css";
+@import "css/color/theme.css";
+
 /*Loading Font and Icons*/
 @import "assets/fonts/NunitoSans.css";
 @import "assets/fonts/MaterialIcons.css";
 
-/*Loading Color theme*/
-@import "css/color/pallete.css";
 
 /*Loading CSS Effects*/
 @import "css/effect/shadow.css";
@@ -14,8 +19,15 @@
 @import "css/layout/box-model.css";
 @import "css/layout/alignment.css";
 
-/*Loading Type Tools*/
+/*Loading Type System*/
 @import "css/type/font.css";
+
+/*Loading Form System*/
+@import "css/form/control-box.css";
+@import "css/form/input/text.css";
+@import "css/form/label.css";
+@import "css/form/select.css";
+@import "css/form/textarea.css";
 
 /*Loading Components Design*/
 @import "css/component/button.css";
@@ -27,5 +39,5 @@
 
 body{
   padding: 0;
-  margin: 0;
+  margin: 15px;
 }

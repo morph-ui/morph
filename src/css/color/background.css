@@ -1,0 +1,51 @@
+.background-primary{
+  background-color: $primary-color;
+} 
+
+.background-primary-dark{
+  background-color: $primary-dark-color;
+}
+
+.background-primary-light{
+  background-color: $primary-light-color;
+}
+
+.background-secondary{
+  background-color: $secondary-color;
+}
+
+.background-secondary-dark{
+  background-color: $secondary-dark-color;
+}
+
+.background-primary-text{
+  background-color: $primary-text-color;
+}
+
+.background-secondary-text{
+  background-color: $secondary-text-color;
+}
+
+.background-icon-text{
+  background-color: $icon-text-color;
+}
+
+.background-border{
+  background-color: $border-color;
+}
+
+.background-error{
+  background-color: $error-color;
+}
+
+.background-shadow{
+  background-color: $shadow-color;
+}
+
+.background-action{
+  background-color: $action-color;
+}
+
+.background-white{
+  background-color: white;
+}

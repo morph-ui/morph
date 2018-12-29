@@ -1,0 +1,75 @@
+select{
+  -webkit-appearance: button;
+  appearance: button;
+  -webkit-user-select: none;
+  width: 10%;
+  user-select: none;
+  outline: none;
+  background-attachment: white;
+  padding: 6px;
+  border-radius: 3px;
+  background-image: linear-gradient($border-color, $border-color),
+  linear-gradient(-135deg, transparent 50%, white 50%),
+  linear-gradient(-225deg, transparent 50%, white 50%),
+  linear-gradient(white 42%, $primary-text-color 42%);
+  background-repeat: no-repeat;
+  background-size: 0px 100%, 20px 22px, 20px 22px, 20px 100%;  
+  background-position: right 20px center, right bottom, right bottom, right bottom;
+  @extend .default-theme;
+  &:focus{
+    border: 1px solid $secondary-color;
+    background-image: linear-gradient($secondary-color, $secondary-color),
+    linear-gradient(-135deg, transparent 50%, white 50%),
+    linear-gradient(-225deg, transparent 50%, white 50%),
+    linear-gradient(white 42%, $secondary-color 42%);
+    &:hover{
+      background-image: linear-gradient($secondary-color, $secondary-color),
+      linear-gradient(-135deg, transparent 50%, white 50%),
+      linear-gradient(-225deg, transparent 50%, white 50%),
+      linear-gradient(white 42%, $secondary-color 42%);
+    }
+    @extend .font-400;
+  }  
+  &:hover{
+    cursor: pointer;
+    @extend .shadow-light;
+  }
+  &:disabled, &[disabled]{
+    @extend .disabled-theme;
+    background-image: linear-gradient($error-color, $error-color),
+    linear-gradient(-135deg, transparent 50%, $border-color 50%),
+    linear-gradient(-225deg, transparent 50%, $border-color 50%),
+    linear-gradient($border-color 42%, $primary-text-color 42%);
+    &:hover{
+      box-shadow: none;
+      cursor: not-allowed;
+    }
+  }
+  &.rounded{
+    border-radius: 12px;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  &.error{
+    @extend .border-error;
+    background-image: linear-gradient($error-color, $error-color),
+    linear-gradient(-135deg, transparent 50%, white 50%),
+    linear-gradient(-225deg, transparent 50%, white 50%),
+    linear-gradient(white 42%, $error-color 42%);
+    &:hover{
+      background-image: linear-gradient($error-color, $error-color),
+      linear-gradient(-135deg, transparent 50%, white 50%),
+      linear-gradient(-225deg, transparent 50%, white 50%),
+      linear-gradient(white 42%, $error-color 42%);
+    }
+    &:focus{
+      @extend .border-error;
+      background-image: linear-gradient($error-color, $error-color),
+      linear-gradient(-135deg, transparent 50%, white 50%),
+      linear-gradient(-225deg, transparent 50%, white 50%),
+      linear-gradient(white 42%, $error-color 42%);      
+    }
+  }
+  @extend .transition;
+  @extend .caption-text;
+}

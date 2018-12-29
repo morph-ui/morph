@@ -1,36 +1,62 @@
+a.button{
+  display: inline-flex;
+}
+
 .button{
-  border: 1px solid $secondary-text-color;
-  background: white;
-  padding: 6px 24px 6px 24px;
+  padding: 9px 24px 9px 24px;
   outline: none;
-  @extend .transition;
+  text-decoration: none;
   cursor: pointer;
+  display: inline-flex;
+  border-radius: 6px;
+  user-select: none;
+  @extend .transition;
+  @extend .button-text;
+  @extend .default-theme;
   &:hover{
     @extend .shadow;
   }
-  &.primary{
-    background: $primary-color;
-    color: white;
-    &:focus{
-      background: $dark-primary-color;
+  &:focus{
+    background: $action-color; 
+  }
+  &:disabled, &[disabled]{
+    @extend .disabled-theme;
+    &:hover{
+      box-shadow: none;
+      cursor: not-allowed;
     }
+  }
+  &.primary{
+    &:focus{
+      background: $primary-dark-color; 
+    }
+    @extend .primary-theme;
   }
   &.secondary{
-    background: white;
-    border: 1px solid $primary-color;
-    color: $primary-color;
     font-weight: 400;
-    &:focus{
-      border: 1px solid $dark-primary-color;
-      color: $dark-primary-color;
+    & .text{
+      font-weight: 400;
     }
+    &:focus{
+      background: $action-color; 
+    }
+    @extend .secondary-theme;
   }
   &.rounded{
-    border-radius: 18px;
+    border-radius: 36px;
   }
   &.circle{
-    padding: 12px 12px 9px 12px;
+    padding: 18px;
     border-radius: 100%;
+  }
+  &.error{
+    @extend .error-theme;
+  }
+  & .icon{
+    padding: 6px;
+  }
+  & .text{
+    padding-top: 9px;
   }
 }
 
