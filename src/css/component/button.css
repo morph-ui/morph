@@ -3,7 +3,7 @@ a.button{
 }
 
 .button{
-  padding: 9px 24px 9px 24px;
+  padding: 6px 24px 6px 24px;
   outline: none;
   text-decoration: none;
   cursor: pointer;
@@ -56,7 +56,7 @@ a.button{
     padding: 6px;
   }
   & .text{
-    padding-top: 9px;
+    padding-top: 12px;
   }
 }
 
