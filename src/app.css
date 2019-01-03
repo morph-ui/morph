@@ -31,6 +31,7 @@
 
 /*Loading Components Design*/
 @import "css/component/button.css";
+@import "css/component/header.css";
 
 *{
   font-family: 'Nunito Sans', sans-serif;
@@ -39,5 +40,11 @@
 
 body{
   padding: 0;
-  margin: 15px;
+  margin: 0px;
+}
+
+/*--Helpers---*/
+
+.no-border{
+  border:none !important;
 }
