@@ -32,6 +32,7 @@
 /*Loading Components Design*/
 @import "css/component/button.css";
 @import "css/component/header.css";
+@import "css/component/card.css";
 
 *{
   font-family: 'Nunito Sans', sans-serif;
@@ -47,4 +48,12 @@ body{
 
 .no-border{
   border:none !important;
+}
+
+.left{
+  text-align: left;
+}
+
+.right{
+  text-align: right;
 }
