@@ -9,8 +9,10 @@ table{
     & tr {
       & th {
         padding: 7px;
-        font-weight: 400;
         border-bottom: 1px solid black;
+        font-weight: bold;
+        @extend .body-2-text;
+        @extend .text-left;
         &.center {
           @extend .text-center;
         }
@@ -30,6 +32,8 @@ table{
       & td {
         padding: 6px;
         @extend .transition;
+        @extend .body-2-text;
+        @extend .text-left;
         &.center {
           @extend .text-center;
         }
