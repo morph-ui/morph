@@ -34,6 +34,7 @@
 @import "css/component/header.css";
 @import "css/component/card.css";
 @import "css/component/table.css";
+@import "css/component/textarea.css";
 
 *{
   font-family: 'Nunito Sans', sans-serif;

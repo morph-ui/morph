@@ -47,18 +47,21 @@
       }
     }
     & select{
-      background-color: white;
-      border: 1px solid $error-color;
+      background-color: $action-color;
+      border-bottom: 3px solid $error-color;
       background-image: linear-gradient($error-color, $error-color),
-      linear-gradient(-135deg, transparent 50%, white 50%),
-      linear-gradient(-225deg, transparent 50%, white 50%),
-      linear-gradient(white 42%, $error-color 42%);
+      linear-gradient(-135deg, transparent 50%, $action-color 50%),
+      linear-gradient(-225deg, transparent 50%, $action-color 50%),
+      linear-gradient($action-color 42%, $error-color 42%);
       &:hover{
         background-image: linear-gradient($error-color, $error-color),
-        linear-gradient(-135deg, transparent 50%, white 50%),
-        linear-gradient(-225deg, transparent 50%, white 50%),
-        linear-gradient(white 42%, $error-color 42%);
+        linear-gradient(-135deg, transparent 50%, $action-color 50%),
+        linear-gradient(-225deg, transparent 50%, $action-color 50%),
+        linear-gradient($action-color 42%, $error-color 42%);
       }
+    }
+    & textarea{
+      border-bottom: 3px solid $error-color;
     }
     & button, .button{
       @extend .error-theme;
