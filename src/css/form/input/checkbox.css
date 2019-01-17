@@ -8,13 +8,14 @@ input[type="checkbox"]{
   margin: 0;
   background-color: $action-color;
   border: 2px solid $border-color;
+  cursor: pointer;
   &::after{
     position: absolute;
     content: 'check';
     font-size: 18px;
     color: transparent;
     top: 0;
-    right: -1px;
+    left: -1px;
     transform: rotate(90deg);
     @extend .icon;
   }
