@@ -25,6 +25,7 @@
 /*Loading Form System*/
 @import "css/form/control-box.css";
 @import "css/form/input/text.css";
+@import "css/form/input/checkbox.css";
 @import "css/form/label.css";
 @import "css/form/select.css";
 @import "css/form/textarea.css";
@@ -34,7 +35,6 @@
 @import "css/component/header.css";
 @import "css/component/card.css";
 @import "css/component/table.css";
-@import "css/component/textarea.css";
 
 *{
   font-family: 'Nunito Sans', sans-serif;

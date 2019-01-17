@@ -33,12 +33,26 @@
     padding: 6px;
     @extend .overline-text;
   }
+  & .control-checkbox{
+    display: inline-flex;
+    & label{
+      padding-top: 3px;
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+  }
   &.error{
     & label{
       color: $error-color;
     }
     & input[type="text"]{
       border-bottom: 3px solid $error-color;
+    }
+    & input[type="checkbox"]{
+      &:checked{
+        background-color: $error-color;
+      }
+      border: 2px solid $error-color;
     }
     & .control-input{
       border-bottom: 3px solid $error-color;
