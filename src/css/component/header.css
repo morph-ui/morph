@@ -1,0 +1,123 @@
+header, .header{
+  display: flex;
+  height: 48px;
+  @extend .default-theme;
+  @extend .transition;
+  & h5, h6{
+    margin-top: 6px;
+    margin-right: 12px; 
+    margin-left: 12px; 
+  }
+  & nav{
+    &.left{
+      margin-left: auto;
+    }
+    &.right{
+      margin-right: auto;
+    }
+    & a{
+      display: block;
+      float: left;
+      font-weight: 200px;
+      padding: 12px;
+      text-decoration: none;
+      text-align:center;
+      border-bottom: 3px solid white;
+      @extend .transition;
+      @extend .body-2-text;
+      &.selected{
+        border-bottom-color: $primary-dark-color;
+        font-weight: 400;
+        color: $primary-dark-color;
+        &:hover{
+          border-bottom-color: $primary-dark-color;
+        }
+      }
+      &:hover{
+        background-color: $action-color;
+        border-bottom-color: $action-color;
+      }
+    }
+  }
+  &.primary{
+    @extend .primary-theme;
+    & .option:hover{
+      background-color: $primary-dark-color;
+    }
+    & nav{
+      & a{
+        border-bottom: 3px solid $primary-color;
+      }
+      & a.selected{
+        color: $primary-light-color;
+        border-bottom: 3px solid $primary-light-color;
+        &:hover{
+          border-bottom: 3px solid $primary-light-color;
+        }
+      }
+      & a:hover{
+        background-color: $primary-dark-color;
+        border-bottom: 3px solid $primary-dark-color;
+      }
+    }
+  }
+  &.secondary{
+    @extend .secondary-theme;
+    & .option:hover{
+      background-color: $action-color;
+    }
+    & nav{
+      & a.selected{
+        color: $secondary-dark-color;
+        border-bottom: 3px solid $secondary-dark-color;
+      }
+      & a:hover{
+        background-color: $action-color;
+      }
+    }
+  }
+  &.black{
+    @extend .black-theme;
+    & .option:hover{
+      background-color: $primary-text-color;
+    }
+    & nav{
+      & a{
+        border-bottom-color: black;
+      }
+      & a.selected{
+        color: $action-color;
+        border-bottom-color: $action-color;
+        &:hover{
+          border-bottom-color: $action-color;
+        }
+      }
+      & a:hover{
+        background-color: $primary-text-color;
+        border-bottom-color: $primary-text-color;
+      }
+    }
+  }
+  &.clear{
+    background-color: transparent;
+    border: none;
+    & nav{
+      & a.selected{
+        border: none;
+      }
+      & a:hover{
+        background-color: $action-color;
+      }
+    }
+  }
+  & .option{
+    cursor: pointer;
+    padding-top: 12px; 
+    padding-right: 12px; 
+    padding-left: 12px; 
+    @extend .transition;
+    &:hover{
+      background-color: $action-color;
+    }
+  }
+}

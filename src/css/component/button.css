@@ -47,6 +47,12 @@ a.button{
   }
   &.circle{
     padding: 18px;
+    &.small{
+      padding: 9px;
+    }
+    &.medium{
+      padding: 12px;
+    }
     border-radius: 100%;
   }
   &.error{

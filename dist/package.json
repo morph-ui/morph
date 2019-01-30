@@ -1,6 +1,6 @@
 {
   "name": "@morph-ui/core",
-  "version": "1.9.8",
+  "version": "1.9.9",
   "description": "Morph es un sistema de diseño web hecho en CSS que permite desarrollar componentes para Interfaces Gráficas de Usuario en la Web. Asi mismo, permite hacerlo sin depender de ningun framework de forma exclusiva en JS.",
   "main": "index.js",
   "scripts": {

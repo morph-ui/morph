@@ -25,12 +25,16 @@
 /*Loading Form System*/
 @import "css/form/control-box.css";
 @import "css/form/input/text.css";
+@import "css/form/input/checkbox.css";
 @import "css/form/label.css";
 @import "css/form/select.css";
 @import "css/form/textarea.css";
 
 /*Loading Components Design*/
 @import "css/component/button.css";
+@import "css/component/header.css";
+@import "css/component/card.css";
+@import "css/component/table.css";
 
 *{
   font-family: 'Nunito Sans', sans-serif;
@@ -39,5 +43,19 @@
 
 body{
   padding: 0;
-  margin: 15px;
+  margin: 0px;
+}
+
+/*--Helpers---*/
+
+.no-border{
+  border:none !important;
+}
+
+.left{
+  text-align: left;
+}
+
+.right{
+  text-align: right;
 }
