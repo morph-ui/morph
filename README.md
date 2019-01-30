@@ -15,6 +15,12 @@ Morph es un Sistema de Diseño web hecho en CSS que permite desarrollar componen
 - npm start - permite iniciar el proyecto
 - npm run build - permite construir el empaquetado de CSS
 
+**Finalmente agrega el core CSS de morph a tu proyecto
+
+ ``` [language]
+ import '@morph-ui/core/morph-x.x.x.css';
+ ```
+
 ## ¿Que tecnologías usa Morph?
 
 - [Webpack](https://webpack.js.org)
