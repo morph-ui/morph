@@ -13,10 +13,11 @@ input[type="checkbox"]{
     position: absolute;
     content: 'check';
     font-size: 18px;
-    color: transparent;
+    color: $action-color;
     top: 0;
     left: -1px;
-    transform: rotate(90deg);
+    transform: rotate(-45deg);
+    @extend .transition-fast;
     @extend .icon;
   }
   &:checked{
