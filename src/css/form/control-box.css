@@ -54,6 +54,12 @@
       }
       border: 2px solid $error-color;
     }
+    & input[type="radio"]{
+      &:after{
+        background-color: $error-color;
+      }
+      border: 2px solid $error-color;
+    }
     & .control-input{
       border-bottom: 3px solid $error-color;
       & .action{

@@ -21,3 +21,11 @@
   -o-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
 }
+
+.transition-ultra-fast {
+  -webkit-transition: all 100ms ease-in;
+  -moz-transition: all 100ms ease-in;
+  -ms-transition: all 100ms ease-in;
+  -o-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+}
