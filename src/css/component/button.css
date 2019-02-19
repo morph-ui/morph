@@ -4,6 +4,16 @@ a.button{
 
 .button{
   padding: 6px 24px 6px 24px;
+  &.tiny{
+    padding: 1px 6px 1px 6px;
+  }
+  &.small{
+    padding: 3px 18px 3px 18px;
+  }
+  &.big{
+    padding: 9px 32px 9px 32px;
+  }
+  padding: 6px 24px 6px 24px;
   outline: none;
   text-decoration: none;
   cursor: pointer;
