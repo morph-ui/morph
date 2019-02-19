@@ -17,7 +17,7 @@ input[type="checkbox"]{
     top: 0;
     left: -1px;
     transform: rotate(-45deg);
-    @extend .transition-ultra-fast;
+    @extend .transition-fast;
     @extend .icon;
   }
   &:checked{
@@ -27,7 +27,7 @@ input[type="checkbox"]{
       content: 'check';
       color: white;
       transform: rotate(0deg);
-      @extend .transition-fast;
+      @extend .transition;
     }    
   }
 }
