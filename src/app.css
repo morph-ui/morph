@@ -26,6 +26,8 @@
 @import "css/form/control-box.css";
 @import "css/form/input/text.css";
 @import "css/form/input/checkbox.css";
+@import "css/form/input/radio.css";
+@import "css/form/input/number.css";
 @import "css/form/label.css";
 @import "css/form/select.css";
 @import "css/form/textarea.css";
