@@ -2,8 +2,8 @@ input[type="checkbox"]{
   position: relative;
   -webkit-appearance: none;
   user-select: none;
-  height:20px;
-  width: 20px;
+  height:21px;
+  width: 21px;
   border:none;
   margin: 0;
   background-color: $action-color;
