@@ -1,8 +1,8 @@
-![Morph Logo](https://image.ibb.co/bs1vQR/morph_vect_mini_fw.png)
+![Morph Logo](https://i.ibb.co/zJkJJxZ/Morph-new-logo.png)
 
 ## ¿Qué es Morph?
 
-Morph es un sistema de diseño web hecho en CSS que permite desarrollar componentes para Interfaces Gráficas de Usuario en la Web. Asi mismo, permite hacerlo sin depender de ningun framework de forma exclusiva en JS.
+Morph es un Sistema de Diseño web hecho en CSS que permite desarrollar componentes para Interfaces Gráficas de Usuario. Así mismo, permite hacerlo sin depender de ningun framework de forma exclusiva en JS.
 
 ## ¿Como instalar para desarrollar?
 
@@ -10,22 +10,34 @@ Morph es un sistema de diseño web hecho en CSS que permite desarrollar componen
 
 - [Instalar NodeJS](https://nodejs.org/es/download/)
 
-**Ejecutar los siguientes comandos**
+**Después de clonar el repositorio, debes ejecutar los siguientes comandos**
 
 - npm start - permite iniciar el proyecto
 - npm run build - permite construir el empaquetado de CSS
 
-## ¿Que tecnologias usa Morph?
+**Para desarrollo web puedes agregar el core CSS de morph via npm**
+
+ ``` [language]
+ npm i @morph-ui/core
+ ```
+
+**Luego en tu proyecto de JS puedes importarlo asi**
+
+ ``` [language]
+ import '@morph-ui/core/morph-2.0.0.css';
+ ```
+
+## ¿Que tecnologías usa Morph?
 
 - [Webpack](https://webpack.js.org)
 - [PostCSS](https://postcss.org/)
 
 ## Reporte de bugs o comunicación con el Equipo
 
- - Estefano Castañeda (mixc21@gmail.com)
- - Ivan Uriarte (pilmee@gmail.com)
- - Marilyn Casas (marimeli.casas@gmail.com)
+ - Estefano Castañeda (conecta@peru-dev.org)
 
-## Más información
+## Documento de diseño en DRIVE
 
-- Para más detalles visita [https://morph.pe/componentes](https://morph.pe/componentes)
+En el siguiente documento podras ver los componentes que estamos trabajando y en que estado se encuentran
+
+[Documento en DRIVE](https://docs.google.com/spreadsheets/d/1upglq53m6xZUzN35i2-XfHkaHwmktH4aqBwMqToDD04/edit?usp=sharing)
