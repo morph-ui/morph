@@ -11,13 +11,13 @@ input[type="checkbox"]{
   cursor: pointer;
   &::after{
     position: absolute;
-    content: 'check';
+    content: '';
     font-size: 18px;
     color: $action-color;
     top: 0;
     left: -1px;
     transform: rotate(-45deg);
-    @extend .transition-fast;
+    @extend .transition;
     @extend .icon;
   }
   &:checked{
