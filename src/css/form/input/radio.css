@@ -1,7 +1,7 @@
 input[type="radio"]{
   position: relative;
   -webkit-appearance: none;
-  border-radius: 50px;
+  border-radius: 60px;
   height:21px;
   width: 21px;
   border:none;
@@ -17,7 +17,7 @@ input[type="radio"]{
     right: 0;
     left: 0;
     margin: auto;
-    top: 5.4px;
+    top: 5px;
     height: 0;
     width: 0;
     color: transparent;
@@ -27,8 +27,8 @@ input[type="radio"]{
     border: 2px solid $primary-color;
     &::after{
       background-color: $primary-color;
-      height: 6px;
-      width: 6px;
+      height: 7px;
+      width: 7px;
       content: '';
       color: white;
       transform: scale(2)
