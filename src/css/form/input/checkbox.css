@@ -12,10 +12,10 @@ input[type="checkbox"]{
   &::after{
     position: absolute;
     content: '';
-    font-size: 18px;
+    font-size: 16px;
     color: $action-color;
-    top: 0;
-    left: -1px;
+    top: 1px;;
+    left: 1px;
     transform: rotate(-45deg);
     @extend .transition;
     @extend .icon;
