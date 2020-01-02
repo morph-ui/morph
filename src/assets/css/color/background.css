@@ -1,0 +1,64 @@
+.background.primary{
+    background: var(--primary);
+}
+
+.background.primary-dark{
+    background: var(--primary-dark);
+}
+
+.background.primary-active{
+    background: var(--primary-active);
+}
+
+.background.primary-inactive{
+    background: var(--primary-inactive);
+}
+
+.background.secondary{
+    background: var(--secondary);
+}
+
+.background.action{
+    background: var(--action);
+}
+
+.background.alternative{
+    background: var(--alternative);
+}
+
+.background.darkness{
+    background: var(--darkness);
+}
+
+.background.darkness-active{
+    background: var(--darkness-active);
+}
+
+.background.canvas{
+    background: var(--canvas);
+}
+
+.background.active{
+    background: var(--active);
+}
+
+.background.inactive{
+    background: var(--inactive);
+}
+
+.background.error{
+    background: var(--error);
+}
+
+.background.success{
+    background: var(--success);
+}
+
+.background.warning{
+    background: var(--warning);
+}
+
+
+
+
+

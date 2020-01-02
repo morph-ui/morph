@@ -1,0 +1,79 @@
+{
+  "name": "morph-ui-core",
+  "version": "3.0.0",
+  "description": "Morph es un sistema de diseño web hecho en CSS que permite desarrollar componentes para Interfaces Gráficas de Usuario en la Web. Asi mismo, permite hacerlo sin depender de ningun framework de forma exclusiva en JS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --config ./build/webpack.dev.conf.js",
+    "build": "webpack --config ./build/webpack.build.conf.js"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 version"
+  ],
+  "author": "techfano",
+  "contributors": [
+    {
+      "name": "Estefano Castañeda",
+      "email": "mixc21@gmail.com"
+    },
+    {
+      "name": "Ivan Uriarte",
+      "email": "pilmee@gmail.com"
+    },
+    {
+      "name": "Marilyn Casas",
+      "email": "marimeli.casas@gmail.com"
+    }
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morph-ui/morph.git"
+  },
+  "keywords": [
+    "Morph",
+    "GUI",
+    "UI",
+    "System Design",
+    "CSS"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morph-ui/issues"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-each": "^0.10.0",
+    "postcss-extend": "^1.0.5",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.2",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.2.2"
+  }
+}

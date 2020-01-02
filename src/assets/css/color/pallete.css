@@ -1,0 +1,23 @@
+:root {
+    --primary: #303F9F;
+    --primary-dark: #222F80;
+    --primary-active: #4355BE;
+    --primary-inactive: #6672B4;
+    --secondary: #F44336;
+    --action: #FFC107;
+    --alternative: #03A9F4;
+    --darkness: #212121;
+    --darkness-active: #3C3C3C;
+    --canvas: #F5F5F5;
+    --active: white;
+    --inactive: #E0E0E0;
+    --error: #F44336;
+    --success: #4CAF50;
+    --warning: #FFEB3B;
+    --text-primary: white;
+    --text-secondary: white;
+    --text-action: #212121;
+    --text-alternative: white;
+    --text-inactive: #828282;
+    --text-active: #000000;
+  }

@@ -1,0 +1,61 @@
+/*Font Color Classes*/
+
+.font.primary{
+	color: var(--primary);
+}
+
+.font.primary-dark{
+	color: var(--primary-dark);
+}
+
+.font.primary-active{
+	color: var(--primary-active);
+}
+
+.font.primary-inactive{
+	color: var(--primary-inactive);
+}
+
+.font.secondary{
+	color: var(--secondary);
+}
+
+.font.action{
+	color: var(--action);
+}
+
+.font.alternative{
+	color: var(--alternative);
+}
+
+.font.darkness{
+	color: var(--darkness);
+}
+
+.font.darkness-active{
+	color: var(--darkness-active);
+}
+
+.font.canvas{
+	color: var(--canvas);
+}
+
+.font.active{
+	color: var(--active);
+}
+
+.font.inactive{
+	color: var(--inactive);
+}
+
+.font.error{
+	color: var(--error);
+}
+
+.font.success{
+	color: var(--success);
+}
+
+.font.warning{
+	color: var(--warning);
+}

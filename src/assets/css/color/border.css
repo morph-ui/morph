@@ -1,0 +1,59 @@
+.border.primary{
+    border: 1px solid var(--primary);
+}
+
+.border.primary-dark{
+    border: 1px solid var(--primary-dark);
+}
+
+.border.primary-active{
+    border: 1px solid var(--primary-active);
+}
+
+.border.primary-inactive{
+    border: 1px solid var(--primary-inactive);
+}
+
+.border.secondary{
+    border: 1px solid var(--secondary);
+}
+
+.border.action{
+    border: 1px solid var(--action);
+}
+
+.border.alternative{
+    border: 1px solid var(--alternative);
+}
+
+.border.darkness{
+    border: 1px solid var(--darkness);
+}
+
+.border.darkness-active{
+    border: 1px solid var(--darkness-active);
+}
+
+.border.canvas{
+    border: 1px solid var(--canvas);
+}
+
+.border.active{
+    border: 1px solid var(--active);
+}
+
+.border.inactive{
+    border: 1px solid var(--inactive);
+}
+
+.border.error{
+    border: 1px solid var(--error);
+}
+
+.border.success{
+    border: 1px solid var(--success);
+}
+
+.border.warning{
+    border: 1px solid var(--warning);
+}

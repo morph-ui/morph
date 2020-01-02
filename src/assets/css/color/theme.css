@@ -1,0 +1,69 @@
+.theme.primary{
+    background: var(--primary);
+    color: var(--text-primary);
+}
+
+.theme.primary-dark{
+    background: var(--primary-dark);
+    color: var(--text-primary);
+}
+
+.theme.primary-active{
+    background: var(--primary-active);
+    color: var(--text-primary);
+}
+
+.theme.primary-inactive{
+    background: var(--primary-inactive);
+    color: var(--primary-dark);
+}
+
+.theme.primary-selected{
+    background: var(--primary-dark);
+    color: var(--action);
+}
+
+.theme.secondary{
+    background: var(--secondary);
+    color: var(--text-secondary);
+}
+
+.theme.action{
+    background: var(--action);
+    color: var(--darkness);
+}
+
+.theme.alternative{
+    background: var(--alternative);
+    color: var(--darkness);
+}
+
+.theme.active{
+    background: var(--canvas);
+    color: var(--text-secondary);
+}
+
+.theme.inactive{
+    background: var(--active);
+    color: var(--text-active);
+}
+
+.theme.selected{
+    background: var(--active);
+    color: var(--text-active);
+}
+
+.theme.darkness{
+    background: var(--darkness);
+    color: white;
+}
+
+.theme.darkness-active{
+    background: var(--darkness-active);
+    color: white;
+}
+
+.theme.darkness-active.with-border{
+    background: var(--darkness-active);
+    color: white;
+}

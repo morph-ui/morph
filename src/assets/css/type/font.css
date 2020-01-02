@@ -1,0 +1,162 @@
+/*Font Type Classes*/
+
+.font-nunito {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+/*Font Weight Classes*/
+
+.font-200 {
+  font-weight: 200;
+}
+
+.font-300 {
+  font-weight: 300;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+/*Font Size Classes*/
+
+.font-size-96 {
+  font-size: 96px;
+}
+
+.font-size-60 {
+  font-size: 60px;
+}
+
+.font-size-48 {
+  font-size: 48px;
+}
+
+.font-size-36 {
+  font-size: 36px;
+}
+
+.font-size-27 {
+  font-size: 27px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-15 {
+  font-size: 15px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-9 {
+  font-size: 9px;
+}
+
+/*Heading Classes*/
+
+h1 {
+  @extend .font-size-96;
+	letter-spacing: -1.5px;
+	font-weight: lighter;
+}
+
+h2 {
+	@extend .font-size-60;
+	letter-spacing: -0.5px;
+	font-weight: lighter;
+}
+
+h3 {
+	@extend .font-size-48;
+	letter-spacing: 0;
+	font-weight: normal;
+}
+
+h4 {
+	@extend .font-size-36;
+	letter-spacing: 0.25px;
+	font-weight: normal;
+}
+
+h5 {
+	@extend .font-size-27;
+	letter-spacing: 0;
+	font-weight: normal;
+}
+
+h6 {
+	@extend .font-size-24;
+	letter-spacing: 0.15px;
+	font-weight: medium;
+}
+
+/*Text Classes*/
+
+.subtitle-1-text {
+	@extend .font-size-18;
+	letter-spacing: 0.15px;
+	font-weight: normal;
+}
+
+.subtitle-2-text {
+	@extend .font-size-15;
+	letter-spacing: 0.1px;
+	font-weight: medium;
+}
+
+.body-1-text {
+	@extend .font-size-18;
+	letter-spacing: 0.5px;
+	font-weight: normal;
+}
+
+.body-2-text {
+	@extend .font-size-15;
+	letter-spacing: 0.25px;
+	font-weight: normal;
+}
+
+.button-text {
+	@extend .font-size-12;
+	letter-spacing: 0.75px;
+	font-weight: bold;
+	text-transform: uppercase
+}
+
+.caption-text {
+	@extend .font-size-12;
+	letter-spacing: 0.4px;
+	font-weight: medium;
+}
+
+.overline-text {
+	@extend .font-size-9;
+	letter-spacing: 1.5px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.label-text{
+	@extend .font-size-12;
+	letter-spacing: 0.4px;
+	font-weight: bold;
+}
+
+/*Paragraph Classes*/
+
+p {
+	@extend .body-1-text;
+	font-weight: lighter;
+	margin: 0;
+	padding: 0.25em 0px;
+	letter-spacing: -0.25px;
+}
+
