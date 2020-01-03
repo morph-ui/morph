@@ -1,0 +1,133 @@
+.control-box{
+    display: grid;
+    padding-top: 12px;
+    & .control-input{
+      display: inline-flex;
+      padding-left: 6px;
+      border-bottom: 3px solid var(--primary);
+      & input[type="text"]{
+        border-bottom: none !important;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-left: 6px;
+        padding-right: 6px;
+      }
+      & .action{
+        @extend .icon;
+        cursor: pointer;
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-top:3px;
+        padding-bottom:3px;
+        margin-bottom: 3px;
+        user-select: none;
+        &:hover{
+          border-radius: 50%;
+          @extend .transition;
+          @extend .shadow;
+        }
+        &:active{
+          background: var(--canvas);
+        }
+      }
+    }
+    & .control-message{
+      padding: 6px;
+      @extend .overline-text;
+    }
+    & .control-checkbox{
+      display: inline-flex;
+      & label{
+        padding-top: 3px;
+        padding-left: 6px;
+        padding-right: 6px;
+      }
+    }
+    & .control-number{
+      display: flex;
+      padding-bottom: 1px;
+      width: 100%;
+      background-color: var(--canvas);
+      border-bottom: 3px solid var(--primary);
+      &:focus{
+        border-bottom: 3px solid var(--primary);
+      }
+      & button, .button{
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        background-color: var(--canvas);
+        &:hover{
+          box-shadow: none;
+        }
+      }
+      & input[type="number"]{
+        width: 100%;
+        border-bottom: none;
+      }
+    }
+    &.error{
+      & label{
+        color: var(--error);
+      }
+      & input[type="text"]{
+        border-bottom: 3px solid var(--error);
+      }
+      & input[type="number"]{
+        border-bottom: 3px solid var(--error);
+      }
+      & .control-number{
+        border-bottom: 3px solid var(--error);
+        & input[type="number"]{
+          border-bottom: none;
+        }
+      }
+      & input[type="checkbox"]{
+        &:checked{
+          background-color: var(--error);
+        }
+        border: 2px solid var(--error);
+      }
+      & input[type="radio"]{
+        &:after{
+          background-color: var(--error);
+        }
+        border: 2px solid var(--error);
+      }
+      & .control-input{
+        border-bottom: 3px solid var(--error);
+        & .action{
+          color: var(--error);
+        }
+      }
+      & select{
+        background-color: var(--canvas);
+        border-bottom: 3px solid var(--error);
+        background-image: linear-gradient(var(--error), var(--error)),
+        linear-gradient(-135deg, transparent 50%, var(--canvas) 50%),
+        linear-gradient(-225deg, transparent 50%, var(--canvas) 50%),
+        linear-gradient(var(--canvas) 42%, var(--error) 42%);
+        &:hover{
+          background-image: linear-gradient(var(--error), var(--error)),
+          linear-gradient(-135deg, transparent 50%, var(--canvas) 50%),
+          linear-gradient(-225deg, transparent 50%, var(--canvas) 50%),
+          linear-gradient(var(--canvas) 42%, var(--error) 42%);
+        }
+      }
+      & textarea{
+        border-bottom: 3px solid var(--error);
+      }
+      & button, .button{
+        @extend .theme-error;
+      }
+      & button.primary{
+        @extend .theme-error-dark;
+      }
+      & .control-message{
+        color: var(--error);
+      }
+    }
+    & select{
+      width: 100%;
+    }
+  }

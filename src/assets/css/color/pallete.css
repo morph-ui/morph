@@ -3,21 +3,21 @@
     --primary-dark: #222F80;
     --primary-active: #4355BE;
     --primary-inactive: #6672B4;
+    --text-primary: white;
     --secondary: #F44336;
+    --text-secondary: white;
     --action: #FFC107;
+    --text-action: #212121;
     --alternative: #03A9F4;
+    --text-alternative: white;
     --darkness: #212121;
     --darkness-active: #3C3C3C;
     --canvas: #F5F5F5;
     --active: white;
+    --text-active: #200f0f;
     --inactive: #E0E0E0;
+    --text-inactive: #828282;
     --error: #F44336;
     --success: #4CAF50;
     --warning: #FFEB3B;
-    --text-primary: white;
-    --text-secondary: white;
-    --text-action: #212121;
-    --text-alternative: white;
-    --text-inactive: #828282;
-    --text-active: #000000;
   }

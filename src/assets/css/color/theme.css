@@ -1,69 +1,81 @@
-.theme.primary{
+.theme-primary{
     background: var(--primary);
     color: var(--text-primary);
 }
 
-.theme.primary-dark{
+.theme-primary-dark{
     background: var(--primary-dark);
     color: var(--text-primary);
 }
 
-.theme.primary-active{
+.theme-primary-active{
     background: var(--primary-active);
     color: var(--text-primary);
 }
 
-.theme.primary-inactive{
+.theme-primary-inactive{
     background: var(--primary-inactive);
     color: var(--primary-dark);
 }
 
-.theme.primary-selected{
+.theme-primary-selected{
     background: var(--primary-dark);
     color: var(--action);
 }
 
-.theme.secondary{
+.theme-secondary{
     background: var(--secondary);
     color: var(--text-secondary);
 }
 
-.theme.action{
+.theme-action{
     background: var(--action);
     color: var(--darkness);
 }
 
-.theme.alternative{
+.theme-alternative{
     background: var(--alternative);
     color: var(--darkness);
 }
 
-.theme.active{
+.theme-active{
     background: var(--canvas);
     color: var(--text-secondary);
 }
 
-.theme.inactive{
+.theme-active-selected{
+    background: var(--active);
+    color: var(--text-active);
+    border: 1px solid var(--secondary);
+}
+
+.theme-inactive{
     background: var(--active);
     color: var(--text-active);
 }
 
-.theme.selected{
+.theme-selected{
     background: var(--active);
     color: var(--text-active);
 }
 
-.theme.darkness{
+.theme-darkness{
     background: var(--darkness);
     color: white;
 }
 
-.theme.darkness-active{
+.theme-darkness-active{
     background: var(--darkness-active);
     color: white;
 }
 
-.theme.darkness-active.with-border{
-    background: var(--darkness-active);
+.theme-error{
+    border: var(--error);
+    color: var(--error);
+    background: var(--active);
+}
+
+.theme-error-dark{
     color: white;
+    background: var(--error);
 }

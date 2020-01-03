@@ -1,6 +1,19 @@
 /*Loading Colors*/
 @import "color/pallete.css";
+@import "color/background.css";
+@import "color/border.css";
 @import "color/font.css";
+@import "color/theme.css";
+
+/*Loading Form System*/
+@import "component/icon.css";
+
+/*Loading effects*/
+@import "effect/shadow.css";
+@import "effect/transition.css";
+
+/*Loading Form System*/
+@import "form/control-box.css";
 
 /*Loading Type System*/
 @import "type/font.css";
